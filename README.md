@@ -8,7 +8,6 @@ A TimeTable Management Application built using the **MERN Stack** for Web and **
 - Smart Timetable Management  
 - Reminders & Notifications  
 - Sync Across Devices  
-- Admin & Student Panels  
 
 ---
 
@@ -17,7 +16,6 @@ A TimeTable Management Application built using the **MERN Stack** for Web and **
 - Frontend (Mobile): React Native  
 - Backend: Node.js + Express.js  
 - Database: MongoDB  
-- Authentication: JWT  
 
 ---
 
