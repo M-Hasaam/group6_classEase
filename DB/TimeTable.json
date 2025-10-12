@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-12 17:26:05 UTC",
-    "local_time_pkt": "2025-10-12 10:26:05 PM PKT"
+    "last_updated_utc": "2025-10-12 17:33:06 UTC",
+    "local_time_pkt": "2025-10-12 10:33:06 PM PKT"
   },
   "BS": {
     "AI": {
@@ -49485,6 +49485,48 @@
                         {
                           "text": "03:55-05:15",
                           "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved.": {
+        "null": {
+          "null": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved.",
+                    "type": "Class",
+                    "location": "D-415",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved.",
+                      "CourseBatch": "",
+                      "RoomName": "D-415",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
                         }
                       ]
                     }
