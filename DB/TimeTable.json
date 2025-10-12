@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-12 16:58:06 UTC",
-    "local_time_pkt": "2025-10-12 09:58:06 PM PKT"
+    "last_updated_utc": "2025-10-12 17:12:14 UTC",
+    "local_time_pkt": "2025-10-12 10:12:14 PM PKT"
   },
   "BS": {
     "AI": {
@@ -34609,14 +34609,14 @@
             {
               "time": {
                 "start": {
-                  "text": "10:00",
+                  "text": "11:30",
                   "AM_PM": "AM",
-                  "value": 600
+                  "value": 690
                 },
                 "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
                 }
               },
               "classes": [
@@ -34632,7 +34632,7 @@
                     "RoomName": "C-405",
                     "TimeIntervals": [
                       {
-                        "text": "10:00-11:20",
+                        "text": "11:30-12:50",
                         "AM_PM": "AM"
                       }
                     ]
@@ -44819,48 +44819,6 @@
                         {
                           "text": "01:00-02:20",
                           "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Dr. Sara Aziz": {
-        "null": {
-          "null": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Dr. Sara Aziz",
-                    "type": "Class",
-                    "location": "C-405",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Dr. Sara Aziz",
-                      "CourseBatch": "",
-                      "RoomName": "C-405",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
                         }
                       ]
                     }
