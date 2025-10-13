@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 22:10:58 UTC",
-    "local_time_pkt": "2025-10-14 03:10:58 AM PKT"
+    "last_updated_utc": "2025-10-13 22:29:35 UTC",
+    "local_time_pkt": "2025-10-14 03:29:35 AM PKT"
   },
   "BS": {
     "AI": {
@@ -18939,6 +18939,74 @@
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Islamic",
+                  "type": "Class",
+                  "location": "C-404",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Islamic (CS-G) 02:30-04:15ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Islamic",
+                  "type": "Class",
+                  "location": "C-404",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Islamic (CS-G) 02:30-04:15ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
                         "AM_PM": "PM"
                       }
                     ]
