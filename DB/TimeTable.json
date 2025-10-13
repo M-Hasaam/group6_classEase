@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 05:57:18 UTC",
-    "local_time_pkt": "2025-10-13 10:57:18 AM PKT"
+    "last_updated_utc": "2025-10-13 06:21:59 UTC",
+    "local_time_pkt": "2025-10-13 11:21:59 AM PKT"
   },
   "BS": {
     "AI": {
@@ -774,6 +774,78 @@
             }
           ],
           "Wednesday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Vision Lab",
+                  "type": "Lab",
+                  "location": "C-408",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Vision Lab (AI-B)ReSch",
+                    "CourseBatch": "BS AI (2022)",
+                    "RoomName": "C-408",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Vision Lab",
+                  "type": "Lab",
+                  "location": "C-408",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Vision Lab (AI-B)ReSch",
+                    "CourseBatch": "BS AI (2022)",
+                    "RoomName": "C-408",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
