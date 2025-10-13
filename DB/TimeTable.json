@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 11:09:36 UTC",
-    "local_time_pkt": "2025-10-13 04:09:36 PM PKT"
+    "last_updated_utc": "2025-10-13 11:24:32 UTC",
+    "local_time_pkt": "2025-10-13 04:24:32 PM PKT"
   },
   "BS": {
     "AI": {
@@ -20648,40 +20648,6 @@
             }
           ],
           "Tuesday": [
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Calculus",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Calculus (CS-Z) International Students",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
             {
               "time": {
                 "start": {
