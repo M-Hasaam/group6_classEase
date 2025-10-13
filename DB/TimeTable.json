@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 04:59:31 UTC",
-    "local_time_pkt": "2025-10-13 09:59:31 AM PKT"
+    "last_updated_utc": "2025-10-13 05:19:03 UTC",
+    "local_time_pkt": "2025-10-13 10:19:03 AM PKT"
   },
   "BS": {
     "AI": {
@@ -10252,6 +10252,42 @@
             }
           ],
           "Thursday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Net",
+                  "type": "Class",
+                  "location": "C-410",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Net (CS-C) ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "C-410",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -34050,44 +34086,6 @@
                 }
               ]
             }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
-                  "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "09:50",
-                  "AM_PM": "AM",
-                  "value": 590
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-302",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (SE-B) ReSch",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         "C": {
@@ -48888,6 +48886,48 @@
                       "TimeIntervals": [
                         {
                           "text": "06:45-08:05",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved for FCSS": {
+        "null": {
+          "null": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for FCSS",
+                    "type": "Class",
+                    "location": "D-304",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for FCSS",
+                      "CourseBatch": "",
+                      "RoomName": "D-304",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
                           "AM_PM": "PM"
                         }
                       ]
