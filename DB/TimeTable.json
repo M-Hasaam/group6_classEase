@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 04:13:49 UTC",
-    "local_time_pkt": "2025-10-13 09:13:49 AM PKT"
+    "last_updated_utc": "2025-10-13 04:35:32 UTC",
+    "local_time_pkt": "2025-10-13 09:35:32 AM PKT"
   },
   "BS": {
     "AI": {
@@ -9961,7 +9961,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Algo (CS-C)",
+                    "Text": "Algo (CS-C)cancelled",
                     "CourseBatch": "BS CS (2023)",
                     "RoomName": "D-315",
                     "TimeIntervals": [
@@ -10379,7 +10379,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Algo (CS-D)",
+                    "Text": "Algo (CS-D)cancelled",
                     "CourseBatch": "BS CS (2023)",
                     "RoomName": "D-316",
                     "TimeIntervals": [
