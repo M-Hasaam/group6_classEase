@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 05:35:20 UTC",
-    "local_time_pkt": "2025-10-13 10:35:20 AM PKT"
+    "last_updated_utc": "2025-10-13 05:45:00 UTC",
+    "local_time_pkt": "2025-10-13 10:45:00 AM PKT"
   },
   "BS": {
     "AI": {
@@ -40683,6 +40683,44 @@
                       "Text": "OS (SE-A, 22)",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "D-414",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "OS",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [
+                      "ReSchedule"
+                    ],
+                    "detailed": {
+                      "Text": "OS (SE-A, 22) ReSch",
+                      "CourseBatch": "Repeat Courses",
+                      "RoomName": "C-407",
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
