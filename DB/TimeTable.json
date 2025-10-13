@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 10:21:27 UTC",
-    "local_time_pkt": "2025-10-13 03:21:27 PM PKT"
+    "last_updated_utc": "2025-10-13 10:41:06 UTC",
+    "local_time_pkt": "2025-10-13 03:41:06 PM PKT"
   },
   "BS": {
     "AI": {
@@ -12343,7 +12343,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Civics (CS-B) 11:30-01:15Cancelled and Reserved",
+                    "Text": "Civics (CS-B) 11:30-01:15",
                     "CourseBatch": "BS CS (2024)",
                     "RoomName": "D-302",
                     "TimeIntervals": [
@@ -12377,7 +12377,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Civics (CS-B) 11:30-01:15Cancelled and Reserved",
+                    "Text": "Civics (CS-B) 11:30-01:15",
                     "CourseBatch": "BS CS (2024)",
                     "RoomName": "D-302",
                     "TimeIntervals": [
@@ -33265,40 +33265,6 @@
             {
               "time": {
                 "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Intro to SE",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Intro to SE (SE-A)",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -33357,6 +33323,40 @@
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Intro to SE",
+                  "type": "Class",
+                  "location": "C-402",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Intro to SE (SE-A)",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-402",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
                         "AM_PM": "PM"
                       }
                     ]
