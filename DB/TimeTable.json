@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 05:45:00 UTC",
-    "local_time_pkt": "2025-10-13 10:45:00 AM PKT"
+    "last_updated_utc": "2025-10-13 05:51:20 UTC",
+    "local_time_pkt": "2025-10-13 10:51:20 AM PKT"
   },
   "BS": {
     "AI": {
@@ -10324,42 +10324,6 @@
             }
           ],
           "Thursday": [
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Comp Net",
-                  "type": "Class",
-                  "location": "C-410",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Comp Net (CS-C) ReSch",
-                    "CourseBatch": "BS CS (2023)",
-                    "RoomName": "C-410",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
             {
               "time": {
                 "start": {
