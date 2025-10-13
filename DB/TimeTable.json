@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 08:57:43 UTC",
-    "local_time_pkt": "2025-10-13 01:57:43 PM PKT"
+    "last_updated_utc": "2025-10-13 09:18:08 UTC",
+    "local_time_pkt": "2025-10-13 02:18:08 PM PKT"
   },
   "BS": {
     "AI": {
@@ -33262,6 +33262,40 @@
       "2024": {
         "A": {
           "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Intro to SE",
+                  "type": "Class",
+                  "location": "C-305",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Intro to SE (SE-A)",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-305",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
