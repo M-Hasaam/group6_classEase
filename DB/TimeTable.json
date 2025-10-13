@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-13 09:59:32 UTC",
-    "local_time_pkt": "2025-10-13 02:59:32 PM PKT"
+    "last_updated_utc": "2025-10-13 10:21:27 UTC",
+    "local_time_pkt": "2025-10-13 03:21:27 PM PKT"
   },
   "BS": {
     "AI": {
@@ -34061,6 +34061,40 @@
             {
               "time": {
                 "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Intro to SE",
+                  "type": "Class",
+                  "location": "C-404",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Intro to SE (SE-B)",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -43380,13 +43414,13 @@
                   {
                     "name": "PF Tutorial",
                     "type": "Class",
-                    "location": "C-404",
+                    "location": "C-309",
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
                       "Text": "PF Tutorial (CS-E)",
                       "CourseBatch": "",
-                      "RoomName": "C-404",
+                      "RoomName": "C-309",
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
@@ -44347,40 +44381,6 @@
         "null": {
           "null": {
             "Wednesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FDSS",
-                    "type": "Class",
-                    "location": "C-309",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FDSS",
-                      "CourseBatch": "",
-                      "RoomName": "C-309",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
               {
                 "time": {
                   "start": {
