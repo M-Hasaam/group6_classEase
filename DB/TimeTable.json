@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-15 04:39:56 UTC",
-    "local_time_pkt": "2025-10-15 09:39:56 AM PKT"
+    "last_updated_utc": "2025-10-15 04:48:03 UTC",
+    "local_time_pkt": "2025-10-15 09:48:03 AM PKT"
   },
   "BS": {
     "AI": {
@@ -16640,6 +16640,42 @@
                       {
                         "text": "11:30-12:50",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "01:00",
+                  "AM_PM": "PM",
+                  "value": 780
+                },
+                "end": {
+                  "text": "02:20",
+                  "AM_PM": "PM",
+                  "value": 860
+                }
+              },
+              "classes": [
+                {
+                  "name": "AP",
+                  "type": "Class",
+                  "location": "D-301",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "AP (CS-C) ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "D-301",
+                    "TimeIntervals": [
+                      {
+                        "text": "01:00-02:20",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
