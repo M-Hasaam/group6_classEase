@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-15 03:13:10 UTC",
-    "local_time_pkt": "2025-10-15 08:13:10 AM PKT"
+    "last_updated_utc": "2025-10-15 03:43:41 UTC",
+    "local_time_pkt": "2025-10-15 08:43:41 AM PKT"
   },
   "BS": {
     "AI": {
@@ -2739,7 +2739,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Prog for AI (AI-A)",
+                    "Text": "Prog for AI (AI-A) Cancelled",
                     "CourseBatch": "BS AI (2024)",
                     "RoomName": "D-405",
                     "TimeIntervals": [
@@ -3227,7 +3227,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Prog for AI (AI-B)",
+                    "Text": "Prog for AI (AI-B) Cancelled",
                     "CourseBatch": "BS AI (2024)",
                     "RoomName": "D-406",
                     "TimeIntervals": [
@@ -15331,7 +15331,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "AP (CS-A)",
+                    "Text": "AP (CS-A)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-301",
                     "TimeIntervals": [
@@ -15440,6 +15440,42 @@
                       {
                         "text": "01:00-02:20",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Calculus",
+                  "type": "Class",
+                  "location": "C-307",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Calculus (CS-A) ReSch C-301",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-307",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -15861,7 +15897,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "AP (CS-B)",
+                    "Text": "AP (CS-B)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-302",
                     "TimeIntervals": [
