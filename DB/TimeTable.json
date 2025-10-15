@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-15 03:43:41 UTC",
-    "local_time_pkt": "2025-10-15 08:43:41 AM PKT"
+    "last_updated_utc": "2025-10-15 03:54:43 UTC",
+    "local_time_pkt": "2025-10-15 08:54:43 AM PKT"
   },
   "BS": {
     "AI": {
@@ -2739,7 +2739,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Prog for AI (AI-A) Cancelled",
+                    "Text": "Prog for AI (AI-A)Cancelled",
                     "CourseBatch": "BS AI (2024)",
                     "RoomName": "D-405",
                     "TimeIntervals": [
@@ -3227,7 +3227,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Prog for AI (AI-B) Cancelled",
+                    "Text": "Prog for AI (AI-B)Cancelled",
                     "CourseBatch": "BS AI (2024)",
                     "RoomName": "D-406",
                     "TimeIntervals": [
