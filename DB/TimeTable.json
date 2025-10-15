@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-15 16:49:11 UTC",
-    "local_time_pkt": "2025-10-15 09:49:11 PM PKT"
+    "last_updated_utc": "2025-10-15 16:55:21 UTC",
+    "local_time_pkt": "2025-10-15 09:55:21 PM PKT"
   },
   "BS": {
     "AI": {
@@ -4422,6 +4422,78 @@
                       {
                         "text": "10:00-11:20",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "01:00",
+                  "AM_PM": "PM",
+                  "value": 780
+                },
+                "end": {
+                  "text": "02:20",
+                  "AM_PM": "PM",
+                  "value": 860
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-410",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (AI-A) 01:30-02:30 ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "C-410",
+                    "TimeIntervals": [
+                      {
+                        "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-410",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (AI-A) 01:30-02:30 ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "C-410",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -42748,40 +42820,6 @@
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Tutorial",
-                    "type": "Class",
-                    "location": "C-410",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Tutorial (25)",
-                      "CourseBatch": "",
-                      "RoomName": "C-410",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
                           "AM_PM": "PM"
                         }
                       ]
