@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-16 15:58:33 UTC",
-    "local_time_pkt": "2025-10-16 08:58:33 PM PKT"
+    "last_updated_utc": "2025-10-16 16:21:21 UTC",
+    "local_time_pkt": "2025-10-16 09:21:21 PM PKT"
   },
   "BS": {
     "AI": {
@@ -49807,6 +49807,82 @@
                         {
                           "text": "03:55-05:15",
                           "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Sessional-1 Retake Exam": {
+        "null": {
+          "null": {
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Sessional-1 Retake Exam",
+                    "type": "Class",
+                    "location": "C-302",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Sessional-1 Retake Exam",
+                      "CourseBatch": "",
+                      "RoomName": "C-302",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Sessional-1 Retake Exam",
+                    "type": "Class",
+                    "location": "D-313",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Sessional-1 Retake Exam",
+                      "CourseBatch": "",
+                      "RoomName": "D-313",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
                         }
                       ]
                     }
