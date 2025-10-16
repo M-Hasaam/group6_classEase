@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-16 10:14:33 UTC",
-    "local_time_pkt": "2025-10-16 03:14:33 PM PKT"
+    "last_updated_utc": "2025-10-16 10:36:15 UTC",
+    "local_time_pkt": "2025-10-16 03:36:15 PM PKT"
   },
   "BS": {
     "AI": {
@@ -38615,7 +38615,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "App Prog (CS/CY/SE)",
+                    "Text": "App Prog (CS/CY/SE)Marg IV",
                     "CourseBatch": "MS (CY)",
                     "RoomName": "D-302",
                     "TimeIntervals": [
