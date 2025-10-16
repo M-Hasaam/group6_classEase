@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-16 03:55:08 UTC",
-    "local_time_pkt": "2025-10-16 08:55:08 AM PKT"
+    "last_updated_utc": "2025-10-16 04:10:43 UTC",
+    "local_time_pkt": "2025-10-16 09:10:43 AM PKT"
   },
   "BS": {
     "AI": {
@@ -11475,7 +11475,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Comp Net Lab (CS-F)",
+                    "Text": "Comp Net Lab (CS-F)Cancelled",
                     "CourseBatch": "BS CS (2023)",
                     "RoomName": "C-Margala 3",
                     "TimeIntervals": [
@@ -11791,7 +11791,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Comp Net Lab (CS-G)",
+                    "Text": "Comp Net Lab (CS-G)Cancelled",
                     "CourseBatch": "BS CS (2023)",
                     "RoomName": "C-Rawal 1",
                     "TimeIntervals": [
@@ -23456,152 +23456,6 @@
                 }
               ]
             }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
-                  "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "09:50",
-                  "AM_PM": "AM",
-                  "value": 590
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-403",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CY-A) ReSch",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "C-403",
-                    "TimeIntervals": [
-                      {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-403",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CY-A) ReSch",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "C-403",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
-                  "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "09:50",
-                  "AM_PM": "AM",
-                  "value": 590
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "D-405",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CY-A) ReSch",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "D-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "D-405",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CY-A) ReSch",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "D-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         "B": {
@@ -24082,6 +23936,80 @@
                       {
                         "text": "02:30-05:15",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "09:50",
+                  "AM_PM": "AM",
+                  "value": 590
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "D-405",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (CY-B) ReSch",
+                    "CourseBatch": "BS CY (2024)",
+                    "RoomName": "D-405",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-09:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "D-405",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (CY-B) ReSch",
+                    "CourseBatch": "BS CY (2024)",
+                    "RoomName": "D-405",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -47057,6 +46985,74 @@
                         {
                           "text": "03:55-05:15",
                           "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
                         }
                       ]
                     }
