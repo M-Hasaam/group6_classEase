@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-16 09:12:48 UTC",
-    "local_time_pkt": "2025-10-16 02:12:48 PM PKT"
+    "last_updated_utc": "2025-10-16 09:33:08 UTC",
+    "local_time_pkt": "2025-10-16 02:33:08 PM PKT"
   },
   "BS": {
     "AI": {
@@ -5138,6 +5138,40 @@
             }
           ],
           "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "D-304",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Func Eng (AI-B) 11:30-12:30ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "D-304",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -15817,42 +15851,6 @@
             {
               "time": {
                 "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideo of Pak",
-                  "type": "Class",
-                  "location": "C-301",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Ideo of Pak (CS-A) Resch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -15947,6 +15945,42 @@
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Ideo of Pak",
+                  "type": "Class",
+                  "location": "C-310",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Ideo of Pak (CS-A) Resch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-310",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
                         "AM_PM": "PM"
                       }
                     ]
