@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-16 03:43:37 UTC",
-    "local_time_pkt": "2025-10-16 08:43:37 AM PKT"
+    "last_updated_utc": "2025-10-16 03:55:08 UTC",
+    "local_time_pkt": "2025-10-16 08:55:08 AM PKT"
   },
   "BS": {
     "AI": {
@@ -15275,42 +15275,6 @@
                     "TimeIntervals": [
                       {
                         "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "D-506",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Civics (CS-G)ReSch",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-506",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
                         "AM_PM": "AM"
                       }
                     ]
