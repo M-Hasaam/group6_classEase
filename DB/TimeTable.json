@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-16 06:56:15 UTC",
-    "local_time_pkt": "2025-10-16 11:56:15 AM PKT"
+    "last_updated_utc": "2025-10-16 07:12:23 UTC",
+    "local_time_pkt": "2025-10-16 12:12:23 PM PKT"
   },
   "BS": {
     "AI": {
@@ -15847,6 +15847,42 @@
             {
               "time": {
                 "start": {
+                  "text": "01:00",
+                  "AM_PM": "PM",
+                  "value": 780
+                },
+                "end": {
+                  "text": "02:20",
+                  "AM_PM": "PM",
+                  "value": 860
+                }
+              },
+              "classes": [
+                {
+                  "name": "Ideo of Pak",
+                  "type": "Class",
+                  "location": "C-302",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Ideo of Pak (CS-A) Resch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-302",
+                    "TimeIntervals": [
+                      {
+                        "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -20095,6 +20131,78 @@
             {
               "time": {
                 "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Ideology of Pak",
+                  "type": "Class",
+                  "location": "C-305",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Ideology of Pak (CS-J) 02:30-04:15 ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-305",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Ideology of Pak",
+                  "type": "Class",
+                  "location": "C-305",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Ideology of Pak (CS-J) 02:30-04:15 ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-305",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -22618,6 +22726,44 @@
                       {
                         "text": "10:00-11:20",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Net Sec Lab",
+                  "type": "Lab",
+                  "location": "A-Karakoram 3",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Net Sec Lab (CY-A)ReSch",
+                    "CourseBatch": "BS CY (2023)",
+                    "RoomName": "A-Karakoram 3",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -34033,14 +34179,14 @@
             {
               "time": {
                 "start": {
-                  "text": "03:55",
+                  "text": "02:30",
                   "AM_PM": "PM",
-                  "value": 955
+                  "value": 870
                 },
                 "end": {
-                  "text": "05:15",
+                  "text": "03:50",
                   "AM_PM": "PM",
-                  "value": 1035
+                  "value": 950
                 }
               },
               "classes": [
@@ -34056,7 +34202,7 @@
                     "RoomName": "C-402",
                     "TimeIntervals": [
                       {
-                        "text": "03:55-05:15",
+                        "text": "02:30-03:50",
                         "AM_PM": "PM"
                       }
                     ]
@@ -34557,6 +34703,40 @@
             {
               "time": {
                 "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Intro to SE",
+                  "type": "Class",
+                  "location": "C-402",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Intro to SE (SE-B)",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-402",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -34721,40 +34901,6 @@
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Intro to SE",
-                  "type": "Class",
-                  "location": "C-404",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Intro to SE (SE-B)",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-404",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
                         "AM_PM": "PM"
                       }
                     ]
