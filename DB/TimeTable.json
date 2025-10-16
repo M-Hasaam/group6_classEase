@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-16 06:27:53 UTC",
-    "local_time_pkt": "2025-10-16 11:27:53 AM PKT"
+    "last_updated_utc": "2025-10-16 06:47:53 UTC",
+    "local_time_pkt": "2025-10-16 11:47:53 AM PKT"
   },
   "BS": {
     "AI": {
@@ -4050,6 +4050,78 @@
             }
           ],
           "Tuesday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-308",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (AI-A) 02:30-04:15 ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "C-308",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-308",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (AI-A) 02:30-04:15 ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "C-308",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -9672,6 +9744,42 @@
         },
         "B": {
           "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Net",
+                  "type": "Class",
+                  "location": "D-314",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Net (CS-B) ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "D-314",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -25795,6 +25903,42 @@
             {
               "time": {
                 "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Net",
+                  "type": "Class",
+                  "location": "D-404",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Net (DS-A) ReSch",
+                    "CourseBatch": "BS DS (2022)",
+                    "RoomName": "D-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "10:00",
                   "AM_PM": "AM",
                   "value": 600
@@ -33507,9 +33651,11 @@
                   "type": "Class",
                   "location": "D-404",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "ReSchedule"
+                  ],
                   "detailed": {
-                    "Text": "Busi Proc Engg (SE-B)",
+                    "Text": "Busi Proc Engg (SE-B) ReSch",
                     "CourseBatch": "BS SE (2023)",
                     "RoomName": "D-404",
                     "TimeIntervals": [
