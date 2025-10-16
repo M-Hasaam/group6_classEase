@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-16 05:59:32 UTC",
-    "local_time_pkt": "2025-10-16 10:59:32 AM PKT"
+    "last_updated_utc": "2025-10-16 06:27:53 UTC",
+    "local_time_pkt": "2025-10-16 11:27:53 AM PKT"
   },
   "BS": {
     "AI": {
@@ -18199,7 +18199,7 @@
                       "sub_Section": null,
                       "info": [],
                       "detailed": {
-                        "Text": "Func Eng Lab (CS-E2)",
+                        "Text": "Func Eng Lab (CS-E2)Cancelled",
                         "CourseBatch": "BS CS (2025)",
                         "RoomName": "A-CALL-3",
                         "TimeIntervals": [
@@ -23450,6 +23450,44 @@
                       {
                         "text": "02:30-05:15",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Psychology",
+                  "type": "Class",
+                  "location": "D-405",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Psychology (CY-A) ReSch",
+                    "CourseBatch": "BS CY (2024)",
+                    "RoomName": "D-405",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -28938,6 +28976,44 @@
                 }
               ]
             }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "D-404",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (DS-A)  ReSch",
+                    "CourseBatch": "BS DS (2024)",
+                    "RoomName": "D-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
           ]
         },
         "B": {
@@ -30297,6 +30373,42 @@
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Calculus",
+                  "type": "Class",
+                  "location": "C-304",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Calculus (DS-B) ReSch",
+                    "CourseBatch": "BS DS (2025)",
+                    "RoomName": "C-304",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
                         "AM_PM": "PM"
                       }
                     ]
@@ -33375,6 +33487,40 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Busi Proc Engg",
+                  "type": "Class",
+                  "location": "D-404",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Busi Proc Engg (SE-B)",
+                    "CourseBatch": "BS SE (2023)",
+                    "RoomName": "D-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ]
         }
@@ -33857,6 +34003,44 @@
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "09:50",
+                  "AM_PM": "AM",
+                  "value": 590
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "D-412",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (SE-A) ReSch",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "D-412",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-09:50",
                         "AM_PM": "AM"
                       }
                     ]
@@ -34374,6 +34558,44 @@
                     "Text": "DLD (SE-B)",
                     "CourseBatch": "BS SE (2024)",
                     "RoomName": "C-407",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "D-412",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (SE-B) ReSch",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "D-412",
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
@@ -36521,6 +36743,80 @@
                         "TimeIntervals": [
                           {
                             "text": "11:30-02:15",
+                            "AM_PM": "AM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "Friday": [
+                {
+                  "time": {
+                    "start": {
+                      "text": "08:30",
+                      "AM_PM": "AM",
+                      "value": 510
+                    },
+                    "end": {
+                      "text": "09:50",
+                      "AM_PM": "AM",
+                      "value": 590
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "D-413",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (SE-C2) ReSch",
+                        "CourseBatch": "BS SE (2025)",
+                        "RoomName": "D-413",
+                        "TimeIntervals": [
+                          {
+                            "text": "08:30-09:50",
+                            "AM_PM": "AM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "time": {
+                    "start": {
+                      "text": "10:00",
+                      "AM_PM": "AM",
+                      "value": 600
+                    },
+                    "end": {
+                      "text": "11:20",
+                      "AM_PM": "AM",
+                      "value": 680
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "D-413",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (SE-C2) ReSch",
+                        "CourseBatch": "BS SE (2025)",
+                        "RoomName": "D-413",
+                        "TimeIntervals": [
+                          {
+                            "text": "10:00-11:20",
                             "AM_PM": "AM"
                           }
                         ]
@@ -43001,80 +43297,6 @@
                   }
                 ]
               }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-301",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-A)",
-                      "CourseBatch": "",
-                      "RoomName": "D-301",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          "AJ": {
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-313",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-AJ)",
-                      "CourseBatch": "",
-                      "RoomName": "D-313",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             ]
           },
           "B": {
@@ -43147,42 +43369,6 @@
                   }
                 ]
               }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-302",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-B)",
-                      "CourseBatch": "",
-                      "RoomName": "D-302",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             ]
           },
           "C": {
@@ -43221,42 +43407,6 @@
                   }
                 ]
               }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-303",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-C)",
-                      "CourseBatch": "",
-                      "RoomName": "D-303",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             ]
           },
           "D": {
@@ -43289,42 +43439,6 @@
                         {
                           "text": "02:30-03:50",
                           "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-304",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-D)",
-                      "CourseBatch": "",
-                      "RoomName": "D-304",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
                         }
                       ]
                     }
@@ -43405,42 +43519,6 @@
                   }
                 ]
               }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-305",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-E)",
-                      "CourseBatch": "",
-                      "RoomName": "D-305",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             ]
           },
           "F": {
@@ -43473,42 +43551,6 @@
                         {
                           "text": "02:30-03:50",
                           "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-306",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-F)",
-                      "CourseBatch": "",
-                      "RoomName": "D-306",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
                         }
                       ]
                     }
@@ -43553,42 +43595,6 @@
                   }
                 ]
               }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-311",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-G)",
-                      "CourseBatch": "",
-                      "RoomName": "D-311",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             ]
           },
           "H": {
@@ -43621,42 +43627,6 @@
                         {
                           "text": "03:55-05:15",
                           "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "PF Tutorial",
-                    "type": "Class",
-                    "location": "D-312",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "PF Tutorial (CS-H)",
-                      "CourseBatch": "",
-                      "RoomName": "D-312",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
                         }
                       ]
                     }
