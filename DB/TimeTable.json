@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-17 05:32:56 UTC",
-    "local_time_pkt": "2025-10-17 10:32:56 AM PKT"
+    "last_updated_utc": "2025-10-17 05:42:36 UTC",
+    "local_time_pkt": "2025-10-17 10:42:36 AM PKT"
   },
   "BS": {
     "AI": {
@@ -29155,42 +29155,6 @@
                   }
                 }
               ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "D-303",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (DS-A)  ReSch",
-                    "CourseBatch": "BS DS (2024)",
-                    "RoomName": "D-303",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -36131,6 +36095,44 @@
           }
         },
         "B": {
+          "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "PF",
+                  "type": "Class",
+                  "location": "C-406",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "PF (SE-B)ReSch",
+                    "CourseBatch": "BS SE (2025)",
+                    "RoomName": "C-406",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "Tuesday": [
             {
               "time": {
