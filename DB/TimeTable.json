@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-17 05:42:36 UTC",
-    "local_time_pkt": "2025-10-17 10:42:36 AM PKT"
+    "last_updated_utc": "2025-10-17 05:48:26 UTC",
+    "local_time_pkt": "2025-10-17 10:48:26 AM PKT"
   },
   "BS": {
     "AI": {
@@ -3581,6 +3581,42 @@
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Psychology",
+                  "type": "Class",
+                  "location": "D-502",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Psychology (AI-C) ReSch",
+                    "CourseBatch": "BS AI (2024)",
+                    "RoomName": "D-502",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
                         "AM_PM": "AM"
                       }
                     ]
@@ -49882,48 +49918,6 @@
                       "TimeIntervals": [
                         {
                           "text": "06:45-08:05",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved for FCSS": {
-        "null": {
-          "null": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for FCSS",
-                    "type": "Class",
-                    "location": "D-304",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for FCSS",
-                      "CourseBatch": "",
-                      "RoomName": "D-304",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
                           "AM_PM": "PM"
                         }
                       ]
