@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-17 06:00:35 UTC",
-    "local_time_pkt": "2025-10-17 11:00:35 AM PKT"
+    "last_updated_utc": "2025-10-17 06:30:39 UTC",
+    "local_time_pkt": "2025-10-17 11:30:39 AM PKT"
   },
   "BS": {
     "AI": {
@@ -3164,6 +3164,42 @@
                       {
                         "text": "02:30-05:15",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "11:15",
+                  "AM_PM": "AM",
+                  "value": 675
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "A-Karakoram 3",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "COAL Lab (AI-B) ReSch",
+                    "CourseBatch": "BS AI (2024)",
+                    "RoomName": "A-Karakoram 3",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-11:15",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
