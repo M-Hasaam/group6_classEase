@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-17 04:23:28 UTC",
-    "local_time_pkt": "2025-10-17 09:23:28 AM PKT"
+    "last_updated_utc": "2025-10-17 04:39:26 UTC",
+    "local_time_pkt": "2025-10-17 09:39:26 AM PKT"
   },
   "BS": {
     "AI": {
@@ -10398,6 +10398,42 @@
             }
           ],
           "Thursday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Net",
+                  "type": "Class",
+                  "location": "C-410",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Net (CS-C) ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "C-410",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -21274,6 +21310,78 @@
                     "Text": "Sec S/w Design Lab (CY-A)",
                     "CourseBatch": "BS CY (2022)",
                     "RoomName": "C-Rawal 1",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "A & D": {
+          "Thursday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Sec S/w Design Lab  Exams",
+                  "type": "Lab",
+                  "location": "C-Margala 4",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Sec S/w Design Lab  Exams (CY-A & D)",
+                    "CourseBatch": "BS CY (2022)",
+                    "RoomName": "C-Margala 4",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Sec S/w Design Lab  Exams",
+                  "type": "Lab",
+                  "location": "Rawal 3 (B-232)",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Sec S/w Design Lab  Exams (CY-A & D)",
+                    "CourseBatch": "BS CY (2022)",
+                    "RoomName": "Rawal 3 (B-232)",
                     "TimeIntervals": [
                       {
                         "text": "02:30-05:15",
