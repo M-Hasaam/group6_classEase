@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-17 04:53:29 UTC",
-    "local_time_pkt": "2025-10-17 09:53:29 AM PKT"
+    "last_updated_utc": "2025-10-17 04:59:33 UTC",
+    "local_time_pkt": "2025-10-17 09:59:33 AM PKT"
   },
   "BS": {
     "AI": {
@@ -41116,6 +41116,42 @@
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Algo",
+                    "type": "Class",
+                    "location": "D-415",
+                    "sub_Section": null,
+                    "info": [
+                      "ReSchedule"
+                    ],
+                    "detailed": {
+                      "Text": "Algo (CY, 22)  ReSch",
+                      "CourseBatch": "Repeat Courses",
+                      "RoomName": "D-415",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
