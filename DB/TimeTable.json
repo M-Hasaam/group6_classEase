@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-17 04:39:26 UTC",
-    "local_time_pkt": "2025-10-17 09:39:26 AM PKT"
+    "last_updated_utc": "2025-10-17 04:47:26 UTC",
+    "local_time_pkt": "2025-10-17 09:47:26 AM PKT"
   },
   "BS": {
     "AI": {
@@ -36503,7 +36503,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PF (SE-B)Cancelled",
+                    "Text": "PF (SE-B)",
                     "CourseBatch": "BS SE (2025)",
                     "RoomName": "C-402",
                     "TimeIntervals": [
