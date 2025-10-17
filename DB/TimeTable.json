@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-17 07:28:03 UTC",
-    "local_time_pkt": "2025-10-17 12:28:03 PM PKT"
+    "last_updated_utc": "2025-10-17 07:36:57 UTC",
+    "local_time_pkt": "2025-10-17 12:36:57 PM PKT"
   },
   "BS": {
     "AI": {
@@ -44631,6 +44631,78 @@
       },
       "CY": {
         "null": {
+          "A&B": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "11:15",
+                    "AM_PM": "AM",
+                    "value": 675
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "OS Lab",
+                    "type": "Lab",
+                    "location": "Rawal 3 (B-232)",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "OS Lab (CY-A&B) Sessional Exams on October 20, 2025",
+                      "CourseBatch": "",
+                      "RoomName": "Rawal 3 (B-232)",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-11:15",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "11:15",
+                    "AM_PM": "AM",
+                    "value": 675
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "OS Lab",
+                    "type": "Lab",
+                    "location": "A-Mehran 1",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "OS Lab (CY-A&B) Sessional Exams on October 20, 2025",
+                      "CourseBatch": "",
+                      "RoomName": "A-Mehran 1",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-11:15",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
           "null": {
             "Tuesday": [
               {
