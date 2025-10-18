@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-18 15:01:38 UTC",
-    "local_time_pkt": "2025-10-18 08:01:39 PM PKT"
+    "last_updated_utc": "2025-10-18 15:20:14 UTC",
+    "local_time_pkt": "2025-10-18 08:20:14 PM PKT"
   },
   "BS": {
     "AI": {
@@ -16637,7 +16637,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Calculus (CS-C)",
+                    "Text": "Calculus (CS-C)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-303",
                     "TimeIntervals": [
@@ -17203,7 +17203,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Calculus (CS-D)",
+                    "Text": "Calculus (CS-D)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
@@ -43919,6 +43919,78 @@
       },
       "CY": {
         "null": {
+          "A&B": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "11:15",
+                    "AM_PM": "AM",
+                    "value": 675
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "OS",
+                    "type": "Lab",
+                    "location": "Rawal 3 (B-232)",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "OS (CY-A&B) Lab Exam",
+                      "CourseBatch": "",
+                      "RoomName": "Rawal 3 (B-232)",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-11:15",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "11:15",
+                    "AM_PM": "AM",
+                    "value": 675
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "OS",
+                    "type": "Lab",
+                    "location": "A-Mehran 1",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "OS (CY-A&B) Lab Exam",
+                      "CourseBatch": "",
+                      "RoomName": "A-Mehran 1",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-11:15",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
           "null": {
             "Tuesday": [
               {
