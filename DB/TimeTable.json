@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 04:44:34 UTC",
-    "local_time_pkt": "2025-10-20 09:44:34 AM PKT"
+    "last_updated_utc": "2025-10-20 04:51:30 UTC",
+    "local_time_pkt": "2025-10-20 09:51:30 AM PKT"
   },
   "BS": {
     "AI": {
@@ -20695,7 +20695,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "AP (CS-Z) International Students (B-232)",
+                    "Text": "AP (CS-Z) International Students",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-311",
                     "TimeIntervals": [
