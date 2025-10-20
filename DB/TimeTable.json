@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 11:58:50 UTC",
-    "local_time_pkt": "2025-10-20 04:58:50 PM PKT"
+    "last_updated_utc": "2025-10-20 12:35:47 UTC",
+    "local_time_pkt": "2025-10-20 05:35:47 PM PKT"
   },
   "BS": {
     "AI": {
@@ -31025,13 +31025,13 @@
                 {
                   "name": "Cloud Comp",
                   "type": "Class",
-                  "location": "D-413",
+                  "location": "C-408",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Cloud Comp (SE-A)",
                     "CourseBatch": "BS SE (2022)",
-                    "RoomName": "D-413",
+                    "RoomName": "C-408",
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
