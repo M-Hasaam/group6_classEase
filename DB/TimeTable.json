@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 06:55:57 UTC",
-    "local_time_pkt": "2025-10-20 11:55:57 AM PKT"
+    "last_updated_utc": "2025-10-20 07:12:03 UTC",
+    "local_time_pkt": "2025-10-20 12:12:03 PM PKT"
   },
   "BS": {
     "AI": {
@@ -12207,6 +12207,42 @@
                     "TimeIntervals": [
                       {
                         "text": "08:30-09:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Data St",
+                  "type": "Class",
+                  "location": "D-502",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Data St (CS-A) ReSch",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "D-502",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
                         "AM_PM": "AM"
                       }
                     ]
