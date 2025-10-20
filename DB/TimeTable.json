@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 04:01:49 UTC",
-    "local_time_pkt": "2025-10-20 09:01:49 AM PKT"
+    "last_updated_utc": "2025-10-20 04:29:26 UTC",
+    "local_time_pkt": "2025-10-20 09:29:26 AM PKT"
   },
   "BS": {
     "AI": {
@@ -18817,7 +18817,7 @@
                       "sub_Section": null,
                       "info": [],
                       "detailed": {
-                        "Text": "Func Eng Lab (CS-F1)",
+                        "Text": "Func Eng Lab (CS-F1)Cancelled",
                         "CourseBatch": "BS CS (2025)",
                         "RoomName": "A-Mehran 2",
                         "TimeIntervals": [
