@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 05:14:27 UTC",
-    "local_time_pkt": "2025-10-20 10:14:27 AM PKT"
+    "last_updated_utc": "2025-10-20 05:32:48 UTC",
+    "local_time_pkt": "2025-10-20 10:32:48 AM PKT"
   },
   "BS": {
     "AI": {
@@ -32291,7 +32291,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Fund of SPM (SE-E)",
+                    "Text": "Fund of SPM (SE-E)Cancelled",
                     "CourseBatch": "BS SE (2022)",
                     "RoomName": "C-406",
                     "TimeIntervals": [
@@ -41401,6 +41401,44 @@
                         {
                           "text": "02:30-03:50",
                           "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "02:15",
+                    "AM_PM": "PM",
+                    "value": 855
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "OS Lab",
+                    "type": "Lab",
+                    "location": "C-Rawal 4",
+                    "sub_Section": null,
+                    "info": [
+                      "ReSchedule"
+                    ],
+                    "detailed": {
+                      "Text": "OS Lab (SE-A, 22)ReSch",
+                      "CourseBatch": "Repeat Courses",
+                      "RoomName": "C-Rawal 4",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-02:15",
+                          "AM_PM": "AM"
                         }
                       ]
                     }
