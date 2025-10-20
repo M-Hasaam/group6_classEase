@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 09:36:35 UTC",
-    "local_time_pkt": "2025-10-20 02:36:35 PM PKT"
+    "last_updated_utc": "2025-10-20 09:46:23 UTC",
+    "local_time_pkt": "2025-10-20 02:46:23 PM PKT"
   },
   "BS": {
     "AI": {
@@ -49312,6 +49312,48 @@
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved by LADS": {
+        "null": {
+          "null": {
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved by LADS",
+                    "type": "Class",
+                    "location": "C-110",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved by LADS",
+                      "CourseBatch": "",
+                      "RoomName": "C-110",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
                           "AM_PM": "PM"
                         }
                       ]
