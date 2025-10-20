@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 07:50:57 UTC",
-    "local_time_pkt": "2025-10-20 12:50:57 PM PKT"
+    "last_updated_utc": "2025-10-20 07:57:11 UTC",
+    "local_time_pkt": "2025-10-20 12:57:11 PM PKT"
   },
   "BS": {
     "AI": {
@@ -31375,7 +31375,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Fund of SPM (SE-B)",
+                    "Text": "Fund of SPM (SE-B)D-304",
                     "CourseBatch": "BS SE (2022)",
                     "RoomName": "C-409",
                     "TimeIntervals": [
