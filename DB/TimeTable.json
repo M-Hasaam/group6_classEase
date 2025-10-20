@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 05:55:22 UTC",
-    "local_time_pkt": "2025-10-20 10:55:22 AM PKT"
+    "last_updated_utc": "2025-10-20 06:15:24 UTC",
+    "local_time_pkt": "2025-10-20 11:15:24 AM PKT"
   },
   "BS": {
     "AI": {
@@ -28675,7 +28675,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Intro to DS Lab (DS-A) in Rawal Lab-III for Today i.e. October 20, 2025",
+                    "Text": "Intro to DS Lab (DS-A)",
                     "CourseBatch": "BS DS (2024)",
                     "RoomName": "C-Margala 1",
                     "TimeIntervals": [
