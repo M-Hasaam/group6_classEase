@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 02:53:13 UTC",
-    "local_time_pkt": "2025-10-20 07:53:13 AM PKT"
+    "last_updated_utc": "2025-10-20 03:40:38 UTC",
+    "local_time_pkt": "2025-10-20 08:40:38 AM PKT"
   },
   "BS": {
     "AI": {
@@ -21017,7 +21017,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "App ML (CY-A)",
+                    "Text": "App ML (CY-A)Cancelled",
                     "CourseBatch": "BS CY (2022)",
                     "RoomName": "D-501",
                     "TimeIntervals": [
