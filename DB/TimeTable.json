@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 11:46:52 UTC",
-    "local_time_pkt": "2025-10-20 04:46:52 PM PKT"
+    "last_updated_utc": "2025-10-20 11:53:12 UTC",
+    "local_time_pkt": "2025-10-20 04:53:12 PM PKT"
   },
   "BS": {
     "AI": {
@@ -46189,6 +46189,176 @@
                     "value": 510
                   },
                   "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FSM",
+                    "type": "Class",
+                    "location": "B-230",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FSM",
+                      "CourseBatch": "",
+                      "RoomName": "B-230",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FSM",
+                    "type": "Class",
+                    "location": "B-230",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FSM",
+                      "CourseBatch": "",
+                      "RoomName": "B-230",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FSM",
+                    "type": "Class",
+                    "location": "B-230",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FSM",
+                      "CourseBatch": "",
+                      "RoomName": "B-230",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FSM",
+                    "type": "Class",
+                    "location": "B-230",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FSM",
+                      "CourseBatch": "",
+                      "RoomName": "B-230",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FSM",
+                    "type": "Class",
+                    "location": "B-230",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FSM",
+                      "CourseBatch": "",
+                      "RoomName": "B-230",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
                     "text": "11:15",
                     "AM_PM": "AM",
                     "value": 675
@@ -49103,6 +49273,618 @@
                         {
                           "text": "03:55-05:15",
                           "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-401",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-401",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-401",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-401",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-401",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-401",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-402",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-402",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-402",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-402",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-402",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-402",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-414",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-414",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-414",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-414",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-414",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-414",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-415",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-415",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-415",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-415",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-415",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-415",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-416",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-416",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-416",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-416",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "D-416",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "D-416",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
                         }
                       ]
                     }
