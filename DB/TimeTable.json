@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-20 06:45:26 UTC",
-    "local_time_pkt": "2025-10-20 11:45:26 AM PKT"
+    "last_updated_utc": "2025-10-20 06:55:57 UTC",
+    "local_time_pkt": "2025-10-20 11:55:57 AM PKT"
   },
   "BS": {
     "AI": {
@@ -44385,6 +44385,76 @@
                         {
                           "text": "02:30-05:15",
                           "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "11:15",
+                    "AM_PM": "AM",
+                    "value": 675
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "DLD",
+                    "type": "Lab",
+                    "location": "Rawal 3 (B-232)",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "DLD (CY) Lab Exam 10:20-11:20",
+                      "CourseBatch": "",
+                      "RoomName": "Rawal 3 (B-232)",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-11:15",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "11:15",
+                    "AM_PM": "AM",
+                    "value": 675
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "DLD",
+                    "type": "Lab",
+                    "location": "A-Mehran 1",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "DLD (CY) Lab Exam 10:20-11:20",
+                      "CourseBatch": "",
+                      "RoomName": "A-Mehran 1",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-11:15",
+                          "AM_PM": "AM"
                         }
                       ]
                     }
