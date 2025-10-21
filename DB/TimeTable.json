@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-21 08:00:06 UTC",
-    "local_time_pkt": "2025-10-21 01:00:06 PM PKT"
+    "last_updated_utc": "2025-10-21 08:28:02 UTC",
+    "local_time_pkt": "2025-10-21 01:28:02 PM PKT"
   },
   "BS": {
     "AI": {
@@ -3902,78 +3902,6 @@
             }
           ],
           "Tuesday": [
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Func Eng (AI-A) 02:30-04:15 ReSch",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Func Eng (AI-A) 02:30-04:15 ReSch",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
             {
               "time": {
                 "start": {
@@ -44283,6 +44211,82 @@
           }
         }
       },
+      "CSL Session": {
+        "null": {
+          "null": {
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "CSL Session",
+                    "type": "Class",
+                    "location": "D-316",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "CSL Session",
+                      "CourseBatch": "",
+                      "RoomName": "D-316",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "CSL Session",
+                    "type": "Class",
+                    "location": "D-316",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "CSL Session",
+                      "CourseBatch": "",
+                      "RoomName": "D-316",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "CY": {
         "null": {
           "null": {
@@ -49237,6 +49241,40 @@
         "null": {
           "null": {
             "Tuesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Sir Shams",
+                    "type": "Class",
+                    "location": "C-310",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Sir Shams",
+                      "CourseBatch": "",
+                      "RoomName": "C-310",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
               {
                 "time": {
                   "start": {
