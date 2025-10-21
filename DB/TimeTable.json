@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-21 03:56:35 UTC",
-    "local_time_pkt": "2025-10-21 08:56:35 AM PKT"
+    "last_updated_utc": "2025-10-21 04:14:29 UTC",
+    "local_time_pkt": "2025-10-21 09:14:29 AM PKT"
   },
   "BS": {
     "AI": {
@@ -3542,42 +3542,6 @@
                       {
                         "text": "11:30-12:50",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "D-502",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (AI-C)ReSch",
-                    "CourseBatch": "BS AI (2024)",
-                    "RoomName": "D-502",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -23237,6 +23201,42 @@
             {
               "time": {
                 "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Cy Sec",
+                  "type": "Class",
+                  "location": "D-414",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Cy Sec (CY-A) ReSch",
+                    "CourseBatch": "BS CY (2024)",
+                    "RoomName": "D-414",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -31617,42 +31617,6 @@
                   }
                 }
               ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "S/w Re-Engg",
-                  "type": "Class",
-                  "location": "D-311",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "S/w Re-Engg (SE-C) ReSch",
-                    "CourseBatch": "BS SE (2022)",
-                    "RoomName": "D-311",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ],
           "Thursday": [
@@ -35343,6 +35307,80 @@
           ],
           "Subsections": {
             "A1": {
+              "Monday": [
+                {
+                  "time": {
+                    "start": {
+                      "text": "11:30",
+                      "AM_PM": "AM",
+                      "value": 690
+                    },
+                    "end": {
+                      "text": "12:50",
+                      "AM_PM": "PM",
+                      "value": 770
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-311",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (SE-A1) ReSch",
+                        "CourseBatch": "BS SE (2025)",
+                        "RoomName": "C-311",
+                        "TimeIntervals": [
+                          {
+                            "text": "11:30-12:50",
+                            "AM_PM": "AM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "time": {
+                    "start": {
+                      "text": "01:00",
+                      "AM_PM": "PM",
+                      "value": 780
+                    },
+                    "end": {
+                      "text": "02:20",
+                      "AM_PM": "PM",
+                      "value": 860
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-311",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (SE-A1) ReSch",
+                        "CourseBatch": "BS SE (2025)",
+                        "RoomName": "C-311",
+                        "TimeIntervals": [
+                          {
+                            "text": "01:00-02:20",
+                            "AM_PM": "PM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
               "Friday": [
                 {
                   "time": {
@@ -43989,78 +44027,6 @@
       },
       "CY": {
         "null": {
-          "A&B": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "11:15",
-                    "AM_PM": "AM",
-                    "value": 675
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "OS",
-                    "type": "Lab",
-                    "location": "Rawal 3 (B-232)",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "OS (CY-A&B) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "Rawal 3 (B-232)",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-11:15",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "11:15",
-                    "AM_PM": "AM",
-                    "value": 675
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "OS",
-                    "type": "Lab",
-                    "location": "A-Mehran 1",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "OS (CY-A&B) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "A-Mehran 1",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-11:15",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          },
           "null": {
             "Tuesday": [
               {
@@ -48828,82 +48794,6 @@
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved by CSL": {
-        "null": {
-          "null": {
-            "Wednesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved by CSL",
-                    "type": "Class",
-                    "location": "D-403",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved by CSL",
-                      "CourseBatch": "",
-                      "RoomName": "D-403",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved by CSL",
-                    "type": "Class",
-                    "location": "D-403",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved by CSL",
-                      "CourseBatch": "",
-                      "RoomName": "D-403",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
