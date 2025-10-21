@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-21 06:14:14 UTC",
-    "local_time_pkt": "2025-10-21 11:14:14 AM PKT"
+    "last_updated_utc": "2025-10-21 06:43:33 UTC",
+    "local_time_pkt": "2025-10-21 11:43:33 AM PKT"
   },
   "BS": {
     "AI": {
@@ -44594,6 +44594,42 @@
       "FCSS": {
         "null": {
           "null": {
+            "Tuesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FCSS",
+                    "type": "Class",
+                    "location": "C-409",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FCSS",
+                      "CourseBatch": "",
+                      "RoomName": "C-409",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
             "Wednesday": [
               {
                 "time": {
