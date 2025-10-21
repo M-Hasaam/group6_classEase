@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-21 11:05:51 UTC",
-    "local_time_pkt": "2025-10-21 04:05:51 PM PKT"
+    "last_updated_utc": "2025-10-21 11:14:22 UTC",
+    "local_time_pkt": "2025-10-21 04:14:22 PM PKT"
   },
   "BS": {
     "AI": {
@@ -10077,6 +10077,42 @@
             {
               "time": {
                 "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Automata",
+                  "type": "Class",
+                  "location": "C-404",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Automata (CS-C) ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "C-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -19309,9 +19345,11 @@
                   "type": "Lab",
                   "location": "D-Hall 1",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "ReSchedule"
+                  ],
                   "detailed": {
-                    "Text": "PF Lab (CS-G)",
+                    "Text": "PF Lab (CS-G) ReSch GPU Lab",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "D-Hall 1",
                     "TimeIntervals": [
@@ -19343,9 +19381,11 @@
                   "type": "Lab",
                   "location": "D-Hall 1",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "ReSchedule"
+                  ],
                   "detailed": {
-                    "Text": "PF Lab (CS-G)",
+                    "Text": "PF Lab (CS-G) ReSch GPU Lab",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "D-Hall 1",
                     "TimeIntervals": [
