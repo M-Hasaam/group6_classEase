@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-21 09:51:22 UTC",
-    "local_time_pkt": "2025-10-21 02:51:22 PM PKT"
+    "last_updated_utc": "2025-10-21 09:56:49 UTC",
+    "local_time_pkt": "2025-10-21 02:56:49 PM PKT"
   },
   "BS": {
     "AI": {
@@ -49135,6 +49135,74 @@
                         {
                           "text": "01:00-02:20",
                           "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "11:15",
+                    "AM_PM": "AM",
+                    "value": 675
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "Rawal 3 (B-232)",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "Rawal 3 (B-232)",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-11:15",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "11:15",
+                    "AM_PM": "AM",
+                    "value": 675
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "A-Mehran 1",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "A-Mehran 1",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-11:15",
+                          "AM_PM": "AM"
                         }
                       ]
                     }
