@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 06:17:08 UTC",
-    "local_time_pkt": "2025-10-22 11:17:08 AM PKT"
+    "last_updated_utc": "2025-10-22 06:46:06 UTC",
+    "local_time_pkt": "2025-10-22 11:46:06 AM PKT"
   },
   "BS": {
     "AI": {
@@ -14199,6 +14199,42 @@
             {
               "time": {
                 "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Data St",
+                  "type": "Class",
+                  "location": "C-311",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Data St (CS-E) ReSch",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "C-311",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -15661,42 +15697,6 @@
             {
               "time": {
                 "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "AP",
-                  "type": "Class",
-                  "location": "C-301",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "AP (CS-A) ReSch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -16249,42 +16249,6 @@
                     "TimeIntervals": [
                       {
                         "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "AP",
-                  "type": "Class",
-                  "location": "C-302",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "AP (CS-B)  ReSch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -31390,6 +31354,44 @@
                 }
               ]
             }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Fund of SPM",
+                  "type": "Class",
+                  "location": "C-404",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Fund of SPM (SE-A) ReSch",
+                    "CourseBatch": "BS SE (2022)",
+                    "RoomName": "C-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
           ]
         },
         "B": {
@@ -44695,6 +44697,82 @@
       },
       "CY": {
         "null": {
+          "A": {
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Network Sec",
+                    "type": "Lab",
+                    "location": "D-304",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Network Sec (CY-A) Lab Exam",
+                      "CourseBatch": "",
+                      "RoomName": "D-304",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "B": {
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Network Sec",
+                    "type": "Lab",
+                    "location": "D-304",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Network Sec (CY-B) Lab Exam",
+                      "CourseBatch": "",
+                      "RoomName": "D-304",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
           "null": {
             "Friday": [
               {
@@ -48150,40 +48228,6 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-404",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-404",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
                           "AM_PM": "AM"
                         }
                       ]
