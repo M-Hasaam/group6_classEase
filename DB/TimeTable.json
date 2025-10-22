@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 07:58:33 UTC",
-    "local_time_pkt": "2025-10-22 12:58:33 PM PKT"
+    "last_updated_utc": "2025-10-22 08:23:41 UTC",
+    "local_time_pkt": "2025-10-22 01:23:41 PM PKT"
   },
   "BS": {
     "AI": {
@@ -20521,7 +20521,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "IICT Lab (CS-J)Cancelled Reserved",
+                    "Text": "IICT Lab (CS-J)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "D-IT Lab 4",
                     "TimeIntervals": [
@@ -44759,6 +44759,44 @@
                       "Text": "Network Sec (CY-A) Lab Exam",
                       "CourseBatch": "",
                       "RoomName": "D-304",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "A & B": {
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Network Sec",
+                    "type": "Lab",
+                    "location": "D-305",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Network Sec (CY-A & B) Lab Exam",
+                      "CourseBatch": "",
+                      "RoomName": "D-305",
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
