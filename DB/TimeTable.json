@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 04:55:48 UTC",
-    "local_time_pkt": "2025-10-22 09:55:48 AM PKT"
+    "last_updated_utc": "2025-10-22 05:10:52 UTC",
+    "local_time_pkt": "2025-10-22 10:10:52 AM PKT"
   },
   "BS": {
     "AI": {
@@ -3541,6 +3541,42 @@
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "02:15",
+                  "AM_PM": "PM",
+                  "value": 855
+                }
+              },
+              "classes": [
+                {
+                  "name": "Prog for AI Lab",
+                  "type": "Lab",
+                  "location": "C-Margala 3",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Prog for AI Lab (AI-C) ReSch",
+                    "CourseBatch": "BS AI (2024)",
+                    "RoomName": "C-Margala 3",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-02:15",
                         "AM_PM": "AM"
                       }
                     ]
