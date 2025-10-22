@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 05:43:19 UTC",
-    "local_time_pkt": "2025-10-22 10:43:19 AM PKT"
+    "last_updated_utc": "2025-10-22 05:49:50 UTC",
+    "local_time_pkt": "2025-10-22 10:49:50 AM PKT"
   },
   "BS": {
     "AI": {
@@ -18801,80 +18801,6 @@
                   ]
                 }
               ],
-              "Wednesday": [
-                {
-                  "time": {
-                    "start": {
-                      "text": "02:30",
-                      "AM_PM": "PM",
-                      "value": 870
-                    },
-                    "end": {
-                      "text": "03:50",
-                      "AM_PM": "PM",
-                      "value": 950
-                    }
-                  },
-                  "classes": [
-                    {
-                      "name": "Func Eng Lab",
-                      "type": "Lab",
-                      "location": "D-416",
-                      "sub_Section": null,
-                      "info": [
-                        "ReSchedule"
-                      ],
-                      "detailed": {
-                        "Text": "Func Eng Lab (CS-F1) ReSch",
-                        "CourseBatch": "BS CS (2025)",
-                        "RoomName": "D-416",
-                        "TimeIntervals": [
-                          {
-                            "text": "02:30-03:50",
-                            "AM_PM": "PM"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                {
-                  "time": {
-                    "start": {
-                      "text": "03:55",
-                      "AM_PM": "PM",
-                      "value": 955
-                    },
-                    "end": {
-                      "text": "05:15",
-                      "AM_PM": "PM",
-                      "value": 1035
-                    }
-                  },
-                  "classes": [
-                    {
-                      "name": "Func Eng Lab",
-                      "type": "Lab",
-                      "location": "D-416",
-                      "sub_Section": null,
-                      "info": [
-                        "ReSchedule"
-                      ],
-                      "detailed": {
-                        "Text": "Func Eng Lab (CS-F1) ReSch",
-                        "CourseBatch": "BS CS (2025)",
-                        "RoomName": "D-416",
-                        "TimeIntervals": [
-                          {
-                            "text": "03:55-05:15",
-                            "AM_PM": "PM"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
-              ],
               "Friday": [
                 {
                   "time": {
@@ -18899,7 +18825,7 @@
                         "ReSchedule"
                       ],
                       "detailed": {
-                        "Text": "Func Eng Lab (CS-F1) 10:30-12:15 ReSch",
+                        "Text": "Func Eng Lab (CS-F1) 10:00-12:45 ReSch",
                         "CourseBatch": "BS CS (2025)",
                         "RoomName": "C-403",
                         "TimeIntervals": [
@@ -18935,7 +18861,7 @@
                         "ReSchedule"
                       ],
                       "detailed": {
-                        "Text": "Func Eng Lab (CS-F1) 10:30-12:15 ReSch",
+                        "Text": "Func Eng Lab (CS-F1) 10:00-12:45 ReSch",
                         "CourseBatch": "BS CS (2025)",
                         "RoomName": "C-403",
                         "TimeIntervals": [
