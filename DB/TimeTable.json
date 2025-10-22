@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 07:46:05 UTC",
-    "local_time_pkt": "2025-10-22 12:46:05 PM PKT"
+    "last_updated_utc": "2025-10-22 07:52:19 UTC",
+    "local_time_pkt": "2025-10-22 12:52:19 PM PKT"
   },
   "BS": {
     "AI": {
@@ -34216,6 +34216,42 @@
             }
           ],
           "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Prob & Stats",
+                  "type": "Class",
+                  "location": "C-304",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Prob & Stats (SE-A) ReSch",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-304",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
