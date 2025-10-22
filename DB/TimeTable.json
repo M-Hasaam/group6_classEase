@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 05:10:52 UTC",
-    "local_time_pkt": "2025-10-22 10:10:52 AM PKT"
+    "last_updated_utc": "2025-10-22 05:31:43 UTC",
+    "local_time_pkt": "2025-10-22 10:31:43 AM PKT"
   },
   "BS": {
     "AI": {
@@ -24071,7 +24071,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Cy Sec (CY-B)",
+                    "Text": "Cy Sec (CY-B)Cancelled",
                     "CourseBatch": "BS CY (2024)",
                     "RoomName": "D-502",
                     "TimeIntervals": [
