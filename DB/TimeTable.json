@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 05:31:43 UTC",
-    "local_time_pkt": "2025-10-22 10:31:43 AM PKT"
+    "last_updated_utc": "2025-10-22 05:43:19 UTC",
+    "local_time_pkt": "2025-10-22 10:43:19 AM PKT"
   },
   "BS": {
     "AI": {
@@ -18868,6 +18868,80 @@
                           {
                             "text": "03:55-05:15",
                             "AM_PM": "PM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "Friday": [
+                {
+                  "time": {
+                    "start": {
+                      "text": "10:00",
+                      "AM_PM": "AM",
+                      "value": 600
+                    },
+                    "end": {
+                      "text": "11:20",
+                      "AM_PM": "AM",
+                      "value": 680
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-403",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (CS-F1) 10:30-12:15 ReSch",
+                        "CourseBatch": "BS CS (2025)",
+                        "RoomName": "C-403",
+                        "TimeIntervals": [
+                          {
+                            "text": "10:00-11:20",
+                            "AM_PM": "AM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "time": {
+                    "start": {
+                      "text": "11:30",
+                      "AM_PM": "AM",
+                      "value": 690
+                    },
+                    "end": {
+                      "text": "12:50",
+                      "AM_PM": "PM",
+                      "value": 770
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-403",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (CS-F1) 10:30-12:15 ReSch",
+                        "CourseBatch": "BS CS (2025)",
+                        "RoomName": "C-403",
+                        "TimeIntervals": [
+                          {
+                            "text": "11:30-12:50",
+                            "AM_PM": "AM"
                           }
                         ]
                       }
@@ -48048,74 +48122,6 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-403",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-403",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-403",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-403",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
                           "AM_PM": "AM"
                         }
                       ]
