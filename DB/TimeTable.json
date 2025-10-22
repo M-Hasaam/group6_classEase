@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 04:50:05 UTC",
-    "local_time_pkt": "2025-10-22 09:50:05 AM PKT"
+    "last_updated_utc": "2025-10-22 04:55:48 UTC",
+    "local_time_pkt": "2025-10-22 09:55:48 AM PKT"
   },
   "BS": {
     "AI": {
@@ -49557,6 +49557,48 @@
                       "Text": "Reserved",
                       "CourseBatch": "",
                       "RoomName": "D-311",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved FCSS": {
+        "null": {
+          "null": {
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved FCSS",
+                    "type": "Class",
+                    "location": "C-406",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved FCSS",
+                      "CourseBatch": "",
+                      "RoomName": "C-406",
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
