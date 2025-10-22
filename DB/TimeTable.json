@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-22 09:17:27 UTC",
-    "local_time_pkt": "2025-10-22 02:17:27 PM PKT"
+    "last_updated_utc": "2025-10-22 09:36:45 UTC",
+    "local_time_pkt": "2025-10-22 02:36:45 PM PKT"
   },
   "BS": {
     "AI": {
@@ -45047,6 +45047,48 @@
           }
         }
       },
+      "FCS Meeting": {
+        "null": {
+          "null": {
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FCS Meeting",
+                    "type": "Class",
+                    "location": "D-402",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FCS Meeting",
+                      "CourseBatch": "",
+                      "RoomName": "D-402",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "FCSS": {
         "null": {
           "null": {
@@ -49677,6 +49719,42 @@
                       "Text": "Reserved",
                       "CourseBatch": "",
                       "RoomName": "D-416",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "D-406",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "D-406",
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
