@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 03:13:19 UTC",
-    "local_time_pkt": "2025-10-23 08:13:19 AM PKT"
+    "last_updated_utc": "2025-10-23 03:43:22 UTC",
+    "local_time_pkt": "2025-10-23 08:43:22 AM PKT"
   },
   "BS": {
     "AI": {
@@ -33113,13 +33113,13 @@
                 {
                   "name": "TBW",
                   "type": "Class",
-                  "location": "C-406",
+                  "location": "C-407",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "TBW (SE-A)",
                     "CourseBatch": "BS SE (2023)",
-                    "RoomName": "C-406",
+                    "RoomName": "C-407",
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
@@ -34197,13 +34197,13 @@
                 {
                   "name": "Data St",
                   "type": "Class",
-                  "location": "C-406",
+                  "location": "C-407",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Data St (SE-A)",
                     "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-406",
+                    "RoomName": "C-407",
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
@@ -34643,6 +34643,108 @@
             {
               "time": {
                 "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Psychology",
+                  "type": "Class",
+                  "location": "C-406",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Psychology (SE-B) 12:45-02:30",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-406",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "01:00",
+                  "AM_PM": "PM",
+                  "value": 780
+                },
+                "end": {
+                  "text": "02:20",
+                  "AM_PM": "PM",
+                  "value": 860
+                }
+              },
+              "classes": [
+                {
+                  "name": "Psychology",
+                  "type": "Class",
+                  "location": "C-406",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Psychology (SE-B) 12:45-02:30",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-406",
+                    "TimeIntervals": [
+                      {
+                        "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Intro to SE",
+                  "type": "Class",
+                  "location": "C-406",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Intro to SE (SE-B)",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-406",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -34702,108 +34804,6 @@
                       {
                         "text": "10:00-11:20",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "C-407",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (SE-B) 12:45-02:30",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-407",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "C-407",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (SE-B) 12:45-02:30",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-407",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Intro to SE",
-                  "type": "Class",
-                  "location": "C-407",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Intro to SE (SE-B)",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-407",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
