@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 09:59:38 UTC",
-    "local_time_pkt": "2025-10-23 02:59:38 PM PKT"
+    "last_updated_utc": "2025-10-23 10:20:36 UTC",
+    "local_time_pkt": "2025-10-23 03:20:36 PM PKT"
   },
   "BS": {
     "AI": {
@@ -23518,6 +23518,44 @@
                       {
                         "text": "02:30-05:15",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Psychology",
+                  "type": "Class",
+                  "location": "C-404",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Psychology (CY-A) ReSch",
+                    "CourseBatch": "BS CY (2024)",
+                    "RoomName": "C-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -47806,40 +47844,6 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-404",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-404",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
                           "AM_PM": "AM"
                         }
                       ]
