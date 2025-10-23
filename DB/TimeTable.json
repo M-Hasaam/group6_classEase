@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 14:35:09 UTC",
-    "local_time_pkt": "2025-10-23 07:35:09 PM PKT"
+    "last_updated_utc": "2025-10-23 14:48:32 UTC",
+    "local_time_pkt": "2025-10-23 07:48:32 PM PKT"
   },
   "BS": {
     "AI": {
@@ -23601,21 +23601,21 @@
             {
               "time": {
                 "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "03:50",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 950
                 }
               },
               "classes": [
                 {
                   "name": "Psychology",
                   "type": "Class",
-                  "location": "C-404",
+                  "location": "C-305",
                   "sub_Section": null,
                   "info": [
                     "ReSchedule"
@@ -23623,11 +23623,11 @@
                   "detailed": {
                     "Text": "Psychology (CY-A) ReSch",
                     "CourseBatch": "BS CY (2024)",
-                    "RoomName": "C-404",
+                    "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
