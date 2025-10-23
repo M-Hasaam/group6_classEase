@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 11:27:38 UTC",
-    "local_time_pkt": "2025-10-23 04:27:38 PM PKT"
+    "last_updated_utc": "2025-10-23 11:36:06 UTC",
+    "local_time_pkt": "2025-10-23 04:36:06 PM PKT"
   },
   "BS": {
     "AI": {
@@ -22139,6 +22139,42 @@
             {
               "time": {
                 "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "09:50",
+                  "AM_PM": "AM",
+                  "value": 590
+                }
+              },
+              "classes": [
+                {
+                  "name": "Net Sec",
+                  "type": "Class",
+                  "location": "D-313",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Net Sec (CY-A) ReSch",
+                    "CourseBatch": "BS CY (2023)",
+                    "RoomName": "D-313",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-09:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -22588,6 +22624,42 @@
         },
         "B": {
           "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Net Sec",
+                  "type": "Class",
+                  "location": "D-313",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Net Sec (CY-B) ReSch",
+                    "CourseBatch": "BS CY (2023)",
+                    "RoomName": "D-313",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
