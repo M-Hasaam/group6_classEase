@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 11:14:53 UTC",
-    "local_time_pkt": "2025-10-23 04:14:53 PM PKT"
+    "last_updated_utc": "2025-10-23 11:27:38 UTC",
+    "local_time_pkt": "2025-10-23 04:27:38 PM PKT"
   },
   "BS": {
     "AI": {
@@ -38579,7 +38579,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Deep Learning (DS)",
+                    "Text": "Deep Learning (DS)Cancelled",
                     "CourseBatch": "MS (DS)",
                     "RoomName": "D-304",
                     "TimeIntervals": [
