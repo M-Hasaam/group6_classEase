@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 08:17:28 UTC",
-    "local_time_pkt": "2025-10-23 01:17:28 PM PKT"
+    "last_updated_utc": "2025-10-23 08:42:53 UTC",
+    "local_time_pkt": "2025-10-23 01:42:53 PM PKT"
   },
   "BS": {
     "AI": {
@@ -14107,9 +14107,11 @@
                   "type": "Class",
                   "location": "C-405",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "ReSchedule"
+                  ],
                   "detailed": {
-                    "Text": "LA (CS-E)",
+                    "Text": "LA (CS-E)ReSch",
                     "CourseBatch": "BS CS (2024)",
                     "RoomName": "C-405",
                     "TimeIntervals": [
@@ -14141,9 +14143,11 @@
                   "type": "Class",
                   "location": "C-405",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "ReSchedule"
+                  ],
                   "detailed": {
-                    "Text": "LA (CS-E)",
+                    "Text": "LA (CS-E)ReSch",
                     "CourseBatch": "BS CS (2024)",
                     "RoomName": "C-405",
                     "TimeIntervals": [
@@ -32225,7 +32229,7 @@
                     "ReSchedule"
                   ],
                   "detailed": {
-                    "Text": "Fund of SPM (SE-E) ReSch",
+                    "Text": "Fund of SPM (SE-E) ReSch C-307",
                     "CourseBatch": "BS SE (2022)",
                     "RoomName": "C-410",
                     "TimeIntervals": [
@@ -49079,6 +49083,40 @@
               }
             ],
             "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "C-302",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "C-302",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
               {
                 "time": {
                   "start": {
