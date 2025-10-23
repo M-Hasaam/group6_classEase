@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 08:55:08 UTC",
-    "local_time_pkt": "2025-10-23 01:55:08 PM PKT"
+    "last_updated_utc": "2025-10-23 09:01:58 UTC",
+    "local_time_pkt": "2025-10-23 02:01:58 PM PKT"
   },
   "BS": {
     "AI": {
@@ -36735,7 +36735,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Islamic (SE-C) 03:00-04:45",
+                    "Text": "Islamic (SE-C) 03:00-04:45Cancelled",
                     "CourseBatch": "BS SE (2025)",
                     "RoomName": "C-401",
                     "TimeIntervals": [
@@ -36769,7 +36769,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Islamic (SE-C) 03:00-04:45",
+                    "Text": "Islamic (SE-C) 03:00-04:45Cancelled",
                     "CourseBatch": "BS SE (2025)",
                     "RoomName": "C-401",
                     "TimeIntervals": [
@@ -41486,7 +41486,7 @@
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "OS Lab (SE-B, 22)",
+                      "Text": "OS Lab (SE-B, 22)Mehran - I",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "C-Margala 3",
                       "TimeIntervals": [
