@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 07:28:55 UTC",
-    "local_time_pkt": "2025-10-23 12:28:55 PM PKT"
+    "last_updated_utc": "2025-10-23 07:37:59 UTC",
+    "local_time_pkt": "2025-10-23 12:37:59 PM PKT"
   },
   "BS": {
     "AI": {
@@ -30455,7 +30455,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Func Eng (DS-B) 02:30-04:15",
+                    "Text": "Func Eng (DS-B) 02:30-04:15Cancelled",
                     "CourseBatch": "BS DS (2025)",
                     "RoomName": "C-307",
                     "TimeIntervals": [
@@ -30489,7 +30489,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Func Eng (DS-B) 02:30-04:15",
+                    "Text": "Func Eng (DS-B) 02:30-04:15Cancelled",
                     "CourseBatch": "BS DS (2025)",
                     "RoomName": "C-307",
                     "TimeIntervals": [
