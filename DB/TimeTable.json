@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 10:40:16 UTC",
-    "local_time_pkt": "2025-10-23 03:40:16 PM PKT"
+    "last_updated_utc": "2025-10-23 10:47:36 UTC",
+    "local_time_pkt": "2025-10-23 03:47:36 PM PKT"
   },
   "BS": {
     "AI": {
@@ -40983,6 +40983,44 @@
                   }
                 ]
               }
+            ],
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Comp Net",
+                    "type": "Class",
+                    "location": "C-406",
+                    "sub_Section": null,
+                    "info": [
+                      "ReSchedule"
+                    ],
+                    "detailed": {
+                      "Text": "Comp Net (CY, 23) ReSch",
+                      "CourseBatch": "Repeat Courses",
+                      "RoomName": "C-406",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
             ]
           }
         }
@@ -48048,40 +48086,6 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-406",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
                           "AM_PM": "AM"
                         }
                       ]
