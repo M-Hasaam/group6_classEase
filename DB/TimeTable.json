@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-23 10:20:36 UTC",
-    "local_time_pkt": "2025-10-23 03:20:36 PM PKT"
+    "last_updated_utc": "2025-10-23 10:40:16 UTC",
+    "local_time_pkt": "2025-10-23 03:40:16 PM PKT"
   },
   "BS": {
     "AI": {
@@ -34801,7 +34801,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Data St (SE-C)",
+                    "Text": "Data St (SE-C)Cancelled",
                     "CourseBatch": "BS SE (2024)",
                     "RoomName": "C-311",
                     "TimeIntervals": [
@@ -41568,7 +41568,7 @@
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "S/w Const (SE, 22)",
+                      "Text": "S/w Const (SE, 22)Cancelled",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "C-307",
                       "TimeIntervals": [
