@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-24 07:18:09 UTC",
-    "local_time_pkt": "2025-10-24 12:18:09 PM PKT"
+    "last_updated_utc": "2025-10-24 07:30:19 UTC",
+    "local_time_pkt": "2025-10-24 12:30:19 PM PKT"
   },
   "BS": {
     "AI": {
@@ -2704,6 +2704,42 @@
                       {
                         "text": "11:30-12:50",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "D-406",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (AI-A)ReSch",
+                    "CourseBatch": "BS AI (2024)",
+                    "RoomName": "D-406",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
