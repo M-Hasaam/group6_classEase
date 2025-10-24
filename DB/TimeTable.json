@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-24 03:59:41 UTC",
-    "local_time_pkt": "2025-10-24 08:59:41 AM PKT"
+    "last_updated_utc": "2025-10-24 04:22:06 UTC",
+    "local_time_pkt": "2025-10-24 09:22:06 AM PKT"
   },
   "BS": {
     "AI": {
@@ -40048,7 +40048,7 @@
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "COAL Lab (CS-A, 23)",
+                      "Text": "COAL Lab (CS-A, 23)Cancelled",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "C-Rawal 1",
                       "TimeIntervals": [
