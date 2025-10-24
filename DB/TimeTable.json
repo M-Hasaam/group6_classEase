@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-24 08:58:13 UTC",
-    "local_time_pkt": "2025-10-24 01:58:13 PM PKT"
+    "last_updated_utc": "2025-10-24 09:17:07 UTC",
+    "local_time_pkt": "2025-10-24 02:17:07 PM PKT"
   },
   "BS": {
     "AI": {
@@ -31,7 +31,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Comp Vision (AI-A)",
+                    "Text": "Comp Vision (AI-A)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-406",
                     "TimeIntervals": [
@@ -65,7 +65,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Agentic AI (AI-A)",
+                    "Text": "Agentic AI (AI-A)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-406",
                     "TimeIntervals": [
@@ -99,7 +99,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Cloud MLOps (AI-A)",
+                    "Text": "Cloud MLOps (AI-A)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-406",
                     "TimeIntervals": [
@@ -553,7 +553,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Org Behavior (AI-B)",
+                    "Text": "Org Behavior (AI-B)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-411",
                     "TimeIntervals": [
@@ -587,7 +587,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Cloud MLOps (AI-B)",
+                    "Text": "Cloud MLOps (AI-B)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-411",
                     "TimeIntervals": [
@@ -621,7 +621,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Agentic AI (AI-B)",
+                    "Text": "Agentic AI (AI-B)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-411",
                     "TimeIntervals": [
@@ -1005,7 +1005,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Org Behavior (AI-C)",
+                    "Text": "Org Behavior (AI-C)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-411",
                     "TimeIntervals": [
@@ -1185,7 +1185,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Comp Vision (AI-D)",
+                    "Text": "Comp Vision (AI-D)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-406",
                     "TimeIntervals": [
@@ -5697,7 +5697,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Info Sec (CS-A)",
+                    "Text": "Info Sec (CS-A)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-305",
                     "TimeIntervals": [
@@ -5731,7 +5731,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PPIT (CS-A)",
+                    "Text": "PPIT (CS-A)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-305",
                     "TimeIntervals": [
@@ -6185,7 +6185,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "DIP (CS-A, G-2)",
+                    "Text": "DIP (CS-A, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-306",
                     "TimeIntervals": [
@@ -6219,7 +6219,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "User Exp (CS-A, G-2)",
+                    "Text": "User Exp (CS-A, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-306",
                     "TimeIntervals": [
@@ -6253,7 +6253,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "NLP (CS-A, G-2)",
+                    "Text": "NLP (CS-A, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-311",
                     "TimeIntervals": [
@@ -6287,7 +6287,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Deep Learning (CS-A, G-2)",
+                    "Text": "Deep Learning (CS-A, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-311",
                     "TimeIntervals": [
@@ -6321,7 +6321,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Web Prog (CS-A, G-2)",
+                    "Text": "Web Prog (CS-A, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
@@ -6355,7 +6355,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Data Mining (CS-A, G-2)",
+                    "Text": "Data Mining (CS-A, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
@@ -6389,7 +6389,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Blockchain (CS-A, G-2)",
+                    "Text": "Blockchain (CS-A, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-313",
                     "TimeIntervals": [
@@ -6667,7 +6667,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "SMD (CS-A, G-3)",
+                    "Text": "SMD (CS-A, G-3)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "C-110",
                     "TimeIntervals": [
@@ -6777,7 +6777,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PPIT (CS-B)",
+                    "Text": "PPIT (CS-B)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-306",
                     "TimeIntervals": [
@@ -6811,7 +6811,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Info Sec (CS-B)",
+                    "Text": "Info Sec (CS-B)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-306",
                     "TimeIntervals": [
@@ -7129,7 +7129,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Deep Learning (CS-B, G-2)",
+                    "Text": "Deep Learning (CS-B, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-311",
                     "TimeIntervals": [
@@ -7163,7 +7163,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "NLP (CS-B, G-2)",
+                    "Text": "NLP (CS-B, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
@@ -7197,7 +7197,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Blockchain (CS-B, G-2)",
+                    "Text": "Blockchain (CS-B, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-313",
                     "TimeIntervals": [
@@ -7231,7 +7231,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "DIP (CS-B, G-2)",
+                    "Text": "DIP (CS-B, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-314",
                     "TimeIntervals": [
@@ -7407,7 +7407,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "SMD (CS-B, G-3)",
+                    "Text": "SMD (CS-B, G-3)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "C-110",
                     "TimeIntervals": [
@@ -7481,7 +7481,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PPIT (CS-C)",
+                    "Text": "PPIT (CS-C)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-311",
                     "TimeIntervals": [
@@ -7515,7 +7515,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Info Sec (CS-C)",
+                    "Text": "Info Sec (CS-C)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-311",
                     "TimeIntervals": [
@@ -7623,7 +7623,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Gen AI (CS-C, G-1)",
+                    "Text": "Gen AI (CS-C, G-1)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-306",
                     "TimeIntervals": [
@@ -7771,7 +7771,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PPIT (CS-D)",
+                    "Text": "PPIT (CS-D)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
@@ -7805,7 +7805,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Info Sec (CS-D)",
+                    "Text": "Info Sec (CS-D)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
@@ -7913,7 +7913,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Gen AI (CS-D, G-1)",
+                    "Text": "Gen AI (CS-D, G-1)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-306",
                     "TimeIntervals": [
@@ -7987,7 +7987,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Info Sec (CS-E)",
+                    "Text": "Info Sec (CS-E)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-313",
                     "TimeIntervals": [
@@ -8021,7 +8021,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PPIT (CS-E)",
+                    "Text": "PPIT (CS-E)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-313",
                     "TimeIntervals": [
@@ -8839,7 +8839,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Embedded Robo (CS-Robo)",
+                    "Text": "Embedded Robo (CS-Robo)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
@@ -8913,7 +8913,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Tech Mgt (CS)",
+                    "Text": "Tech Mgt (CS)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-311",
                     "TimeIntervals": [
@@ -25733,7 +25733,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Comp Net (DS-A)",
+                    "Text": "Comp Net (DS-A)Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-412",
                     "TimeIntervals": [
@@ -25767,7 +25767,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Deep Learning (DS-A)",
+                    "Text": "Deep Learning (DS-A)Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-412",
                     "TimeIntervals": [
@@ -26049,7 +26049,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Deep Learning (DS-B)",
+                    "Text": "Deep Learning (DS-B) Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-413",
                     "TimeIntervals": [
@@ -26083,7 +26083,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Comp Net (DS-B)",
+                    "Text": "Comp Net (DS-B)Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-413",
                     "TimeIntervals": [
@@ -26117,7 +26117,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Comp Net Lab (DS-B)",
+                    "Text": "Comp Net Lab (DS-B)Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "C-Margala 3",
                     "TimeIntervals": [
@@ -26439,7 +26439,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PPIT (DS-C)",
+                    "Text": "PPIT (DS-C)Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-412",
                     "TimeIntervals": [
@@ -26473,7 +26473,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Info Sec (DS-C)",
+                    "Text": "Info Sec (DS-C)Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-412",
                     "TimeIntervals": [
@@ -26755,7 +26755,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Info Sec (DS-D)",
+                    "Text": "Info Sec (DS-D)Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-413",
                     "TimeIntervals": [
@@ -26789,7 +26789,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PPIT (DS-D)",
+                    "Text": "PPIT (DS-D)Cancelled",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-413",
                     "TimeIntervals": [
@@ -39390,7 +39390,7 @@
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "ML (AI, 22)",
+                      "Text": "ML (AI, 22)Cancelled",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "D-406",
                       "TimeIntervals": [
@@ -39836,7 +39836,7 @@
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "Comp Net (CS, 22)",
+                      "Text": "Comp Net (CS, 22)Cancelled",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "C-409",
                       "TimeIntervals": [
