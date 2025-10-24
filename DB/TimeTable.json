@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-24 20:56:23 UTC",
-    "local_time_pkt": "2025-10-25 01:56:23 AM PKT"
+    "last_updated_utc": "2025-10-24 21:05:38 UTC",
+    "local_time_pkt": "2025-10-25 02:05:38 AM PKT"
   },
   "BS": {
     "AI": {
@@ -2860,9 +2860,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -2878,7 +2878,7 @@
                     "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -3384,9 +3384,9 @@
                   "value": 510
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:15",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 615
                 }
               },
               "classes": [
@@ -3402,7 +3402,7 @@
                     "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
+                        "text": "08:30-10:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -3413,48 +3413,14 @@
             {
               "time": {
                 "start": {
-                  "text": "10:00",
+                  "text": "10:30",
                   "AM_PM": "AM",
-                  "value": 600
+                  "value": 630
                 },
                 "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (AI-B) 08:30-10:15",
-                    "CourseBatch": "BS AI (2024)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
-                  "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "11:15",
-                  "AM_PM": "AM",
-                  "value": 675
+                  "text": "01:15",
+                  "AM_PM": "PM",
+                  "value": 795
                 }
               },
               "classes": [
@@ -3470,7 +3436,7 @@
                     "RoomName": "C-Margala 4",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-11:15",
+                        "text": "10:30-01:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -3876,9 +3842,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -3894,7 +3860,7 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -3950,9 +3916,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -3968,42 +3934,8 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (AI-A) 11:30-01:15",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -4158,9 +4090,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -4176,7 +4108,7 @@
                     "RoomName": "C-401",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -4187,48 +4119,14 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
+                  "text": "03:00",
                   "AM_PM": "PM",
-                  "value": 780
+                  "value": 900
                 },
                 "end": {
-                  "text": "02:20",
+                  "text": "04:45",
                   "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (AI-A) 11:30-01:15",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
+                  "value": 1005
                 }
               },
               "classes": [
@@ -4244,41 +4142,7 @@
                     "RoomName": "C-401",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (AI-A) 03:00-04:45",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "03:00-04:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -4583,14 +4447,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -4606,41 +4470,7 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (AI-B) 09:00-10:45",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -4830,9 +4660,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -4848,7 +4678,7 @@
                     "RoomName": "C-310",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -4859,48 +4689,14 @@
             {
               "time": {
                 "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
+                  "text": "09:00",
+                  "AM_PM": "AM",
+                  "value": 540
                 },
                 "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-310",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (AI-B) 02:30-04:15",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-310",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "09:50",
-                  "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -4916,41 +4712,7 @@
                     "RoomName": "C-401",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (AI-B) 09:00-10:45",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -5251,14 +5013,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -5274,41 +5036,7 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (AI-C) 09:00-10:45",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -5459,14 +5187,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -5482,41 +5210,7 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (AI-C) 09:00-10:45",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -5532,9 +5226,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -5550,41 +5244,7 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (AI-C) 02:30-04:15",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -11765,14 +11425,14 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
+                  "text": "02:00",
                   "AM_PM": "PM",
-                  "value": 780
+                  "value": 840
                 },
                 "end": {
-                  "text": "02:20",
+                  "text": "03:45",
                   "AM_PM": "PM",
-                  "value": 860
+                  "value": 945
                 }
               },
               "classes": [
@@ -11788,41 +11448,7 @@
                     "RoomName": "D-302",
                     "TimeIntervals": [
                       {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "D-302",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Civics (CS-A) 02:00-03:45",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
+                        "text": "02:00-03:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -12256,9 +11882,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -12274,42 +11900,8 @@
                     "RoomName": "D-302",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "D-302",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Civics (CS-B) 11:30-01:15",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -12848,9 +12440,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -12866,41 +12458,7 @@
                     "RoomName": "D-301",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "D-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Civics (CS-C) 02:30-04:15",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -13402,9 +12960,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -13420,42 +12978,8 @@
                     "RoomName": "D-302",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "D-302",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Civics (CS-D) 11:30-01:15",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -13854,9 +13378,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -13872,41 +13396,7 @@
                     "RoomName": "D-301",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "D-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Civics (CS-E) 02:30-04:15",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -14340,9 +13830,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -14358,41 +13848,7 @@
                     "RoomName": "D-303",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "D-303",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Civics (CS-F) 02:30-04:15",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-303",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -14932,9 +14388,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -14950,41 +14406,7 @@
                     "RoomName": "D-301",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "D-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Civics (CS-G) 02:30-04:15",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -15522,9 +14944,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -15540,42 +14962,8 @@
                     "RoomName": "C-302",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-302",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-A) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -15694,9 +15082,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -15712,41 +15100,7 @@
                     "RoomName": "C-301",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-A) 02:30-04:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -15798,9 +15152,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -15816,42 +15170,8 @@
                     "RoomName": "C-302",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-302",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-A) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -16086,9 +15406,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -16104,42 +15424,8 @@
                     "RoomName": "C-304",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-304",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-B) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-304",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -16287,14 +15573,14 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
+                  "text": "02:00",
                   "AM_PM": "PM",
-                  "value": 780
+                  "value": 840
                 },
                 "end": {
-                  "text": "02:20",
+                  "text": "03:45",
                   "AM_PM": "PM",
-                  "value": 860
+                  "value": 945
                 }
               },
               "classes": [
@@ -16310,41 +15596,7 @@
                     "RoomName": "C-302",
                     "TimeIntervals": [
                       {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-302",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-B) 02:00-03:45",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
+                        "text": "02:00-03:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -16357,14 +15609,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -16380,41 +15632,7 @@
                     "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-B) 09:00-10:45",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -16648,9 +15866,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -16666,41 +15884,7 @@
                     "RoomName": "C-303",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-303",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-C) 02:30-04:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-303",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -16718,9 +15902,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -16736,42 +15920,8 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-C) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -16926,9 +16076,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -16944,42 +16094,8 @@
                     "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-C) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -17212,9 +16328,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -17230,41 +16346,7 @@
                     "RoomName": "C-304",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-304",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-D) 02:30-04:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-304",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -17277,14 +16359,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -17300,41 +16382,7 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-D) 09:00-10:45",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -17490,9 +16538,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -17508,42 +16556,8 @@
                     "RoomName": "C-303",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-303",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-D) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-303",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -17674,9 +16688,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -17692,42 +16706,8 @@
                     "RoomName": "C-301",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-E) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -17880,9 +16860,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -17898,41 +16878,7 @@
                     "RoomName": "C-301",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-E) 02:30-04:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -17950,9 +16896,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -17968,42 +16914,8 @@
                     "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-E) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -18238,9 +17150,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -18256,42 +17168,8 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-F) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -18444,9 +17322,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -18462,41 +17340,7 @@
                     "RoomName": "C-302",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-302",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-F) 02:30-04:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -18509,14 +17353,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -18532,41 +17376,7 @@
                     "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-F) 09:00-10:45",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -18802,9 +17612,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -18820,42 +17630,8 @@
                     "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-G) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -19082,9 +17858,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -19100,42 +17876,8 @@
                     "RoomName": "C-301",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-G) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -19186,9 +17928,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -19204,41 +17946,7 @@
                     "RoomName": "C-302",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-302",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-G) 02:30-04:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-302",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -19433,14 +18141,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -19456,41 +18164,7 @@
                     "RoomName": "C-305",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-H) 09:00-10:45",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -19682,9 +18356,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -19700,42 +18374,8 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-H) 11:30-01:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -19888,9 +18528,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -19906,41 +18546,7 @@
                     "RoomName": "C-304",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-304",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-H) 02:30-04:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-304",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -20038,9 +18644,9 @@
                   "value": 510
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:15",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 615
                 }
               },
               "classes": [
@@ -20056,41 +18662,7 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CS-J) 08:30-10:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "08:30-10:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -20142,9 +18714,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -20160,41 +18732,7 @@
                     "RoomName": "C-303",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-303",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CS-J) 02:30-04:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-303",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -20309,43 +18847,9 @@
             {
               "time": {
                 "start": {
-                  "text": "02:30",
+                  "text": "03:30",
                   "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-303",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CS-J) 03:30-05:15",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-303",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
+                  "value": 930
                 },
                 "end": {
                   "text": "05:15",
@@ -20366,7 +18870,7 @@
                     "RoomName": "C-303",
                     "TimeIntervals": [
                       {
-                        "text": "03:55-05:15",
+                        "text": "03:30-05:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -23308,9 +21812,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -23326,41 +21830,7 @@
                     "RoomName": "D-414",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "D-414",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (CY-A) 02:30-04:15",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "D-414",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -24002,9 +22472,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -24020,41 +22490,7 @@
                     "RoomName": "D-504",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "D-504",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (CY-B) 02:30-04:15",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "D-504",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -24279,14 +22715,14 @@
             {
               "time": {
                 "start": {
-                  "text": "02:30",
+                  "text": "03:00",
                   "AM_PM": "PM",
-                  "value": 870
+                  "value": 900
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:45",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 1005
                 }
               },
               "classes": [
@@ -24302,41 +22738,7 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CY-A) 03:00-04:45",
-                    "CourseBatch": "BS CY (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "03:00-04:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -24521,14 +22923,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -24544,7 +22946,7 @@
                     "RoomName": "C-304",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -24555,48 +22957,14 @@
             {
               "time": {
                 "start": {
-                  "text": "10:00",
+                  "text": "11:00",
                   "AM_PM": "AM",
-                  "value": 600
+                  "value": 660
                 },
                 "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-304",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CY-A) 09:00-10:45",
-                    "CourseBatch": "BS CY (2025)",
-                    "RoomName": "C-304",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
+                  "text": "12:45",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 765
                 }
               },
               "classes": [
@@ -24612,7 +22980,7 @@
                     "RoomName": "C-304",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:00-12:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -24705,14 +23073,14 @@
             {
               "time": {
                 "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
+                  "text": "12:30",
+                  "AM_PM": "PM",
+                  "value": 750
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "02:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 855
                 }
               },
               "classes": [
@@ -24728,41 +23096,7 @@
                     "RoomName": "C-404",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-404",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CY-B) 12:30-02:15",
-                    "CourseBatch": "BS CY (2025)",
-                    "RoomName": "C-404",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
+                        "text": "12:30-02:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -24952,9 +23286,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -24970,7 +23304,7 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -24981,48 +23315,14 @@
             {
               "time": {
                 "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
+                  "text": "09:00",
+                  "AM_PM": "AM",
+                  "value": 540
                 },
                 "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CY-B) 02:30-04:15",
-                    "CourseBatch": "BS CY (2025)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "09:50",
-                  "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -25038,41 +23338,7 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CY-B) 09:00-10:45",
-                    "CourseBatch": "BS CY (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -25342,9 +23608,9 @@
                   "value": 600
                 },
                 "end": {
-                  "text": "11:20",
+                  "text": "11:45",
                   "AM_PM": "AM",
-                  "value": 680
+                  "value": 705
                 }
               },
               "classes": [
@@ -25360,41 +23626,7 @@
                     "RoomName": "C-404",
                     "TimeIntervals": [
                       {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-404",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (CY-C) 10:00-11:45",
-                    "CourseBatch": "BS CY (2025)",
-                    "RoomName": "C-404",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
+                        "text": "10:00-11:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -25545,48 +23777,14 @@
             {
               "time": {
                 "start": {
-                  "text": "10:00",
+                  "text": "11:00",
                   "AM_PM": "AM",
-                  "value": 600
+                  "value": 660
                 },
                 "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (CY-C) 11:00-12:45",
-                    "CourseBatch": "BS CY (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
+                  "text": "12:45",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 765
                 }
               },
               "classes": [
@@ -25602,7 +23800,7 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:00-12:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -25683,14 +23881,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -25706,41 +23904,7 @@
                     "RoomName": "C-404",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-404",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (CY-C) 09:00-10:45",
-                    "CourseBatch": "BS CY (2025)",
-                    "RoomName": "C-404",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -28853,14 +27017,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:30",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 570
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "11:15",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 675
                 }
               },
               "classes": [
@@ -28876,41 +27040,7 @@
                     "RoomName": "D-413",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "D-413",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (DS-A) 09:30-11:15",
-                    "CourseBatch": "BS DS (2024)",
-                    "RoomName": "D-413",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:30-11:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -29412,9 +27542,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -29430,41 +27560,7 @@
                     "RoomName": "D-413",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "D-413",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (DS-B) 02:30-04:15",
-                    "CourseBatch": "BS DS (2024)",
-                    "RoomName": "D-413",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -29757,14 +27853,14 @@
             {
               "time": {
                 "start": {
-                  "text": "02:30",
+                  "text": "03:00",
                   "AM_PM": "PM",
-                  "value": 870
+                  "value": 900
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:45",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 1005
                 }
               },
               "classes": [
@@ -29780,41 +27876,7 @@
                     "RoomName": "C-309",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-309",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (DS-A) 03:00-04:45",
-                    "CourseBatch": "BS DS (2025)",
-                    "RoomName": "C-309",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "03:00-04:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -29970,9 +28032,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -29988,7 +28050,7 @@
                     "RoomName": "C-309",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -29999,48 +28061,14 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
+                  "text": "02:00",
                   "AM_PM": "PM",
-                  "value": 780
+                  "value": 840
                 },
                 "end": {
-                  "text": "02:20",
+                  "text": "03:45",
                   "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-309",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (DS-A) 11:30-01:15",
-                    "CourseBatch": "BS DS (2025)",
-                    "RoomName": "C-309",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
+                  "value": 945
                 }
               },
               "classes": [
@@ -30056,41 +28084,7 @@
                     "RoomName": "C-309",
                     "TimeIntervals": [
                       {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-309",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (DS-A) 02:00-03:45",
-                    "CourseBatch": "BS DS (2025)",
-                    "RoomName": "C-309",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
+                        "text": "02:00-03:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -30321,14 +28315,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -30344,41 +28338,7 @@
                     "RoomName": "C-401",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (DS-B) 09:00-10:45",
-                    "CourseBatch": "BS DS (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -30568,9 +28528,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -30586,7 +28546,7 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -30597,48 +28557,14 @@
             {
               "time": {
                 "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
+                  "text": "09:00",
+                  "AM_PM": "AM",
+                  "value": 540
                 },
                 "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (DS-B) 02:30-04:15Cancelled",
-                    "CourseBatch": "BS DS (2025)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "09:50",
-                  "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -30654,41 +28580,7 @@
                     "RoomName": "C-405",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-405",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (DS-B) 09:00-10:45",
-                    "CourseBatch": "BS DS (2025)",
-                    "RoomName": "C-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -33606,9 +31498,9 @@
                   "value": 780
                 },
                 "end": {
-                  "text": "02:20",
+                  "text": "02:45",
                   "AM_PM": "PM",
-                  "value": 860
+                  "value": 885
                 }
               },
               "classes": [
@@ -33624,41 +31516,7 @@
                     "RoomName": "C-405",
                     "TimeIntervals": [
                       {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "C-405",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (SE-A)  01:00-02:45",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
+                        "text": "01:00-02:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -34261,14 +32119,14 @@
             {
               "time": {
                 "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
+                  "text": "12:45",
+                  "AM_PM": "PM",
+                  "value": 765
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "02:30",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 870
                 }
               },
               "classes": [
@@ -34284,41 +32142,7 @@
                     "RoomName": "C-406",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "C-406",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (SE-B) 12:45-02:30",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-406",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
+                        "text": "12:45-02:30",
                         "AM_PM": "PM"
                       }
                     ]
@@ -34578,9 +32402,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -34596,41 +32420,7 @@
                     "RoomName": "C-405",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "C-405",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Psychology (SE-C) 02:30-04:15",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -34959,14 +32749,14 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
+                  "text": "02:00",
                   "AM_PM": "PM",
-                  "value": 780
+                  "value": 840
                 },
                 "end": {
-                  "text": "02:20",
+                  "text": "03:45",
                   "AM_PM": "PM",
-                  "value": 860
+                  "value": 945
                 }
               },
               "classes": [
@@ -34982,41 +32772,7 @@
                     "RoomName": "C-307",
                     "TimeIntervals": [
                       {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (SE-A) 02:00-03:45",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
+                        "text": "02:00-03:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -35310,9 +33066,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -35328,41 +33084,7 @@
                     "RoomName": "C-301",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (SE-A) 02:30-04:15",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -35378,9 +33100,9 @@
                   "value": 690
                 },
                 "end": {
-                  "text": "12:50",
+                  "text": "01:15",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 795
                 }
               },
               "classes": [
@@ -35396,7 +33118,7 @@
                     "RoomName": "C-308",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:30-01:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -35602,9 +33324,9 @@
                   "value": 870
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:15",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 975
                 }
               },
               "classes": [
@@ -35620,41 +33342,7 @@
                     "RoomName": "C-402",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-402",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (SE-B) 02:30-04:15",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-402",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "02:30-04:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -35909,14 +33597,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -35932,7 +33620,7 @@
                     "RoomName": "C-309",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -35943,82 +33631,14 @@
             {
               "time": {
                 "start": {
-                  "text": "10:00",
+                  "text": "11:00",
                   "AM_PM": "AM",
-                  "value": 600
+                  "value": 660
                 },
                 "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-309",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (SE-B) 09:00-10:45",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-309",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-309",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (SE-B) 11:00-12:45",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-309",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
+                  "text": "12:45",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 765
                 }
               },
               "classes": [
@@ -36034,7 +33654,7 @@
                     "RoomName": "C-309",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:00-12:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -36197,14 +33817,14 @@
             {
               "time": {
                 "start": {
-                  "text": "02:30",
+                  "text": "03:00",
                   "AM_PM": "PM",
-                  "value": 870
+                  "value": 900
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:45",
                   "AM_PM": "PM",
-                  "value": 950
+                  "value": 1005
                 }
               },
               "classes": [
@@ -36220,41 +33840,7 @@
                     "RoomName": "C-304",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-304",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (SE-C) 03:00-04:45",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-304",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "03:00-04:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -36444,9 +34030,9 @@
                   "value": 780
                 },
                 "end": {
-                  "text": "02:20",
+                  "text": "02:45",
                   "AM_PM": "PM",
-                  "value": 860
+                  "value": 885
                 }
               },
               "classes": [
@@ -36462,7 +34048,7 @@
                     "RoomName": "C-401",
                     "TimeIntervals": [
                       {
-                        "text": "01:00-02:20",
+                        "text": "01:00-02:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -36473,48 +34059,14 @@
             {
               "time": {
                 "start": {
-                  "text": "02:30",
+                  "text": "03:00",
                   "AM_PM": "PM",
-                  "value": 870
+                  "value": 900
                 },
                 "end": {
-                  "text": "03:50",
+                  "text": "04:45",
                   "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (SE-C) 01:00-02:45",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
+                  "value": 1005
                 }
               },
               "classes": [
@@ -36530,41 +34082,7 @@
                     "RoomName": "C-401",
                     "TimeIntervals": [
                       {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (SE-C) 03:00-04:45Cancelled",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
+                        "text": "03:00-04:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -36691,14 +34209,14 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
+                  "text": "02:00",
                   "AM_PM": "PM",
-                  "value": 780
+                  "value": 840
                 },
                 "end": {
-                  "text": "02:20",
+                  "text": "03:45",
                   "AM_PM": "PM",
-                  "value": 860
+                  "value": 945
                 }
               },
               "classes": [
@@ -36714,41 +34232,7 @@
                     "RoomName": "C-301",
                     "TimeIntervals": [
                       {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-301",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Func Eng (SE-D) 02:00-03:45",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-301",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
+                        "text": "02:00-03:45",
                         "AM_PM": "PM"
                       }
                     ]
@@ -36863,14 +34347,14 @@
             {
               "time": {
                 "start": {
-                  "text": "08:30",
+                  "text": "09:00",
                   "AM_PM": "AM",
-                  "value": 510
+                  "value": 540
                 },
                 "end": {
-                  "text": "09:50",
+                  "text": "10:45",
                   "AM_PM": "AM",
-                  "value": 590
+                  "value": 645
                 }
               },
               "classes": [
@@ -36886,7 +34370,7 @@
                     "RoomName": "C-405",
                     "TimeIntervals": [
                       {
-                        "text": "08:30-09:50",
+                        "text": "09:00-10:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -36897,82 +34381,14 @@
             {
               "time": {
                 "start": {
-                  "text": "10:00",
+                  "text": "11:00",
                   "AM_PM": "AM",
-                  "value": 600
+                  "value": 660
                 },
                 "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Ideology of Pak",
-                  "type": "Class",
-                  "location": "C-405",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Ideology of Pak (SE-D) 09:00-10:45",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Islamic",
-                  "type": "Class",
-                  "location": "C-405",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Islamic (SE-D) 11:00-12:45",
-                    "CourseBatch": "BS SE (2025)",
-                    "RoomName": "C-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
+                  "text": "12:45",
                   "AM_PM": "PM",
-                  "value": 770
+                  "value": 765
                 }
               },
               "classes": [
@@ -36988,7 +34404,7 @@
                     "RoomName": "C-405",
                     "TimeIntervals": [
                       {
-                        "text": "11:30-12:50",
+                        "text": "11:00-12:45",
                         "AM_PM": "AM"
                       }
                     ]
@@ -43585,9 +41001,9 @@
                     "value": 690
                   },
                   "end": {
-                    "text": "12:50",
+                    "text": "02:15",
                     "AM_PM": "PM",
-                    "value": 770
+                    "value": 855
                   }
                 },
                 "classes": [
@@ -43603,42 +41019,8 @@
                       "RoomName": "B-229",
                       "TimeIntervals": [
                         {
-                          "text": "11:30-12:50",
+                          "text": "11:30-02:15",
                           "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FCS",
-                    "type": "Class",
-                    "location": "B-229",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FCS (11:30-02:15)",
-                      "CourseBatch": "",
-                      "RoomName": "B-229",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
                         }
                       ]
                     }
