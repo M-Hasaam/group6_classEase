@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-24 04:58:51 UTC",
-    "local_time_pkt": "2025-10-24 09:58:51 AM PKT"
+    "last_updated_utc": "2025-10-24 05:16:15 UTC",
+    "local_time_pkt": "2025-10-24 10:16:15 AM PKT"
   },
   "BS": {
     "AI": {
@@ -28577,7 +28577,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "DW&BI Lab (DS-C)",
+                    "Text": "DW&BI Lab (DS-C)Rawal -3",
                     "CourseBatch": "BS DS (2023)",
                     "RoomName": "C-Margala 3",
                     "TimeIntervals": [
