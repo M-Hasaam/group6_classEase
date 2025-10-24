@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-10-24 12:17:11 UTC",
-    "local_time_pkt": "2025-10-24 05:17:11 PM PKT"
+    "last_updated_utc": "2025-10-24 13:01:07 UTC",
+    "local_time_pkt": "2025-10-24 06:01:08 PM PKT"
   },
   "BS": {
     "AI": {
@@ -1891,7 +1891,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "OS Lab (AI-A)(Mehran I)",
+                    "Text": "OS Lab (AI-A)",
                     "CourseBatch": "BS AI (2023)",
                     "RoomName": "D-IT Lab 3",
                     "TimeIntervals": [
@@ -3543,6 +3543,42 @@
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "D-404",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (AI-C)ReSch",
+                    "CourseBatch": "BS AI (2024)",
+                    "RoomName": "D-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
                         "AM_PM": "PM"
                       }
                     ]
@@ -14086,80 +14122,6 @@
                 }
               ]
             }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-405",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CS-E)ReSch",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "C-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-405",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CS-E)ReSch",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "C-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         "F": {
@@ -15126,6 +15088,316 @@
                       {
                         "text": "08:30-09:50",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "null": {
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "D-IT Lab 4",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "D-IT Lab 4",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "11:15",
+                  "AM_PM": "AM",
+                  "value": 675
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "C-Margala 4",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "C-Margala 4",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-11:15",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "C-Margala 4",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "C-Margala 4",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "11:15",
+                  "AM_PM": "AM",
+                  "value": 675
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "Rawal 3 (B-232)",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "Rawal 3 (B-232)",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-11:15",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "Rawal 3 (B-232)",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "Rawal 3 (B-232)",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "C-Rawal 4",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "C-Rawal 4",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "A-Karakoram 3",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "A-Karakoram 3",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "11:15",
+                  "AM_PM": "AM",
+                  "value": 675
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "A-Mehran 1",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "A-Mehran 1",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-11:15",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "COAL Lab",
+                  "type": "Lab",
+                  "location": "A-Mehran 1",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "COAL Lab (CS) Sessional Exam",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "A-Mehran 1",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -18478,80 +18750,6 @@
                     }
                   ]
                 }
-              ],
-              "Friday": [
-                {
-                  "time": {
-                    "start": {
-                      "text": "10:00",
-                      "AM_PM": "AM",
-                      "value": 600
-                    },
-                    "end": {
-                      "text": "11:20",
-                      "AM_PM": "AM",
-                      "value": 680
-                    }
-                  },
-                  "classes": [
-                    {
-                      "name": "Func Eng Lab",
-                      "type": "Lab",
-                      "location": "C-403",
-                      "sub_Section": null,
-                      "info": [
-                        "ReSchedule"
-                      ],
-                      "detailed": {
-                        "Text": "Func Eng Lab (CS-F1) 10:00-12:45 ReSch",
-                        "CourseBatch": "BS CS (2025)",
-                        "RoomName": "C-403",
-                        "TimeIntervals": [
-                          {
-                            "text": "10:00-11:20",
-                            "AM_PM": "AM"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                {
-                  "time": {
-                    "start": {
-                      "text": "11:30",
-                      "AM_PM": "AM",
-                      "value": 690
-                    },
-                    "end": {
-                      "text": "12:50",
-                      "AM_PM": "PM",
-                      "value": 770
-                    }
-                  },
-                  "classes": [
-                    {
-                      "name": "Func Eng Lab",
-                      "type": "Lab",
-                      "location": "C-403",
-                      "sub_Section": null,
-                      "info": [
-                        "ReSchedule"
-                      ],
-                      "detailed": {
-                        "Text": "Func Eng Lab (CS-F1) 10:00-12:45 ReSch",
-                        "CourseBatch": "BS CS (2025)",
-                        "RoomName": "C-403",
-                        "TimeIntervals": [
-                          {
-                            "text": "11:30-12:50",
-                            "AM_PM": "AM"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
               ]
             },
             "F2": {
@@ -19151,80 +19349,6 @@
               ]
             }
           ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Func Eng (CS-G) 10:30-12:15 ReSch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Func Eng (CS-G) 10:30-12:15 ReSch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
           "Subsections": {
             "G1": {
               "Wednesday": [
@@ -19368,6 +19492,42 @@
                       {
                         "text": "10:00-11:20",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Calculus",
+                  "type": "Class",
+                  "location": "C-305",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Calculus (CS-H)ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-305",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -23520,44 +23680,6 @@
                 }
               ]
             }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Psychology",
-                  "type": "Class",
-                  "location": "C-305",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Psychology (CY-A) ReSch",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "C-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         "B": {
@@ -26340,80 +26462,6 @@
                 }
               ]
             }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Comp Net Lab",
-                  "type": "Lab",
-                  "location": "C-303",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Comp Net Lab (DS-B) ReSch",
-                    "CourseBatch": "BS DS (2022)",
-                    "RoomName": "C-303",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Comp Net Lab",
-                  "type": "Lab",
-                  "location": "C-303",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Comp Net Lab (DS-B) ReSch",
-                    "CourseBatch": "BS DS (2022)",
-                    "RoomName": "C-303",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         "C": {
@@ -28031,6 +28079,80 @@
           ]
         },
         "C": {
+          "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "DAV",
+                  "type": "Class",
+                  "location": "C-110",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "DAV (DS-C)D-412 ReSch",
+                    "CourseBatch": "BS DS (2023)",
+                    "RoomName": "C-110",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "02:15",
+                  "AM_PM": "PM",
+                  "value": 855
+                }
+              },
+              "classes": [
+                {
+                  "name": "DW&BI Lab",
+                  "type": "Lab",
+                  "location": "D-IT Lab 4",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "DW&BI Lab (DS-C)ReSch",
+                    "CourseBatch": "BS DS (2023)",
+                    "RoomName": "D-IT Lab 4",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-02:15",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "Tuesday": [
             {
               "time": {
@@ -28467,7 +28589,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "DW&BI Lab (DS-C)Rawal -3",
+                    "Text": "DW&BI Lab (DS-C)",
                     "CourseBatch": "BS DS (2023)",
                     "RoomName": "C-Margala 3",
                     "TimeIntervals": [
@@ -31132,44 +31254,6 @@
                     "Text": "Gen AI (SE-A)",
                     "CourseBatch": "BS SE (2022)",
                     "RoomName": "D-416",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Fund of SPM",
-                  "type": "Class",
-                  "location": "C-404",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Fund of SPM (SE-A) ReSch",
-                    "CourseBatch": "BS SE (2022)",
-                    "RoomName": "C-404",
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
@@ -33858,80 +33942,6 @@
                 }
               ]
             }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Prob & Stats",
-                  "type": "Class",
-                  "location": "C-304",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Prob & Stats (SE-A) ReSch",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-304",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-402",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (SE-A) 11:45-01:05 ReSch",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-402",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         "B": {
@@ -34408,44 +34418,6 @@
                     "Text": "DLD (SE-B)",
                     "CourseBatch": "BS SE (2024)",
                     "RoomName": "C-407",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-402",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (SE-B) 10:20-11:40 ReSch",
-                    "CourseBatch": "BS SE (2024)",
-                    "RoomName": "C-402",
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
@@ -39249,80 +39221,6 @@
                   }
                 ]
               }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "OOP Lab",
-                    "type": "Lab",
-                    "location": "C-302",
-                    "sub_Section": null,
-                    "info": [
-                      "ReSchedule"
-                    ],
-                    "detailed": {
-                      "Text": "OOP Lab (AI-A) ReSch",
-                      "CourseBatch": "Repeat Courses",
-                      "RoomName": "C-302",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "OOP Lab",
-                    "type": "Lab",
-                    "location": "C-302",
-                    "sub_Section": null,
-                    "info": [
-                      "ReSchedule"
-                    ],
-                    "detailed": {
-                      "Text": "OOP Lab (AI-A) ReSch",
-                      "CourseBatch": "Repeat Courses",
-                      "RoomName": "C-302",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             ]
           },
           "B": {
@@ -39756,7 +39654,7 @@
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "COAL Lab (CS-A, 23)Cancelled",
+                      "Text": "COAL Lab (CS-A, 23)",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "C-Rawal 1",
                       "TimeIntervals": [
@@ -40797,44 +40695,6 @@
                   }
                 ]
               }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Comp Net",
-                    "type": "Class",
-                    "location": "C-406",
-                    "sub_Section": null,
-                    "info": [
-                      "ReSchedule"
-                    ],
-                    "detailed": {
-                      "Text": "Comp Net (CY, 23) ReSch",
-                      "CourseBatch": "Repeat Courses",
-                      "RoomName": "C-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             ]
           }
         }
@@ -40942,80 +40802,6 @@
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ],
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "DB Lab",
-                    "type": "Lab",
-                    "location": "C-401",
-                    "sub_Section": null,
-                    "info": [
-                      "ReSchedule"
-                    ],
-                    "detailed": {
-                      "Text": "DB Lab (DS, 23)ReSch",
-                      "CourseBatch": "Repeat Courses",
-                      "RoomName": "C-401",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "DB Lab",
-                    "type": "Lab",
-                    "location": "C-401",
-                    "sub_Section": null,
-                    "info": [
-                      "ReSchedule"
-                    ],
-                    "detailed": {
-                      "Text": "DB Lab (DS, 23)ReSch",
-                      "CourseBatch": "Repeat Courses",
-                      "RoomName": "C-401",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
@@ -41342,7 +41128,7 @@
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "OS Lab (SE-B, 22)Mehran - I",
+                      "Text": "OS Lab (SE-B, 22)",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "C-Margala 3",
                       "TimeIntervals": [
@@ -43895,336 +43681,6 @@
                         {
                           "text": "01:00-02:20",
                           "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "CS": {
-        "null": {
-          "null": {
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Data St",
-                    "type": "Lab",
-                    "location": "D-IT Lab 4",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Data St (CS) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "D-IT Lab 4",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Data St",
-                    "type": "Lab",
-                    "location": "C-Margala 4",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Data St (CS) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "C-Margala 4",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Data St",
-                    "type": "Lab",
-                    "location": "Rawal 3 (B-232)",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Data St (CS) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "Rawal 3 (B-232)",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Data St",
-                    "type": "Lab",
-                    "location": "C-Rawal 4",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Data St (CS) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "C-Rawal 4",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Data St",
-                    "type": "Lab",
-                    "location": "A-Karakoram 3",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Data St (CS) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "A-Karakoram 3",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Data St",
-                    "type": "Lab",
-                    "location": "A-Mehran 1",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Data St (CS) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "A-Mehran 1",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "CSL": {
-        "null": {
-          "null": {
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "CSL",
-                    "type": "Class",
-                    "location": "C-308",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "CSL",
-                      "CourseBatch": "",
-                      "RoomName": "C-308",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "CY": {
-        "null": {
-          "null": {
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "11:15",
-                    "AM_PM": "AM",
-                    "value": 675
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "DLD",
-                    "type": "Lab",
-                    "location": "Rawal 3 (B-232)",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "DLD (CY) Lab Exam 10:20-11:20",
-                      "CourseBatch": "",
-                      "RoomName": "Rawal 3 (B-232)",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-11:15",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "11:15",
-                    "AM_PM": "AM",
-                    "value": 675
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "DLD",
-                    "type": "Lab",
-                    "location": "A-Mehran 1",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "DLD (CY) Lab Exam 10:20-11:20",
-                      "CourseBatch": "",
-                      "RoomName": "A-Mehran 1",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-11:15",
-                          "AM_PM": "AM"
                         }
                       ]
                     }
@@ -47320,6 +46776,142 @@
               {
                 "time": {
                   "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-401",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-401",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-401",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-401",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-401",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-401",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-401",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-401",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
                     "text": "08:30",
                     "AM_PM": "AM",
                     "value": 510
@@ -47344,6 +46936,74 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-402",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-402",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-402",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-402",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
                           "AM_PM": "AM"
                         }
                       ]
@@ -47446,6 +47106,74 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
                           "AM_PM": "AM"
                         }
                       ]
@@ -47548,6 +47276,74 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-404",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-404",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-404",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-404",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
                           "AM_PM": "AM"
                         }
                       ]
@@ -47650,6 +47446,74 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-405",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-405",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-405",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-405",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
                           "AM_PM": "AM"
                         }
                       ]
@@ -47752,6 +47616,40 @@
                       "TimeIntervals": [
                         {
                           "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-406",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-406",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
                           "AM_PM": "AM"
                         }
                       ]
@@ -47851,6 +47749,176 @@
                       "Text": "FYP/Thesis Evaluations",
                       "CourseBatch": "",
                       "RoomName": "C-406",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-407",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-407",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-407",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-407",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FYP/Thesis Evaluations",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FYP/Thesis Evaluations",
+                      "CourseBatch": "",
+                      "RoomName": "C-407",
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
@@ -48454,74 +48522,6 @@
                     }
                   }
                 ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "11:15",
-                    "AM_PM": "AM",
-                    "value": 675
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "Rawal 3 (B-232)",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "Rawal 3 (B-232)",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-11:15",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "11:15",
-                    "AM_PM": "AM",
-                    "value": 675
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "A-Mehran 1",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "A-Mehran 1",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-11:15",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
               }
             ],
             "Wednesday": [
@@ -49055,184 +49055,6 @@
           }
         }
       },
-      "Reserved for Sir. Bilal Khalid": {
-        "null": {
-          "null": {
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for Sir. Bilal Khalid",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for Sir. Bilal Khalid",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for Sir. Bilal Khalid",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for Sir. Bilal Khalid",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for Sir. Bilal Khalid",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for Sir. Bilal Khalid",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for Sir. Bilal Khalid",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for Sir. Bilal Khalid",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for Sir. Bilal Khalid",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for Sir. Bilal Khalid",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
       "Reserved.": {
         "null": {
           "null": {
@@ -49278,7 +49100,7 @@
       "SE": {
         "null": {
           "null": {
-            "Friday": [
+            "Monday": [
               {
                 "time": {
                   "start": {
@@ -49294,47 +49116,13 @@
                 },
                 "classes": [
                   {
-                    "name": "DLD",
-                    "type": "Lab",
-                    "location": "C-Margala 4",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "DLD (SE) Lab Exam",
-                      "CourseBatch": "",
-                      "RoomName": "C-Margala 4",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-11:15",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "11:15",
-                    "AM_PM": "AM",
-                    "value": 675
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "DLD",
+                    "name": "Data St Lab",
                     "type": "Lab",
                     "location": "Rawal 3 (B-232)",
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "DLD (SE) Lab Exam",
+                      "Text": "Data St Lab (SE) (Sessional Exam)",
                       "CourseBatch": "",
                       "RoomName": "Rawal 3 (B-232)",
                       "TimeIntervals": [
@@ -49362,13 +49150,13 @@
                 },
                 "classes": [
                   {
-                    "name": "DLD",
+                    "name": "Data St Lab",
                     "type": "Lab",
                     "location": "A-Mehran 1",
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
-                      "Text": "DLD (SE) Lab Exam",
+                      "Text": "Data St Lab (SE) (Sessional Exam)",
                       "CourseBatch": "",
                       "RoomName": "A-Mehran 1",
                       "TimeIntervals": [
@@ -49413,82 +49201,6 @@
                       "Text": "SES",
                       "CourseBatch": "",
                       "RoomName": "C-301",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "SES Welcome": {
-        "null": {
-          "null": {
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "SES Welcome",
-                    "type": "Class",
-                    "location": "C-307",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "SES Welcome",
-                      "CourseBatch": "",
-                      "RoomName": "C-307",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "SES Welcome",
-                    "type": "Class",
-                    "location": "C-307",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "SES Welcome",
-                      "CourseBatch": "",
-                      "RoomName": "C-307",
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
