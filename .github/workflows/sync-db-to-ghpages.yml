@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'FrontEnd_Web/public/DB/**'  # only trigger when DB folder changes
+  workflow_dispatch:  # 👈 allows manual trigger from Actions tab
 
 jobs:
   sync:
