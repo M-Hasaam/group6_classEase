@@ -1,4 +1,4 @@
-name: 🚀 syn main DB to github_pages
+name: 🚀 Auto-Sync Main → GitHub Pages (DB Updates Only)
 
 on:
   push:
