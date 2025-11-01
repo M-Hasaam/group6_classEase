@@ -1,4 +1,4 @@
-name: 🚀 Deploy React App to GitHub Pages
+name: 🚀 syn main DB to github_pages
 
 on:
   push:
