@@ -3,20 +3,20 @@ name: 🚀 Deploy to GitHub Pages
 on:
   push:
     branches:
-      - github_io       # whenever this branch is updated (code/DB/etc)
-  workflow_dispatch:    # manual trigger
+      - github_io # whenever this branch is updated (code/DB/etc)
+  workflow_dispatch: # manual trigger
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # required to push to gh-pages
+      contents: write # required to push to gh-pages
       pages: write
       id-token: write
 
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # your personal access token
+      GITHUB_TOKEN: ${{ secrets.GH_PAT }} # your personal access token
 
     steps:
       - name: 🧩 Checkout code
@@ -27,7 +27,8 @@ jobs:
 
       - name: 🏗️ Install dependencies
         run: |
-          npm ci
+          npm install
+
 
       - name: 🧱 Build project
         run: |
