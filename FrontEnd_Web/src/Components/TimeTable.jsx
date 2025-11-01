@@ -11,31 +11,43 @@ function StepSelection({ label, value, options, onChange }) {
       </label>
 
       <div className="flex flex-wrap justify-center gap-4">
-        {options.map((opt) => (
-          <label key={opt} className="cursor-pointer">
-            <input
-              type="radio"
-              name={label}
-              value={opt}
-              checked={value === opt}
-              onChange={() => onChange(opt)}
-              className="peer hidden"
-            />
-            <span
-              className={`block px-4 py-1 rounded-lg font-medium transition ${
-                value === opt
-                  ? "bg-gray-400 text-gray-900"
-                  : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-              }`}
-            >
-              {opt}
-            </span>
-          </label>
-        ))}
+        {options.map((opt) => {
+          const isBatchYear = label === "Batch Year";
+          const isSelected = isBatchYear
+            ? value.endsWith(opt) // ✅ handles short year like "25" matching "2025"
+            : value === opt;
+
+          return (
+            <label key={opt} className="cursor-pointer">
+              <input
+                type="radio"
+                name={label}
+                value={opt}
+                checked={isSelected}
+                onChange={() => onChange(opt)}
+                className="peer hidden"
+              />
+              <span
+                className={`block px-4 py-1 rounded-lg font-medium transition ${
+                  isSelected
+                    ? isBatchYear
+                      ? "bg-gray-500 text-gray-900" // darker for Batch Year
+                      : "bg-gray-500 text-gray-900"
+                    : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+                }`}
+              >
+                {opt}
+              </span>
+            </label>
+          );
+        })}
       </div>
     </div>
   );
 }
+
+
+
 
 /* ---------------------------------------------------
    Form Section
