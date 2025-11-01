@@ -1,0 +1,44 @@
+name: 🚀 Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - github_io       # whenever this branch is updated (code/DB/etc)
+  workflow_dispatch:    # manual trigger
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # required to push to gh-pages
+      pages: write
+      id-token: write
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # your personal access token
+
+    steps:
+      - name: 🧩 Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: github_io
+          token: ${{ secrets.GH_PAT }}
+
+      - name: 🏗️ Install dependencies
+        run: |
+          npm ci
+
+      - name: 🧱 Build project
+        run: |
+          npm run build
+
+      - name: 🚀 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          publish_branch: gh-pages
+          publish_dir: ./dist    # ⚠️ change to ./build if using CRA
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          force_orphan: true     # keeps gh-pages clean each time
