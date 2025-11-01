@@ -55,7 +55,6 @@ function FormSection({
   getBatchYears,
   getSections,
 }) {
-  // helper to filter and clean options (handles nulls + split)
   const cleanOptions = (options) => {
     const cleaned = new Set();
 
@@ -86,7 +85,6 @@ function FormSection({
 
   const sectionOptions = batchYear ? cleanOptions(getSections()) : [];
 
-  // auto-select null-only cases (if raw options only contain "null")
   useEffect(() => {
     const rawDept = getDepartments();
     if (
@@ -221,6 +219,7 @@ const FASTTimetable = () => {
   const [batchYear, setBatchYear] = useState("");
   const [section, setSection] = useState("");
   const [day, setDay] = useState("");
+  const [lastUpdated, setLastUpdated] = useState("");
 
   const loadTimetableData = async () => {
     setIsLoading(true);
@@ -228,6 +227,47 @@ const FASTTimetable = () => {
       const response = await fetch("DB/TimeTable.json?v=" + Date.now());
       const data = await response.json();
       setTimetableData(data);
+
+      // ✅ Extract and format last updated time
+      const localTime = data?.Update?.local_time_pkt || "";
+
+      const formatDateTime = (datetimeStr) => {
+        // Example input: "2025-10-25 02:05:38 AM PKT"
+        const parts = datetimeStr.split(" ");
+        const datePart = parts[0]; // "2025-10-25"
+        const timePart = parts[1] || ""; // "02:05:38"
+        const ampm = parts[2] || ""; // "AM"
+
+        // Format date → 25-Oct-2025
+        const [year, month, day] = datePart.split("-").map(Number);
+        const months = [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec",
+        ];
+        const formattedDate = `${day}-${months[month - 1]}-${year}`;
+
+        // Format time → 02:05 AM
+        let formattedTime = "";
+        if (timePart) {
+          const [hh, mm] = timePart.split(":");
+          formattedTime = `${hh}:${mm} ${ampm}`;
+        }
+
+        return `${formattedDate}${formattedTime ? " " + formattedTime : ""}`;
+      };
+
+      const formatted = formatDateTime(localTime);
+      setLastUpdated(formatted);
     } catch (error) {
       console.error("Error loading timetable data: ", error);
     } finally {
@@ -277,9 +317,6 @@ const FASTTimetable = () => {
         )
       : [];
 
-  /* ---------------------------------------------------
-     getDayData: returns structured data with subsections
-  ---------------------------------------------------- */
   const getDayData = (selectedDay) => {
     const sectionData =
       timetableData[program]?.[department]?.[batchYear]?.[section] || {};
@@ -355,9 +392,6 @@ const FASTTimetable = () => {
     };
   };
 
-  /* ---------------------------------------------------
-     renderTimetable: supports single day and Whole Week
-  ---------------------------------------------------- */
   const renderTimetable = () => {
     if (!program || !department || !batchYear || !section)
       return (
@@ -522,6 +556,13 @@ const FASTTimetable = () => {
             day={day}
             setDay={setDay}
           />
+        )}
+
+        {/* ✅ Last Update Display */}
+        {lastUpdated && (
+          <div className="text-center text-sm text-slate-400 mt-6">
+            Last updated: <span className="text-blue-400">{lastUpdated}</span>
+          </div>
         )}
       </div>
 
