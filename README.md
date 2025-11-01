@@ -6,11 +6,12 @@
 
 ## 🌐 Live Demos  
 
-| Platform | Link |
-|----------|------|
-| Web (GitHub Pages) | <a href="https://m-hasaam.github.io/group6_classEase/" target="_blank">https://m-hasaam.github.io/group6_classEase/</a> |
-| Web (Render) | <a href="https://fast-timetable.onrender.com/" target="_blank">https://fast-timetable.onrender.com/</a> |
-| Web (Vercel) | <a href="https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/" target="_blank">https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/</a> |
+<ul>
+  <li>Web (GitHub Pages): <a href="https://m-hasaam.github.io/group6_classEase/" target="_blank">https://m-hasaam.github.io/group6_classEase/</a></li>
+  <li>Web (Render): <a href="https://fast-timetable.onrender.com/" target="_blank">https://fast-timetable.onrender.com/</a></li>
+  <li>Web (Vercel): <a href="https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/" target="_blank">https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/</a></li>
+</ul>
+
 
 
 ---
