@@ -3,10 +3,10 @@ name: 🚀 Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - github_io    # Deploy whenever this branch is updated
+      - github_io    # Trigger on changes to this branch
 
 permissions:
-  contents: write    # Required to push to gh-pages branch
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -29,8 +29,13 @@ jobs:
         working-directory: ./FrontEnd_Web
         run: npm run build
 
+      - name: ⚙️ Configure Git identity
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
       - name: 🚀 Deploy to GitHub Pages
         working-directory: ./FrontEnd_Web
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # using your PAT secret
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: npm run deploy
