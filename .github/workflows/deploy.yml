@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - github_io    # Deploy whenever this branch is updated
+  workflow_dispatch:  # 👈 allows manual trigger from Actions tab
 
 permissions:
   contents: write
