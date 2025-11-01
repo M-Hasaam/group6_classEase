@@ -1,48 +1,40 @@
-name: 🔄 Sync DB (Exact Copy from main → gh-pages)
+name: 🚀 Deploy React App to GitHub Pages
 
 on:
-  workflow_dispatch:       # ✅ allows manual trigger
   push:
     branches:
-      - main               # ✅ auto-trigger when DB changes
-    paths:
-      - 'FrontEnd_Web/public/DB/**'
+      - github_io    # Deploy whenever this branch is updated
+  workflow_dispatch:  # 👈 allows manual trigger from Actions tab
+
+permissions:
+  contents: write
 
 jobs:
-  sync:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout main branch
-      - name: Checkout main branch
+      - name: 🧩 Checkout repository
         uses: actions/checkout@v4
+
+      - name: 🧰 Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          ref: main
-          fetch-depth: 0
+          node-version: 20
 
-      # 2️⃣ Clone gh-pages branch
-      - name: Clone gh-pages branch
+      - name: 📦 Install dependencies
+        working-directory: ./FrontEnd_Web
+        run: npm install
+
+      - name: 🏗️ Build project
+        working-directory: ./FrontEnd_Web
+        run: npm run build
+
+      - name: 🚀 Deploy to GitHub Pages
+        working-directory: ./FrontEnd_Web
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          git clone --branch gh-pages "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}" gh-pages
-
-      # 3️⃣ Copy DB folder exactly
-      - name: Copy DB folder
-        run: |
-          rm -rf gh-pages/public/DB
-          mkdir -p gh-pages/public/DB
-          cp -r FrontEnd_Web/public/DB/* gh-pages/public/DB/
-
-      # 4️⃣ Commit & Push to gh-pages
-      - name: Commit and Push updates
-        working-directory: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          DATE_PKT=$(TZ='Asia/Karachi' date '+%Y-%m-%d %I:%M:%S %p PKT')
-          git add .
-          git commit -m "📦 Synced full DB from main (${DATE_PKT})" || echo "No changes to commit"
-          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}" gh-pages --force
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          npx gh-pages -d dist -r https://x-access-token:${{ secrets.GH_PAT }}@github.com/M-Hasaam/group6_classEase.git
