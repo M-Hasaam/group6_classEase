@@ -1,6 +1,8 @@
 # 📅 ClassEase  
 A TimeTable Management Application built using the **MERN Stack** for Web and **React Native** for Mobile.  
+---
 https://fast-timetable.onrender.com/
+---
 https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/
 ---
 
