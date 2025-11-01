@@ -1,0 +1,48 @@
+name: 🗂️ Sync DB to gh-pages (Only DB Updates)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'FrontEnd_Web/public/DB/**'   # ✅ Only trigger when DB files change
+
+jobs:
+  sync-db:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout main branch
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      # 2️⃣ Configure Git
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 3️⃣ Prepare temp directory for gh-pages
+      - name: Checkout gh-pages branch
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages || git checkout --orphan gh-pages
+
+      # 4️⃣ Copy only DB folder from main
+      - name: Copy DB files
+        run: |
+          mkdir -p ./public/DB
+          cp -r FrontEnd_Web/public/DB/* ./public/DB/ || echo "No DB files to copy"
+
+      # 5️⃣ Commit and push changes
+      - name: Push DB update to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          DATE_PKT=$(TZ='Asia/Karachi' date '+%Y-%m-%d %I:%M %p PKT')
+          git add public/DB
+          git commit -m "🗂️ Auto-sync DB update from main (${DATE_PKT})" || echo "No changes to commit"
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}" gh-pages --force
