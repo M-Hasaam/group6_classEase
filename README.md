@@ -8,9 +8,10 @@
 
 | Platform | Link |
 |----------|------|
-| Web (GitHub Pages) | [https://m-hasaam.github.io/group6_classEase/](https://m-hasaam.github.io/group6_classEase/) |
-| Web (Render) | [https://fast-timetable.onrender.com/](https://fast-timetable.onrender.com/) |
-| Web (Vercel) | [https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/](https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/) |
+| Web (GitHub Pages) | <a href="https://m-hasaam.github.io/group6_classEase/" target="_blank">https://m-hasaam.github.io/group6_classEase/</a> |
+| Web (Render) | <a href="https://fast-timetable.onrender.com/" target="_blank">https://fast-timetable.onrender.com/</a> |
+| Web (Vercel) | <a href="https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/" target="_blank">https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/</a> |
+
 
 ---
 
