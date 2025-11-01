@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-01 11:08:51 UTC",
-    "local_time_pkt": "2025-11-01 04:08:51 PM PKT"
+    "last_updated_utc": "2025-11-01 12:20:36 UTC",
+    "local_time_pkt": "2025-11-01 05:20:36 PM PKT"
   },
   "BS": {
     "AI": {
@@ -4007,6 +4007,42 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-401",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (AI-A) ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "C-401",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "Wednesday": [
@@ -4539,6 +4575,42 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-401",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (AI-B) ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "C-401",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "Wednesday": [
@@ -4891,6 +4963,42 @@
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-401",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (AI-C) ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "C-401",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -28391,6 +28499,42 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-401",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (DS-A) ReSch",
+                    "CourseBatch": "BS DS (2025)",
+                    "RoomName": "C-401",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "Tuesday": [
@@ -28589,7 +28733,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Func Eng (DS-A) 11:30-01:15in Auditorium",
+                    "Text": "Func Eng (DS-A) 11:30-01:15",
                     "CourseBatch": "BS DS (2025)",
                     "RoomName": "C-309",
                     "TimeIntervals": [
@@ -40054,40 +40198,6 @@
                   {
                     "name": "Tutorial",
                     "type": "Class",
-                    "location": "C-401",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Tutorial (25)",
-                      "CourseBatch": "",
-                      "RoomName": "C-401",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Tutorial",
-                    "type": "Class",
                     "location": "C-403",
                     "sub_Section": null,
                     "info": [],
@@ -41442,13 +41552,13 @@
                   {
                     "name": "PF Tutorial",
                     "type": "Class",
-                    "location": "C-401",
+                    "location": "C-311",
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
                       "Text": "PF Tutorial (CS-D)",
                       "CourseBatch": "",
-                      "RoomName": "C-401",
+                      "RoomName": "C-311",
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
@@ -41800,218 +41910,6 @@
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "CSL Event": {
-        "null": {
-          "null": {
-            "Tuesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "CSL Event",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "CSL Event",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "CSL Event",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "CSL Event",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "CSL Event",
-                    "type": "Class",
-                    "location": "C-408",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "CSL Event",
-                      "CourseBatch": "",
-                      "RoomName": "C-408",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "CSL Event",
-                    "type": "Class",
-                    "location": "C-408",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "CSL Event",
-                      "CourseBatch": "",
-                      "RoomName": "C-408",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "CSL Event",
-                    "type": "Class",
-                    "location": "C-409",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "CSL Event",
-                      "CourseBatch": "",
-                      "RoomName": "C-409",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "CSL Event",
-                    "type": "Class",
-                    "location": "C-409",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "CSL Event",
-                      "CourseBatch": "",
-                      "RoomName": "C-409",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
