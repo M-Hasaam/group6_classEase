@@ -32,5 +32,5 @@ jobs:
       - name: 🚀 Deploy to GitHub Pages
         working-directory: ./FrontEnd_Web
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # Use your custom token here
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # using your PAT secret
         run: npm run deploy
