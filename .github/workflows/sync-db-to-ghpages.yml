@@ -1,14 +1,14 @@
-name: 🗂️ Sync DB to gh-pages (Only DB Updates)
+name: 🔄 Sync DB (Exact Copy from main → gh-pages)
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'FrontEnd_Web/public/DB/**'   # ✅ Only trigger when DB files change
+      - 'FrontEnd_Web/public/DB/**'  # only trigger when DB folder changes
 
 jobs:
-  sync-db:
+  sync:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,30 +19,29 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      # 2️⃣ Configure Git
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      # 3️⃣ Prepare temp directory for gh-pages
-      - name: Checkout gh-pages branch
-        run: |
-          git fetch origin gh-pages
-          git checkout gh-pages || git checkout --orphan gh-pages
-
-      # 4️⃣ Copy only DB folder from main
-      - name: Copy DB files
-        run: |
-          mkdir -p ./public/DB
-          cp -r FrontEnd_Web/public/DB/* ./public/DB/ || echo "No DB files to copy"
-
-      # 5️⃣ Commit and push changes
-      - name: Push DB update to gh-pages
+      # 2️⃣ Clone gh-pages branch to temp folder
+      - name: Clone gh-pages branch
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
+          git clone --branch gh-pages "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}" gh-pages
+
+      # 3️⃣ Copy the DB folder (exact overwrite)
+      - name: Copy DB folder
+        run: |
+          rm -rf gh-pages/public/DB
+          mkdir -p gh-pages/public/DB
+          cp -r FrontEnd_Web/public/DB/* gh-pages/public/DB/
+
+      # 4️⃣ Commit & Push to gh-pages
+      - name: Commit and Push updates
+        working-directory: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           DATE_PKT=$(TZ='Asia/Karachi' date '+%Y-%m-%d %I:%M %p PKT')
-          git add public/DB
-          git commit -m "🗂️ Auto-sync DB update from main (${DATE_PKT})" || echo "No changes to commit"
+          git add .
+          git commit -m "📦 Synced full DB from main (${DATE_PKT})" || echo "No changes to commit"
           git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}" gh-pages --force
