@@ -1,45 +1,36 @@
-name: 🚀 Deploy to GitHub Pages
+name: 🚀 Deploy React App to GitHub Pages
 
 on:
   push:
     branches:
-      - github_io # whenever this branch is updated (code/DB/etc)
-  workflow_dispatch: # manual trigger
+      - github_io    # Deploy whenever this branch is updated
+
+permissions:
+  contents: write    # Required to push to gh-pages branch
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write # required to push to gh-pages
-      pages: write
-      id-token: write
-
-    env:
-      GITHUB_TOKEN: ${{ secrets.GH_PAT }} # your personal access token
-
     steps:
-      - name: 🧩 Checkout code
+      - name: 🧩 Checkout repository
         uses: actions/checkout@v4
+
+      - name: 🧰 Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          ref: github_io
-          token: ${{ secrets.GH_PAT }}
+          node-version: 20
 
-      - name: 🏗️ Install dependencies
-        run: |
-          npm install
+      - name: 📦 Install dependencies
+        working-directory: ./FrontEnd_Web
+        run: npm install
 
-
-      - name: 🧱 Build project
-        run: |
-          npm run build
+      - name: 🏗️ Build project
+        working-directory: ./FrontEnd_Web
+        run: npm run build
 
       - name: 🚀 Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GH_PAT }}
-          publish_branch: gh-pages
-          publish_dir: ./dist    # ⚠️ change to ./build if using CRA
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          force_orphan: true     # keeps gh-pages clean each time
+        working-directory: ./FrontEnd_Web
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # Use your custom token here
+        run: npm run deploy
