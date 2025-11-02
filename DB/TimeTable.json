@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-02 13:17:14 UTC",
-    "local_time_pkt": "2025-11-02 06:17:14 PM PKT"
+    "last_updated_utc": "2025-11-02 14:09:54 UTC",
+    "local_time_pkt": "2025-11-02 07:09:54 PM PKT"
   },
   "BS": {
     "AI": {
@@ -10117,9 +10117,11 @@
                   "type": "Lab",
                   "location": "C-Margala 4",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Comp Net Lab (CS-C)",
+                    "Text": "Comp Net Lab (CS-C) Cancelled",
                     "CourseBatch": "BS CS (2023)",
                     "RoomName": "C-Margala 4",
                     "TimeIntervals": [
