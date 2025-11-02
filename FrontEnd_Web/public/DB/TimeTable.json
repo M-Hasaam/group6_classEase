@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-02 06:17:21 UTC",
-    "local_time_pkt": "2025-11-02 11:17:21 AM PKT"
+    "last_updated_utc": "2025-11-02 07:10:58 UTC",
+    "local_time_pkt": "2025-11-02 12:10:58 PM PKT"
   },
   "BS": {
     "AI": {
@@ -1001,7 +1001,9 @@
                   "type": "Class",
                   "location": "D-405",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "Comp Vision (AI-B)Cancelled",
                     "CourseBatch": "BS AI (2022)",
@@ -1181,7 +1183,9 @@
                   "type": "Class",
                   "location": "D-404",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "Comp Vision (AI-C)Cancelled",
                     "CourseBatch": "BS AI (2022)",
@@ -3711,7 +3715,9 @@
                   "type": "Class",
                   "location": "D-401",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "Prog for AI (AI-C)Cancelled",
                     "CourseBatch": "BS AI (2024)",
@@ -8137,7 +8143,9 @@
                   "type": "Class",
                   "location": "D-312",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "PPIT (CS-F)Cancelled",
                     "CourseBatch": "BS CS (2022)",
@@ -8529,7 +8537,9 @@
                   "type": "Class",
                   "location": "D-315",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "PPIT (CS-J)Cancelled",
                     "CourseBatch": "BS CS (2022)",
@@ -20857,7 +20867,9 @@
                   "type": "Class",
                   "location": "D-505",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "Sec S/w Design (CY-B)Cancelled",
                     "CourseBatch": "BS CY (2022)",
@@ -21355,7 +21367,9 @@
                   "type": "Class",
                   "location": "D-503",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "Sec S/w Design (CY-D)Cancelled",
                     "CourseBatch": "BS CY (2022)",
@@ -24847,7 +24861,9 @@
                   "type": "Class",
                   "location": "D-414",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "Comp Net (DS-A)Cancelled",
                     "CourseBatch": "BS DS (2022)",
@@ -31317,7 +31333,9 @@
                   "type": "Class",
                   "location": "C-408",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "S/w Re-Engg (SE-G)Cancelled",
                     "CourseBatch": "BS SE (2022)",
@@ -32967,7 +32985,9 @@
                   "type": "Class",
                   "location": "C-406",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "Intro to SE (SE-B)Cancelled",
                     "CourseBatch": "BS SE (2024)",
@@ -36615,7 +36635,9 @@
                   "type": "Class",
                   "location": "D-312",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
                     "Text": "ML for DS (DS)Cancelled",
                     "CourseBatch": "MS (DS)",
