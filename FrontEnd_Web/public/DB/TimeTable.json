@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-03 03:45:45 UTC",
-    "local_time_pkt": "2025-11-03 08:45:46 AM PKT"
+    "last_updated_utc": "2025-11-03 04:21:13 UTC",
+    "local_time_pkt": "2025-11-03 09:21:13 AM PKT"
   },
   "BS": {
     "AI": {
@@ -17591,6 +17591,42 @@
             {
               "time": {
                 "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "AP",
+                  "type": "Class",
+                  "location": "C-404",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "AP (CS-G) ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-404",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -18531,9 +18567,11 @@
                   "type": "Lab",
                   "location": "D-IT Lab 2",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "PF Lab (CS-J)",
+                    "Text": "PF Lab (CS-J)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "D-IT Lab 2",
                     "TimeIntervals": [
@@ -41201,6 +41239,82 @@
           }
         }
       },
+      "FCS": {
+        "null": {
+          "null": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FCS",
+                    "type": "Class",
+                    "location": "C-406",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FCS",
+                      "CourseBatch": "",
+                      "RoomName": "C-406",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FCS",
+                    "type": "Class",
+                    "location": "C-406",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FCS",
+                      "CourseBatch": "",
+                      "RoomName": "C-406",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "FCSS": {
         "null": {
           "null": {
@@ -46355,6 +46469,48 @@
           }
         }
       },
+      "Reserved for Ms Mehrosha": {
+        "null": {
+          "null": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Ms Mehrosha",
+                    "type": "Class",
+                    "location": "D-313",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Ms Mehrosha",
+                      "CourseBatch": "",
+                      "RoomName": "D-313",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "Reserved for Sir Shams": {
         "null": {
           "null": {
@@ -46383,6 +46539,82 @@
                       "Text": "Reserved for Sir Shams",
                       "CourseBatch": "",
                       "RoomName": "C-410",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved'": {
+        "null": {
+          "null": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved'",
+                    "type": "Class",
+                    "location": "C-311",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved'",
+                      "CourseBatch": "",
+                      "RoomName": "C-311",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved'",
+                    "type": "Class",
+                    "location": "C-311",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved'",
+                      "CourseBatch": "",
+                      "RoomName": "C-311",
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
