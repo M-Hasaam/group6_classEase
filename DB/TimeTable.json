@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-03 16:14:31 UTC",
-    "local_time_pkt": "2025-11-03 09:14:31 PM PKT"
+    "last_updated_utc": "2025-11-03 17:11:26 UTC",
+    "local_time_pkt": "2025-11-03 10:11:26 PM PKT"
   },
   "BS": {
     "AI": {
@@ -14208,42 +14208,6 @@
             }
           ],
           "Tuesday": [
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-310",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CS-G)  ReSch",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "C-310",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
             {
               "time": {
                 "start": {
