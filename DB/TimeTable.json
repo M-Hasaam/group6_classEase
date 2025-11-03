@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-03 09:15:18 UTC",
-    "local_time_pkt": "2025-11-03 02:15:18 PM PKT"
+    "last_updated_utc": "2025-11-03 10:14:33 UTC",
+    "local_time_pkt": "2025-11-03 03:14:33 PM PKT"
   },
   "BS": {
     "AI": {
@@ -17029,9 +17029,11 @@
                   "type": "Lab",
                   "location": "D-IT Lab 1",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "IICT Lab (CS-F)",
+                    "Text": "IICT Lab (CS-F)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "D-IT Lab 1",
                     "TimeIntervals": [
