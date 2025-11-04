@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-04 00:56:23 UTC",
-    "local_time_pkt": "2025-11-04 05:56:23 AM PKT"
+    "last_updated_utc": "2025-11-04 02:27:30 UTC",
+    "local_time_pkt": "2025-11-04 07:27:30 AM PKT"
   },
   "BS": {
     "AI": {
@@ -9267,9 +9267,11 @@
                   "type": "Class",
                   "location": "D-312",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Comp Net (CS-B)",
+                    "Text": "Comp Net (CS-B) Cancelled",
                     "CourseBatch": "BS CS (2023)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
