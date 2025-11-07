@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-07 05:13:03 UTC",
-    "local_time_pkt": "2025-11-07 10:13:03 AM PKT"
+    "last_updated_utc": "2025-11-07 06:18:54 UTC",
+    "local_time_pkt": "2025-11-07 11:18:54 AM PKT"
   },
   "BS": {
     "AI": {
@@ -33417,7 +33417,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Ideology of Pak (SE-D) 09:00-10:45Cancelled",
+                    "Text": "Ideology of Pak (SE-D) 09:00-10:45",
                     "CourseBatch": "BS SE (2025)",
                     "RoomName": "C-405",
                     "TimeIntervals": [
@@ -44835,6 +44835,40 @@
               }
             ],
             "Tuesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "C-405",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "C-405",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
               {
                 "time": {
                   "start": {
