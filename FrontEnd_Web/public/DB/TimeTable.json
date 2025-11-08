@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-08 07:10:31 UTC",
-    "local_time_pkt": "2025-11-08 12:10:31 PM PKT"
+    "last_updated_utc": "2025-11-08 08:14:27 UTC",
+    "local_time_pkt": "2025-11-08 01:14:27 PM PKT"
   },
   "BS": {
     "AI": {
@@ -15321,9 +15321,11 @@
                   "type": "Class",
                   "location": "C-303",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Calculus (CS-C)",
+                    "Text": "Calculus (CS-C)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-303",
                     "TimeIntervals": [
@@ -15749,9 +15751,11 @@
                   "type": "Class",
                   "location": "C-304",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Calculus (CS-D)",
+                    "Text": "Calculus (CS-D)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
