@@ -1,0 +1,43 @@
+name: 🔄 Sync DB (main → github_io)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'FrontEnd_Web/public/DB/**'   # only trigger when DB files change
+  workflow_dispatch:  # allow manual run
+
+permissions:
+  contents: write
+
+jobs:
+  sync-db:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧩 Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: 🔁 Sync DB folder to github_io
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          git clone --branch github_io "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}" github_io
+
+          # Replace old DB with updated one
+          rm -rf github_io/FrontEnd_Web/public/DB
+          mkdir -p github_io/FrontEnd_Web/public/DB
+          cp -r FrontEnd_Web/public/DB/* github_io/FrontEnd_Web/public/DB/
+
+          cd github_io
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          DATE_PKT=$(TZ='Asia/Karachi' date '+%Y-%m-%d %I:%M %p PKT')
+          git add .
+          git commit -m "📦 Synced DB from main (${DATE_PKT})" || echo "No DB changes to commit"
+          git push origin github_io --force
