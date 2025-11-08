@@ -11,7 +11,7 @@ function StepSelection({ label, value, options, onChange }) {
         {options.map((opt) => {
           const isBatchYear = label === "Batch Year";
           const isSelected = isBatchYear ? value.endsWith(opt) : value === opt;
-
+ 
           return (
             <label key={opt} className="cursor-pointer">
               <input
