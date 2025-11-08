@@ -10,7 +10,7 @@
 |----------|------|
 | Web (GitHub Pages) | [https://m-hasaam.github.io/group6_classEase/](https://m-hasaam.github.io/group6_classEase/) |
 | Web (Render) | [https://fast-timetable.onrender.com/](https://fast-timetable.onrender.com/) |
-| Web (Vercel) | [https://fast-isb-timetable.vercel.app/](https://fast-isb-timetable.vercel.app/) |
+| Web (Vercel) | [https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/](https://fast-timetable-p5q0dsta2-m-hasaams-projects.vercel.app/) |
 
 
 
