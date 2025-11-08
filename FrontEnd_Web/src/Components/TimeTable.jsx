@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-/* ---------------------------------------------------
-   Reusable StepSelection Component (Toggle Buttons)
----------------------------------------------------- */
 function StepSelection({ label, value, options, onChange }) {
   return (
     <div className="flex flex-col items-center w-full">
@@ -13,9 +10,7 @@ function StepSelection({ label, value, options, onChange }) {
       <div className="flex flex-wrap justify-center gap-4">
         {options.map((opt) => {
           const isBatchYear = label === "Batch Year";
-          const isSelected = isBatchYear
-            ? value.endsWith(opt) // ✅ handles short year like "25" matching "2025"
-            : value === opt;
+          const isSelected = isBatchYear ? value.endsWith(opt) : value === opt;
 
           return (
             <label key={opt} className="cursor-pointer">
@@ -31,7 +26,7 @@ function StepSelection({ label, value, options, onChange }) {
                 className={`block px-4 py-1 rounded-lg font-medium transition ${
                   isSelected
                     ? isBatchYear
-                      ? "bg-gray-500 text-gray-900" // darker for Batch Year
+                      ? "bg-gray-500 text-gray-900"
                       : "bg-gray-500 text-gray-900"
                     : "bg-gray-200 text-gray-800 hover:bg-gray-300"
                 }`}
@@ -46,12 +41,6 @@ function StepSelection({ label, value, options, onChange }) {
   );
 }
 
-
-
-
-/* ---------------------------------------------------
-   Form Section
----------------------------------------------------- */
 function FormSection({
   program,
   setProgram,
@@ -73,7 +62,6 @@ function FormSection({
     options.forEach((opt) => {
       if (!opt || opt.toLowerCase() === "null") return;
 
-      // handle combined departments like "CS/SE/CY"
       if (opt.includes("/")) {
         opt.split("/").forEach((sub) => cleaned.add(sub.trim()));
       } else {
@@ -87,7 +75,6 @@ function FormSection({
   const programOptions = cleanOptions(getPrograms());
   const departmentOptions = program ? cleanOptions(getDepartments()) : [];
 
-  // ✅ Show shortened label (25 instead of 2025)
   const batchOptions = department
     ? cleanOptions(getBatchYears()).map((y) => ({
         value: y,
@@ -178,9 +165,6 @@ function FormSection({
   );
 }
 
-/* ---------------------------------------------------
-   Timetable Section
----------------------------------------------------- */
 function TimetableSection({ isLoading, renderTimetable, day, setDay }) {
   const days = [
     "Monday",
@@ -220,9 +204,6 @@ function TimetableSection({ isLoading, renderTimetable, day, setDay }) {
   );
 }
 
-/* ---------------------------------------------------
-   Main Component
----------------------------------------------------- */
 const FASTTimetable = () => {
   const [timetableData, setTimetableData] = useState({});
   const [isLoading, setIsLoading] = useState(false);
@@ -240,17 +221,14 @@ const FASTTimetable = () => {
       const data = await response.json();
       setTimetableData(data);
 
-      // ✅ Extract and format last updated time
       const localTime = data?.Update?.local_time_pkt || "";
 
       const formatDateTime = (datetimeStr) => {
-        // Example input: "2025-10-25 02:05:38 AM PKT"
         const parts = datetimeStr.split(" ");
-        const datePart = parts[0]; // "2025-10-25"
-        const timePart = parts[1] || ""; // "02:05:38"
-        const ampm = parts[2] || ""; // "AM"
+        const datePart = parts[0];
+        const timePart = parts[1] || "";
+        const ampm = parts[2] || "";
 
-        // Format date → 25-Oct-2025
         const [year, month, day] = datePart.split("-").map(Number);
         const months = [
           "Jan",
@@ -268,7 +246,6 @@ const FASTTimetable = () => {
         ];
         const formattedDate = `${day}-${months[month - 1]}-${year}`;
 
-        // Format time → 02:05 AM
         let formattedTime = "";
         if (timePart) {
           const [hh, mm] = timePart.split(":");
@@ -570,7 +547,6 @@ const FASTTimetable = () => {
           />
         )}
 
-        {/* ✅ Last Update Display */}
         {lastUpdated && (
           <div className="text-center text-sm text-slate-400 mt-6">
             Last updated: <span className="text-blue-400">{lastUpdated}</span>
