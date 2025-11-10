@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-10 04:20:16 UTC",
-    "local_time_pkt": "2025-11-10 09:20:16 AM PKT"
+    "last_updated_utc": "2025-11-10 05:13:26 UTC",
+    "local_time_pkt": "2025-11-10 10:13:26 AM PKT"
   },
   "BS": {
     "AI": {
@@ -3899,42 +3899,6 @@
                   }
                 }
               ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Func Eng (AI-A) ReSch",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ],
           "Wednesday": [
@@ -4425,42 +4389,6 @@
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "Func Eng",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Func Eng (AI-B) ReSch",
-                    "CourseBatch": "BS AI (2025)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
                         "AM_PM": "AM"
                       }
                     ]
@@ -8480,6 +8408,80 @@
                 }
               ]
             }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Tech Mgt",
+                  "type": "Class",
+                  "location": "C-401",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Tech Mgt (CS) ReSch",
+                    "CourseBatch": "BS CS (2022)",
+                    "RoomName": "C-401",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Tech Mgt",
+                  "type": "Class",
+                  "location": "C-401",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Tech Mgt (CS) ReSch",
+                    "CourseBatch": "BS CS (2022)",
+                    "RoomName": "C-401",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
           ]
         }
       },
@@ -9599,6 +9601,42 @@
             {
               "time": {
                 "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "HPC",
+                  "type": "Class",
+                  "location": "D-401",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "HPC (CS-C) ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "D-401",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -9867,6 +9905,44 @@
                     "TimeIntervals": [
                       {
                         "text": "08:30-09:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "11:15",
+                  "AM_PM": "AM",
+                  "value": 675
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Net Lab",
+                  "type": "Lab",
+                  "location": "A-Mehran 1",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Net Lab (CS-C)ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "A-Mehran 1",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-11:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -15827,9 +15903,11 @@
                   "type": "Class",
                   "location": "C-304",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "AP (CS-D)",
+                    "Text": "AP (CS-D)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
@@ -16395,7 +16473,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Func Eng (CS-E) 02:30-04:15C-406",
+                    "Text": "Func Eng (CS-E) 02:30-04:15",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-301",
                     "TimeIntervals": [
@@ -17283,11 +17361,9 @@
                   "type": "Class",
                   "location": "C-303",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "AP (CS-G)Cancelled",
+                    "Text": "AP (CS-G)",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-303",
                     "TimeIntervals": [
@@ -17679,9 +17755,11 @@
                   "type": "Class",
                   "location": "C-303",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "AP (CS-H)",
+                    "Text": "AP (CS-H)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-303",
                     "TimeIntervals": [
@@ -18245,9 +18323,11 @@
                   "type": "Class",
                   "location": "C-305",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "AP (CS-J)",
+                    "Text": "AP (CS-J)Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-305",
                     "TimeIntervals": [
@@ -21933,11 +22013,9 @@
                   "type": "Class",
                   "location": "C-403",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Discrete (CY-A)Cancelled",
+                    "Text": "Discrete (CY-A)",
                     "CourseBatch": "BS CY (2025)",
                     "RoomName": "C-403",
                     "TimeIntervals": [
@@ -30645,9 +30723,11 @@
                   "type": "Lab",
                   "location": "B-Digital",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "DLD Lab (SE-A)",
+                    "Text": "DLD Lab (SE-A)Cancelled",
                     "CourseBatch": "BS SE (2024)",
                     "RoomName": "B-Digital",
                     "TimeIntervals": [
@@ -43020,74 +43100,6 @@
               {
                 "time": {
                   "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-401",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-401",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-401",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-401",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
                     "text": "02:30",
                     "AM_PM": "PM",
                     "value": 870
@@ -44873,74 +44885,6 @@
                         {
                           "text": "08:30-09:50",
                           "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-406",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-406",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
                         }
                       ]
                     }
