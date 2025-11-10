@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-10 07:13:17 UTC",
-    "local_time_pkt": "2025-11-10 12:13:17 PM PKT"
+    "last_updated_utc": "2025-11-10 08:18:27 UTC",
+    "local_time_pkt": "2025-11-10 01:18:27 PM PKT"
   },
   "BS": {
     "AI": {
@@ -1126,6 +1126,42 @@
             }
           ],
           "Wednesday": [
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "09:50",
+                  "AM_PM": "AM",
+                  "value": 590
+                }
+              },
+              "classes": [
+                {
+                  "name": "Org Behavior",
+                  "type": "Class",
+                  "location": "D-411",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Org Behavior (AI-C) ReSch",
+                    "CourseBatch": "BS AI (2022)",
+                    "RoomName": "D-411",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-09:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -9668,6 +9704,42 @@
             }
           ],
           "Tuesday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Net",
+                  "type": "Class",
+                  "location": "C-407",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Net (CS-C)ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "C-407",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -29583,9 +29655,11 @@
                   "type": "Class",
                   "location": "D-313",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Fund of SPM (SE-F)",
+                    "Text": "Fund of SPM (SE-F)Cancelled",
                     "CourseBatch": "BS SE (2022)",
                     "RoomName": "D-313",
                     "TimeIntervals": [
@@ -45123,6 +45197,48 @@
                       "Text": "Reserved FCSS",
                       "CourseBatch": "",
                       "RoomName": "C-406",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved FDSS": {
+        "null": {
+          "null": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved FDSS",
+                    "type": "Class",
+                    "location": "D-305",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved FDSS",
+                      "CourseBatch": "",
+                      "RoomName": "D-305",
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
