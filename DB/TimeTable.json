@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-10 05:13:26 UTC",
-    "local_time_pkt": "2025-11-10 10:13:26 AM PKT"
+    "last_updated_utc": "2025-11-10 06:20:17 UTC",
+    "local_time_pkt": "2025-11-10 11:20:17 AM PKT"
   },
   "BS": {
     "AI": {
@@ -9165,11 +9165,9 @@
                   "type": "Class",
                   "location": "D-312",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Comp Net (CS-B)Cancelled",
+                    "Text": "Comp Net (CS-B)",
                     "CourseBatch": "BS CS (2023)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
@@ -11358,42 +11356,6 @@
             }
           ],
           "Tuesday": [
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "C-407",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CS-A)ReSch",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "C-407",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
             {
               "time": {
                 "start": {
@@ -15043,11 +15005,9 @@
                   "type": "Lab",
                   "location": "D-IT Lab 1",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "IICT Lab (CS-B)Cancelled",
+                    "Text": "IICT Lab (CS-B)",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "D-IT Lab 1",
                     "TimeIntervals": [
@@ -22579,11 +22539,9 @@
                   "type": "Class",
                   "location": "C-404",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Discrete (CY-B)Cancelled",
+                    "Text": "Discrete (CY-B)",
                     "CourseBatch": "BS CY (2025)",
                     "RoomName": "C-404",
                     "TimeIntervals": [
@@ -23511,11 +23469,9 @@
                   "type": "Class",
                   "location": "D-414",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Comp Net (DS-A)Cancelled",
+                    "Text": "Comp Net (DS-A)",
                     "CourseBatch": "BS DS (2022)",
                     "RoomName": "D-414",
                     "TimeIntervals": [
@@ -26175,11 +26131,9 @@
                   "type": "Class",
                   "location": "D-405",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "LA (DS-A)Cancelled",
+                    "Text": "LA (DS-A)",
                     "CourseBatch": "BS DS (2024)",
                     "RoomName": "D-405",
                     "TimeIntervals": [
@@ -27397,11 +27351,9 @@
                       "type": "Lab",
                       "location": "A-Mehran 2",
                       "sub_Section": null,
-                      "info": [
-                        "Cancelled"
-                      ],
+                      "info": [],
                       "detailed": {
-                        "Text": "Func Eng Lab (DS-A1)Cancelled",
+                        "Text": "Func Eng Lab (DS-A1)",
                         "CourseBatch": "BS DS (2025)",
                         "RoomName": "A-Mehran 2",
                         "TimeIntervals": [
@@ -34781,11 +34733,9 @@
                   "type": "Class",
                   "location": "D-305",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "App Prog (DS)Cancelled",
+                    "Text": "App Prog (DS)",
                     "CourseBatch": "MS (DS)",
                     "RoomName": "D-305",
                     "TimeIntervals": [
@@ -34887,11 +34837,9 @@
                   "type": "Class",
                   "location": "D-312",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "ML for DS (DS)Cancelled",
+                    "Text": "ML for DS (DS)",
                     "CourseBatch": "MS (DS)",
                     "RoomName": "D-312",
                     "TimeIntervals": [
@@ -36350,42 +36298,6 @@
               {
                 "time": {
                   "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Numerical",
-                    "type": "Class",
-                    "location": "C-308",
-                    "sub_Section": null,
-                    "info": [
-                      "ReSchedule"
-                    ],
-                    "detailed": {
-                      "Text": "Numerical (CS, 22)ReSch",
-                      "CourseBatch": "Repeat Courses",
-                      "RoomName": "C-308",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
                     "text": "02:30",
                     "AM_PM": "PM",
                     "value": 870
@@ -37404,11 +37316,9 @@
                     "type": "Class",
                     "location": "D-416",
                     "sub_Section": null,
-                    "info": [
-                      "Cancelled"
-                    ],
+                    "info": [],
                     "detailed": {
-                      "Text": "OOP (SE-A)Cancelled",
+                      "Text": "OOP (SE-A)",
                       "CourseBatch": "Repeat Courses",
                       "RoomName": "D-416",
                       "TimeIntervals": [
@@ -45095,124 +45005,6 @@
                       "Text": "Reserved FCSS",
                       "CourseBatch": "",
                       "RoomName": "C-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved for  Suleman Saboor": {
-        "null": {
-          "null": {
-            "Tuesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for  Suleman Saboor",
-                    "type": "Class",
-                    "location": "Rawal 3 (B-232)",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for  Suleman Saboor",
-                      "CourseBatch": "",
-                      "RoomName": "Rawal 3 (B-232)",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved for Dr. Atif Jillani Nov 05": {
-        "null": {
-          "null": {
-            "Wednesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for Dr. Atif Jillani Nov 05",
-                    "type": "Class",
-                    "location": "C-110",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for Dr. Atif Jillani Nov 05",
-                      "CourseBatch": "",
-                      "RoomName": "C-110",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for Dr. Atif Jillani Nov 05",
-                    "type": "Class",
-                    "location": "C-110",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for Dr. Atif Jillani Nov 05",
-                      "CourseBatch": "",
-                      "RoomName": "C-110",
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
