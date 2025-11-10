@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-10 00:59:46 UTC",
-    "local_time_pkt": "2025-11-10 05:59:46 AM PKT"
+    "last_updated_utc": "2025-11-10 02:49:09 UTC",
+    "local_time_pkt": "2025-11-10 07:49:09 AM PKT"
   },
   "BS": {
     "AI": {
@@ -5697,9 +5697,11 @@
                   "type": "Class",
                   "location": "D-306",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "DIP (CS-A, G-2)",
+                    "Text": "DIP (CS-A, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-306",
                     "TimeIntervals": [
@@ -6743,9 +6745,11 @@
                   "type": "Class",
                   "location": "D-314",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "DIP (CS-B, G-2)",
+                    "Text": "DIP (CS-B, G-2)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-314",
                     "TimeIntervals": [
