@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-10 11:10:46 UTC",
-    "local_time_pkt": "2025-11-10 04:10:46 PM PKT"
+    "last_updated_utc": "2025-11-10 12:24:24 UTC",
+    "local_time_pkt": "2025-11-10 05:24:24 PM PKT"
   },
   "BS": {
     "AI": {
@@ -5017,7 +5017,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Ideology of Pak (AI-C) 09:00-10:45",
+                    "Text": "Ideology of Pak (AI-C) 09:00-10:45Cancelled",
                     "CourseBatch": "BS AI (2025)",
                     "RoomName": "C-308",
                     "TimeIntervals": [
@@ -5865,11 +5865,9 @@
                   "type": "Class",
                   "location": "D-306",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "DIP (CS-A, G-2)Cancelled",
+                    "Text": "DIP (CS-A, G-2)",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-306",
                     "TimeIntervals": [
@@ -6913,11 +6911,9 @@
                   "type": "Class",
                   "location": "D-314",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "DIP (CS-B, G-2)Cancelled",
+                    "Text": "DIP (CS-B, G-2)",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-314",
                     "TimeIntervals": [
@@ -9829,42 +9825,6 @@
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "HPC",
-                  "type": "Class",
-                  "location": "D-401",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "HPC (CS-C) ReSch",
-                    "CourseBatch": "BS CS (2023)",
-                    "RoomName": "D-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
                         "AM_PM": "PM"
                       }
                     ]
@@ -13919,11 +13879,9 @@
                   "type": "Class",
                   "location": "D-305",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "LA (CS-F)Cancelled",
+                    "Text": "LA (CS-F)",
                     "CourseBatch": "BS CS (2024)",
                     "RoomName": "D-305",
                     "TimeIntervals": [
@@ -15431,7 +15389,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Ideology of Pak (CS-B) 11:30-01:15",
+                    "Text": "Ideology of Pak (CS-B) 11:30-01:15Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
@@ -15821,11 +15779,9 @@
                   "type": "Class",
                   "location": "C-303",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Calculus (CS-C)Cancelled",
+                    "Text": "Calculus (CS-C)",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-303",
                     "TimeIntervals": [
@@ -16251,11 +16207,9 @@
                   "type": "Class",
                   "location": "C-304",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Calculus (CS-D)Cancelled",
+                    "Text": "Calculus (CS-D)",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
@@ -16321,11 +16275,9 @@
                   "type": "Class",
                   "location": "C-304",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "AP (CS-D)Cancelled",
+                    "Text": "AP (CS-D)",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
@@ -18295,6 +18247,42 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "PF Lab",
+                  "type": "Lab",
+                  "location": "Rawal 3 (B-232)",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "PF Lab (CS-H)ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "Rawal 3 (B-232)",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "Wednesday": [
@@ -18497,42 +18485,6 @@
                     "TimeIntervals": [
                       {
                         "text": "02:30-04:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "PF Lab",
-                  "type": "Lab",
-                  "location": "A-Karakoram 3",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "PF Lab (CS-H)ReSch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "A-Karakoram 3",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-05:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -31251,11 +31203,9 @@
                   "type": "Lab",
                   "location": "B-Digital",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "DLD Lab (SE-A)Cancelled",
+                    "Text": "DLD Lab (SE-A)",
                     "CourseBatch": "BS SE (2024)",
                     "RoomName": "B-Digital",
                     "TimeIntervals": [
@@ -36874,42 +36824,6 @@
               {
                 "time": {
                   "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Numerical",
-                    "type": "Class",
-                    "location": "C-308",
-                    "sub_Section": null,
-                    "info": [
-                      "ReSchedule"
-                    ],
-                    "detailed": {
-                      "Text": "Numerical (CS, 22)ReSch",
-                      "CourseBatch": "Repeat Courses",
-                      "RoomName": "C-308",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
                     "text": "02:30",
                     "AM_PM": "PM",
                     "value": 870
@@ -37049,6 +36963,42 @@
               }
             ],
             "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Numerical",
+                    "type": "Class",
+                    "location": "C-302",
+                    "sub_Section": null,
+                    "info": [
+                      "ReSchedule"
+                    ],
+                    "detailed": {
+                      "Text": "Numerical (CS, 22) ReSch",
+                      "CourseBatch": "Repeat Courses",
+                      "RoomName": "C-302",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
               {
                 "time": {
                   "start": {
@@ -40874,200 +40824,6 @@
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "FCSS": {
-        "null": {
-          "null": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FCSS",
-                    "type": "Class",
-                    "location": "C-309",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FCSS",
-                      "CourseBatch": "",
-                      "RoomName": "C-309",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FCSS",
-                    "type": "Class",
-                    "location": "C-309",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FCSS",
-                      "CourseBatch": "",
-                      "RoomName": "C-309",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "FDSS": {
-        "null": {
-          "null": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FDSS",
-                    "type": "Class",
-                    "location": "C-311",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FDSS",
-                      "CourseBatch": "",
-                      "RoomName": "C-311",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FDSS",
-                    "type": "Class",
-                    "location": "C-311",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FDSS",
-                      "CourseBatch": "",
-                      "RoomName": "C-311",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "FFC": {
-        "null": {
-          "null": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FFC",
-                    "type": "Class",
-                    "location": "C-308",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FFC",
-                      "CourseBatch": "",
-                      "RoomName": "C-308",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
                           "AM_PM": "PM"
                         }
                       ]
@@ -45402,42 +45158,6 @@
       "Reserved": {
         "null": {
           "null": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-307",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-307",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ],
             "Tuesday": [
               {
                 "time": {
@@ -45609,48 +45329,6 @@
                       "Text": "Reserved FCSS",
                       "CourseBatch": "",
                       "RoomName": "C-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved FDSS": {
-        "null": {
-          "null": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved FDSS",
-                    "type": "Class",
-                    "location": "D-305",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved FDSS",
-                      "CourseBatch": "",
-                      "RoomName": "D-305",
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
