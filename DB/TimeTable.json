@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-11 17:11:23 UTC",
-    "local_time_pkt": "2025-11-11 10:11:23 PM PKT"
+    "last_updated_utc": "2025-11-11 18:17:09 UTC",
+    "local_time_pkt": "2025-11-11 11:17:09 PM PKT"
   },
   "BS": {
     "AI": {
@@ -46945,6 +46945,82 @@
                         {
                           "text": "03:55-05:15",
                           "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved for Ms Palwasha": {
+        "null": {
+          "null": {
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Ms Palwasha",
+                    "type": "Class",
+                    "location": "D-502",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Ms Palwasha",
+                      "CourseBatch": "",
+                      "RoomName": "D-502",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Ms Palwasha",
+                    "type": "Class",
+                    "location": "D-502",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Ms Palwasha",
+                      "CourseBatch": "",
+                      "RoomName": "D-502",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
                         }
                       ]
                     }
