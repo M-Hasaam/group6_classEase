@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-11 06:19:15 UTC",
-    "local_time_pkt": "2025-11-11 11:19:15 AM PKT"
+    "last_updated_utc": "2025-11-11 07:13:04 UTC",
+    "local_time_pkt": "2025-11-11 12:13:04 PM PKT"
   },
   "BS": {
     "AI": {
@@ -9107,6 +9107,42 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "02:15",
+                  "AM_PM": "PM",
+                  "value": 855
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Net Lab",
+                  "type": "Lab",
+                  "location": "C-Rawal 4",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Net Lab (CS-A)ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "C-Rawal 4",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-02:15",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "Thursday": [
@@ -13259,7 +13295,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Civics (CS-D) 11:30-01:15",
+                    "Text": "Civics (CS-D) 11:30-01:15 Extended till 1:45",
                     "CourseBatch": "BS CS (2024)",
                     "RoomName": "D-302",
                     "TimeIntervals": [
@@ -36452,6 +36488,42 @@
       "AI, 22": {
         "null": {
           "null": {
+            "Monday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "ML",
+                    "type": "Class",
+                    "location": "D-406",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "ML (AI, 22)",
+                      "CourseBatch": "Repeat Courses",
+                      "RoomName": "D-406",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
             "Tuesday": [
               {
                 "time": {
@@ -37516,6 +37588,42 @@
                     }
                   }
                 ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Algo",
+                    "type": "Class",
+                    "location": "D-415",
+                    "sub_Section": null,
+                    "info": [
+                      "ReSchedule"
+                    ],
+                    "detailed": {
+                      "Text": "Algo (CY, 22)  ReSch",
+                      "CourseBatch": "Repeat Courses",
+                      "RoomName": "D-415",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
               }
             ],
             "Tuesday": [
@@ -37916,48 +38024,6 @@
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "ML": {
-        "null": {
-          "null": {
-            "Monday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "ML",
-                    "type": "Class",
-                    "location": "D-406",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "ML (AI, 22",
-                      "CourseBatch": "Repeat Courses",
-                      "RoomName": "D-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
@@ -40865,6 +40931,48 @@
                       "Text": "FAS",
                       "CourseBatch": "",
                       "RoomName": "C-310",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "FAS Gala 18 Nov": {
+        "null": {
+          "null": {
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FAS Gala 18 Nov",
+                    "type": "Class",
+                    "location": "C-110",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FAS Gala 18 Nov",
+                      "CourseBatch": "",
+                      "RoomName": "C-110",
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
@@ -45600,6 +45708,150 @@
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved by FAIS": {
+        "null": {
+          "null": {
+            "Tuesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved by FAIS",
+                    "type": "Class",
+                    "location": "D-505",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved by FAIS",
+                      "CourseBatch": "",
+                      "RoomName": "D-505",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved by FAIS",
+                    "type": "Class",
+                    "location": "D-505",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved by FAIS",
+                      "CourseBatch": "",
+                      "RoomName": "D-505",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved by FAIS",
+                    "type": "Class",
+                    "location": "D-506",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved by FAIS",
+                      "CourseBatch": "",
+                      "RoomName": "D-506",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved by FAIS",
+                    "type": "Class",
+                    "location": "D-506",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved by FAIS",
+                      "CourseBatch": "",
+                      "RoomName": "D-506",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
