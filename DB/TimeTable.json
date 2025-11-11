@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-11 10:14:02 UTC",
-    "local_time_pkt": "2025-11-11 03:14:02 PM PKT"
+    "last_updated_utc": "2025-11-11 11:11:12 UTC",
+    "local_time_pkt": "2025-11-11 04:11:12 PM PKT"
   },
   "BS": {
     "AI": {
@@ -757,11 +757,9 @@
                   "type": "Class",
                   "location": "D-403",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Comp Vision (AI-B)Cancelled",
+                    "Text": "Comp Vision (AI-B)",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-403",
                     "TimeIntervals": [
@@ -1043,11 +1041,9 @@
                   "type": "Class",
                   "location": "D-402",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Comp Vision (AI-C)Cancelled",
+                    "Text": "Comp Vision (AI-C)",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-402",
                     "TimeIntervals": [
@@ -4987,7 +4983,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Ideology of Pak (AI-C) 09:00-10:45Cancelled",
+                    "Text": "Ideology of Pak (AI-C) 09:00-10:45",
                     "CourseBatch": "BS AI (2025)",
                     "RoomName": "C-308",
                     "TimeIntervals": [
@@ -8455,11 +8451,9 @@
                   "type": "Class",
                   "location": "D-316",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Info Sec (CS-K)Cancelled",
+                    "Text": "Info Sec (CS-K)",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-316",
                     "TimeIntervals": [
@@ -9950,42 +9944,6 @@
             }
           ],
           "Tuesday": [
-            {
-              "time": {
-                "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
-                },
-                "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
-                }
-              },
-              "classes": [
-                {
-                  "name": "Comp Net",
-                  "type": "Class",
-                  "location": "C-407",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Comp Net (CS-C)ReSch",
-                    "CourseBatch": "BS CS (2023)",
-                    "RoomName": "C-407",
-                    "TimeIntervals": [
-                      {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
             {
               "time": {
                 "start": {
@@ -13147,42 +13105,6 @@
             {
               "time": {
                 "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "Civics",
-                  "type": "Class",
-                  "location": "C-401",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Civics (CS-D)ReSch",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "C-401",
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
                   "text": "01:00",
                   "AM_PM": "PM",
                   "value": 780
@@ -15509,7 +15431,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Ideology of Pak (CS-B) 11:30-01:15Cancelled",
+                    "Text": "Ideology of Pak (CS-B) 11:30-01:15",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
@@ -18501,11 +18423,9 @@
                   "type": "Class",
                   "location": "C-303",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "AP (CS-H)Cancelled",
+                    "Text": "AP (CS-H)",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-303",
                     "TimeIntervals": [
@@ -18580,42 +18500,6 @@
                       {
                         "text": "10:00-11:20",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "PF Lab",
-                  "type": "Lab",
-                  "location": "Rawal 3 (B-232)",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "PF Lab (CS-H)ReSch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "Rawal 3 (B-232)",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-05:15",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -19069,11 +18953,9 @@
                   "type": "Class",
                   "location": "C-305",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "AP (CS-J)Cancelled",
+                    "Text": "AP (CS-J)",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-305",
                     "TimeIntervals": [
@@ -30485,11 +30367,9 @@
                   "type": "Class",
                   "location": "D-313",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Fund of SPM (SE-F)Cancelled",
+                    "Text": "Fund of SPM (SE-F)",
                     "CourseBatch": "BS SE (2022)",
                     "RoomName": "D-313",
                     "TimeIntervals": [
@@ -41495,48 +41375,6 @@
           }
         }
       },
-      "FAS": {
-        "null": {
-          "null": {
-            "Tuesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FAS",
-                    "type": "Class",
-                    "location": "C-310",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FAS",
-                      "CourseBatch": "",
-                      "RoomName": "C-310",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
       "FAS Gala 18 Nov": {
         "null": {
           "null": {
@@ -45786,74 +45624,6 @@
               {
                 "time": {
                   "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-302",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-302",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-405",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-405",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
                     "text": "08:30",
                     "AM_PM": "AM",
                     "value": 510
@@ -45879,40 +45649,6 @@
                         {
                           "text": "08:30-09:50",
                           "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "B-229",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "B-229",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
                         }
                       ]
                     }
@@ -46277,218 +46013,6 @@
           }
         }
       },
-      "Reserved by FAIS": {
-        "null": {
-          "null": {
-            "Tuesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved by FAIS",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved by FAIS",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved by FAIS",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved by FAIS",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved by FAIS",
-                    "type": "Class",
-                    "location": "D-505",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved by FAIS",
-                      "CourseBatch": "",
-                      "RoomName": "D-505",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved by FAIS",
-                    "type": "Class",
-                    "location": "D-505",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved by FAIS",
-                      "CourseBatch": "",
-                      "RoomName": "D-505",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved by FAIS",
-                    "type": "Class",
-                    "location": "D-506",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved by FAIS",
-                      "CourseBatch": "",
-                      "RoomName": "D-506",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved by FAIS",
-                    "type": "Class",
-                    "location": "D-506",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved by FAIS",
-                      "CourseBatch": "",
-                      "RoomName": "D-506",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
       "Reserved for EE": {
         "null": {
           "null": {
@@ -46520,48 +46044,6 @@
                       "TimeIntervals": [
                         {
                           "text": "06:45-08:05",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved for Ethics": {
-        "null": {
-          "null": {
-            "Tuesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for Ethics",
-                    "type": "Class",
-                    "location": "C-401",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for Ethics",
-                      "CourseBatch": "",
-                      "RoomName": "C-401",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
                           "AM_PM": "PM"
                         }
                       ]
