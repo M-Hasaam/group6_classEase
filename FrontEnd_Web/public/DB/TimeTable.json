@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-11 03:41:30 UTC",
-    "local_time_pkt": "2025-11-11 08:41:30 AM PKT"
+    "last_updated_utc": "2025-11-11 04:16:52 UTC",
+    "local_time_pkt": "2025-11-11 09:16:52 AM PKT"
   },
   "BS": {
     "AI": {
@@ -793,9 +793,11 @@
                   "type": "Class",
                   "location": "D-411",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Org Behavior (AI-B)",
+                    "Text": "Org Behavior (AI-B)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-411",
                     "TimeIntervals": [
