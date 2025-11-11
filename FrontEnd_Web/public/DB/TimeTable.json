@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-11 07:13:04 UTC",
-    "local_time_pkt": "2025-11-11 12:13:04 PM PKT"
+    "last_updated_utc": "2025-11-11 08:16:48 UTC",
+    "local_time_pkt": "2025-11-11 01:16:48 PM PKT"
   },
   "BS": {
     "AI": {
@@ -873,42 +873,6 @@
                     "TimeIntervals": [
                       {
                         "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Comp Vision Lab",
-                  "type": "Lab",
-                  "location": "D-412",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Comp Vision Lab (AI-B) ReSch",
-                    "CourseBatch": "BS AI (2022)",
-                    "RoomName": "D-412",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -12958,6 +12922,44 @@
                 }
               ]
             }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "Data St",
+                  "type": "Class",
+                  "location": "C-402",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Data St (CS-C)ReSch",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "C-402",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
           ]
         },
         "D": {
@@ -14349,42 +14351,6 @@
                   }
                 }
               ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "D-304",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CS-F) ReSch",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": "D-304",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -15213,7 +15179,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Islamic (CS-A) 11:30-01:15",
+                    "Text": "Islamic (CS-A) 11:30-01:15Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-302",
                     "TimeIntervals": [
@@ -16957,7 +16923,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Islamic (CS-E) 11:30-01:15",
+                    "Text": "Islamic (CS-E) 11:30-01:15Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-305",
                     "TimeIntervals": [
@@ -17587,7 +17553,7 @@
                 {
                   "name": "IICT Lab",
                   "type": "Lab",
-                  "location": "A-Karakoram 3",
+                  "location": "C-Margala 4",
                   "sub_Section": null,
                   "info": [
                     "ReSchedule"
@@ -17595,7 +17561,7 @@
                   "detailed": {
                     "Text": "IICT Lab (CS-F) ReSch",
                     "CourseBatch": "BS CS (2025)",
-                    "RoomName": "A-Karakoram 3",
+                    "RoomName": "C-Margala 4",
                     "TimeIntervals": [
                       {
                         "text": "02:30-05:15",
@@ -43782,40 +43748,6 @@
                   {
                     "name": "FYP/Thesis Evaluations",
                     "type": "Class",
-                    "location": "C-402",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-402",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
                     "location": "C-403",
                     "sub_Section": null,
                     "info": [],
@@ -45394,6 +45326,74 @@
                     }
                   }
                 ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "B-229",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "B-229",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "02:15",
+                    "AM_PM": "PM",
+                    "value": 855
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "C-Margala 3",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "C-Margala 3",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-02:15",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
               }
             ],
             "Wednesday": [
@@ -45894,6 +45894,48 @@
                       "TimeIntervals": [
                         {
                           "text": "06:45-08:05",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved for Ethics": {
+        "null": {
+          "null": {
+            "Tuesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Ethics",
+                    "type": "Class",
+                    "location": "C-401",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Ethics",
+                      "CourseBatch": "",
+                      "RoomName": "C-401",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
                           "AM_PM": "PM"
                         }
                       ]
