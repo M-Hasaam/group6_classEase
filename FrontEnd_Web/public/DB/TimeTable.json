@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-11 08:16:48 UTC",
-    "local_time_pkt": "2025-11-11 01:16:48 PM PKT"
+    "last_updated_utc": "2025-11-11 09:13:53 UTC",
+    "local_time_pkt": "2025-11-11 02:13:53 PM PKT"
   },
   "BS": {
     "AI": {
@@ -30203,6 +30203,42 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Fund of SPM",
+                  "type": "Class",
+                  "location": "C-409",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Fund of SPM (SE-F)ReSch",
+                    "CourseBatch": "BS SE (2022)",
+                    "RoomName": "C-409",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "Thursday": [
@@ -45262,6 +45298,40 @@
               {
                 "time": {
                   "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "C-302",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "C-302",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
                     "text": "08:30",
                     "AM_PM": "AM",
                     "value": 510
@@ -45723,6 +45793,74 @@
         "null": {
           "null": {
             "Tuesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved by FAIS",
+                    "type": "Class",
+                    "location": "D-504",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved by FAIS",
+                      "CourseBatch": "",
+                      "RoomName": "D-504",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved by FAIS",
+                    "type": "Class",
+                    "location": "D-504",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved by FAIS",
+                      "CourseBatch": "",
+                      "RoomName": "D-504",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
               {
                 "time": {
                   "start": {
