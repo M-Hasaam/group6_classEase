@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-11 02:41:52 UTC",
-    "local_time_pkt": "2025-11-11 07:41:52 AM PKT"
+    "last_updated_utc": "2025-11-11 03:41:30 UTC",
+    "local_time_pkt": "2025-11-11 08:41:30 AM PKT"
   },
   "BS": {
     "AI": {
@@ -40748,6 +40748,48 @@
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "FAS": {
+        "null": {
+          "null": {
+            "Tuesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FAS",
+                    "type": "Class",
+                    "location": "C-310",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FAS",
+                      "CourseBatch": "",
+                      "RoomName": "C-310",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
                           "AM_PM": "PM"
                         }
                       ]
