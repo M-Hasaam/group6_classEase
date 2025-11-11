@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-11 04:16:52 UTC",
-    "local_time_pkt": "2025-11-11 09:16:52 AM PKT"
+    "last_updated_utc": "2025-11-11 05:13:19 UTC",
+    "local_time_pkt": "2025-11-11 10:13:19 AM PKT"
   },
   "BS": {
     "AI": {
@@ -757,9 +757,11 @@
                   "type": "Class",
                   "location": "D-403",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Comp Vision (AI-B)",
+                    "Text": "Comp Vision (AI-B)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-403",
                     "TimeIntervals": [
@@ -1077,9 +1079,11 @@
                   "type": "Class",
                   "location": "D-402",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Comp Vision (AI-C)",
+                    "Text": "Comp Vision (AI-C)Cancelled",
                     "CourseBatch": "BS AI (2022)",
                     "RoomName": "D-402",
                     "TimeIntervals": [
@@ -1961,13 +1965,13 @@
                 {
                   "name": "OS Lab",
                   "type": "Lab",
-                  "location": "D-IT Lab 3",
+                  "location": "C-Rawal 4",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "OS Lab (AI-A)",
                     "CourseBatch": "BS AI (2023)",
-                    "RoomName": "D-IT Lab 3",
+                    "RoomName": "C-Rawal 4",
                     "TimeIntervals": [
                       {
                         "text": "02:30-05:15",
@@ -2379,13 +2383,13 @@
                 {
                   "name": "ML Lab",
                   "type": "Lab",
-                  "location": "D-IT Lab 2",
+                  "location": "A-Karakoram 3",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "ML Lab (AI-B)",
                     "CourseBatch": "BS AI (2023)",
-                    "RoomName": "D-IT Lab 2",
+                    "RoomName": "A-Karakoram 3",
                     "TimeIntervals": [
                       {
                         "text": "02:30-05:15",
@@ -3947,13 +3951,13 @@
                 {
                   "name": "Prog for AI Lab",
                   "type": "Lab",
-                  "location": "C-Rawal 1",
+                  "location": "A-Mehran 1",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Prog for AI Lab (AI-C)",
                     "CourseBatch": "BS AI (2024)",
-                    "RoomName": "C-Rawal 1",
+                    "RoomName": "A-Mehran 1",
                     "TimeIntervals": [
                       {
                         "text": "02:30-05:15",
@@ -36762,13 +36766,13 @@
                   {
                     "name": "OOP Lab",
                     "type": "Lab",
-                    "location": "D-IT Lab 1",
+                    "location": "C-Rawal 1",
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
                       "Text": "OOP Lab (CS-B)",
                       "CourseBatch": "Repeat Courses",
-                      "RoomName": "D-IT Lab 1",
+                      "RoomName": "C-Rawal 1",
                       "TimeIntervals": [
                         {
                           "text": "02:30-05:15",
@@ -38458,13 +38462,13 @@
                   {
                     "name": "S/w Const Lab",
                     "type": "Lab",
-                    "location": "C-Margala 1",
+                    "location": "Rawal 3 (B-232)",
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
                       "Text": "S/w Const Lab (SE, 22)",
                       "CourseBatch": "Repeat Courses",
-                      "RoomName": "C-Margala 1",
+                      "RoomName": "Rawal 3 (B-232)",
                       "TimeIntervals": [
                         {
                           "text": "02:30-05:15",
@@ -42225,176 +42229,6 @@
                     "value": 510
                   },
                   "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FSM",
-                    "type": "Class",
-                    "location": "B-230",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FSM",
-                      "CourseBatch": "",
-                      "RoomName": "B-230",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FSM",
-                    "type": "Class",
-                    "location": "B-230",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FSM",
-                      "CourseBatch": "",
-                      "RoomName": "B-230",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FSM",
-                    "type": "Class",
-                    "location": "B-230",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FSM",
-                      "CourseBatch": "",
-                      "RoomName": "B-230",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FSM",
-                    "type": "Class",
-                    "location": "B-230",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FSM",
-                      "CourseBatch": "",
-                      "RoomName": "B-230",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FSM",
-                    "type": "Class",
-                    "location": "B-230",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FSM",
-                      "CourseBatch": "",
-                      "RoomName": "B-230",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
                     "text": "11:15",
                     "AM_PM": "AM",
                     "value": 675
@@ -45199,6 +45033,116 @@
           }
         }
       },
+      "PF Demos": {
+        "null": {
+          "null": {
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "PF Demos",
+                    "type": "Class",
+                    "location": "D-314",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "PF Demos",
+                      "CourseBatch": "",
+                      "RoomName": "D-314",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "PF Demos",
+                    "type": "Class",
+                    "location": "D-314",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "PF Demos",
+                      "CourseBatch": "",
+                      "RoomName": "D-314",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "PF Demos",
+                    "type": "Class",
+                    "location": "D-314",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "PF Demos",
+                      "CourseBatch": "",
+                      "RoomName": "D-314",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "Reserved": {
         "null": {
           "null": {
@@ -45334,6 +45278,178 @@
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "D-IT Lab 1",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "D-IT Lab 1",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "D-IT Lab 2",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "D-IT Lab 2",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "D-IT Lab 3",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "D-IT Lab 3",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "D-IT Lab 4",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "D-IT Lab 4",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "C-Margala 1",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "C-Margala 1",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-05:15",
                           "AM_PM": "PM"
                         }
                       ]
@@ -46329,6 +46445,354 @@
           }
         }
       },
+      "S&H Interviews": {
+        "null": {
+          "null": {
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-315",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-315",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-315",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-315",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-315",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-315",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-315",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-315",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-315",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-315",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-316",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-316",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-316",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-316",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-316",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-316",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-316",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-316",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "S&H Interviews",
+                    "type": "Class",
+                    "location": "D-316",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "S&H Interviews",
+                      "CourseBatch": "",
+                      "RoomName": "D-316",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "SES": {
         "null": {
           "null": {
@@ -46360,6 +46824,286 @@
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Suventure": {
+        "null": {
+          "null": {
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Suventure",
+                    "type": "Class",
+                    "location": "D-313",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Suventure",
+                      "CourseBatch": "",
+                      "RoomName": "D-313",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Suventure",
+                    "type": "Class",
+                    "location": "D-313",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Suventure",
+                      "CourseBatch": "",
+                      "RoomName": "D-313",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "05:20",
+                    "AM_PM": "PM",
+                    "value": 1040
+                  },
+                  "end": {
+                    "text": "06:40",
+                    "AM_PM": "PM",
+                    "value": 1120
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Suventure",
+                    "type": "Class",
+                    "location": "D-313",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Suventure",
+                      "CourseBatch": "",
+                      "RoomName": "D-313",
+                      "TimeIntervals": [
+                        {
+                          "text": "05:20-06:40",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "06:45",
+                    "AM_PM": "PM",
+                    "value": 1125
+                  },
+                  "end": {
+                    "text": "08:05",
+                    "AM_PM": "PM",
+                    "value": 1205
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Suventure",
+                    "type": "Class",
+                    "location": "D-313",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Suventure",
+                      "CourseBatch": "",
+                      "RoomName": "D-313",
+                      "TimeIntervals": [
+                        {
+                          "text": "06:45-08:05",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Suventure",
+                    "type": "Class",
+                    "location": "D-314",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Suventure",
+                      "CourseBatch": "",
+                      "RoomName": "D-314",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Suventure",
+                    "type": "Class",
+                    "location": "D-314",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Suventure",
+                      "CourseBatch": "",
+                      "RoomName": "D-314",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "05:20",
+                    "AM_PM": "PM",
+                    "value": 1040
+                  },
+                  "end": {
+                    "text": "06:40",
+                    "AM_PM": "PM",
+                    "value": 1120
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Suventure",
+                    "type": "Class",
+                    "location": "D-314",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Suventure",
+                      "CourseBatch": "",
+                      "RoomName": "D-314",
+                      "TimeIntervals": [
+                        {
+                          "text": "05:20-06:40",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "06:45",
+                    "AM_PM": "PM",
+                    "value": 1125
+                  },
+                  "end": {
+                    "text": "08:05",
+                    "AM_PM": "PM",
+                    "value": 1205
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Suventure",
+                    "type": "Class",
+                    "location": "D-314",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Suventure",
+                      "CourseBatch": "",
+                      "RoomName": "D-314",
+                      "TimeIntervals": [
+                        {
+                          "text": "06:45-08:05",
                           "AM_PM": "PM"
                         }
                       ]
