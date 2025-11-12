@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-12 04:16:09 UTC",
-    "local_time_pkt": "2025-11-12 09:16:09 AM PKT"
+    "last_updated_utc": "2025-11-12 05:13:38 UTC",
+    "local_time_pkt": "2025-11-12 10:13:38 AM PKT"
   },
   "BS": {
     "AI": {
@@ -5121,9 +5121,11 @@
                   "type": "Class",
                   "location": "C-310",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Calculus (AI-C)",
+                    "Text": "Calculus (AI-C)Cancelled",
                     "CourseBatch": "BS AI (2025)",
                     "RoomName": "C-310",
                     "TimeIntervals": [
@@ -7993,7 +7995,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "PPIT (CS-G) Auditorium",
+                    "Text": "PPIT (CS-G)",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-313",
                     "TimeIntervals": [
@@ -14349,6 +14351,42 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "null",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (CS-F) ReSch A-316",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": null,
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ]
         },
@@ -19405,40 +19443,6 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Calculus",
-                  "type": "Class",
-                  "location": "C-308",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Calculus (CS-Z) International Students",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-308",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
                   "text": "10:00",
                   "AM_PM": "AM",
                   "value": 600
@@ -20547,7 +20551,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Info Assur (CY-C)D-311",
+                    "Text": "Info Assur (CY-C)",
                     "CourseBatch": "BS CY (2022)",
                     "RoomName": "D-506",
                     "TimeIntervals": [
@@ -34599,9 +34603,11 @@
                   "type": "Class",
                   "location": "C-402",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Calculus (SE-D)",
+                    "Text": "Calculus (SE-D)Cancelled",
                     "CourseBatch": "BS SE (2025)",
                     "RoomName": "C-402",
                     "TimeIntervals": [
