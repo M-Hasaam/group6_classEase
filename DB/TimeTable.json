@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-12 05:13:38 UTC",
-    "local_time_pkt": "2025-11-12 10:13:38 AM PKT"
+    "last_updated_utc": "2025-11-12 06:19:06 UTC",
+    "local_time_pkt": "2025-11-12 11:19:06 AM PKT"
   },
   "BS": {
     "AI": {
@@ -522,6 +522,42 @@
                       {
                         "text": "06:45-08:05",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "11:15",
+                  "AM_PM": "AM",
+                  "value": 675
+                }
+              },
+              "classes": [
+                {
+                  "name": "Comp Vision Lab",
+                  "type": "Lab",
+                  "location": "Rawal 3 (B-232)",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Comp Vision Lab (AI-A)ReSch",
+                    "CourseBatch": "BS AI (2022)",
+                    "RoomName": "Rawal 3 (B-232)",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-11:15",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -2847,6 +2883,42 @@
                   }
                 }
               ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Data St Lab",
+                  "type": "Lab",
+                  "location": "A-Karakoram 3",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Data St Lab (AI-A/C)ReSch",
+                    "CourseBatch": "BS AI (2024)",
+                    "RoomName": "A-Karakoram 3",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "Friday": [
@@ -4004,6 +4076,42 @@
             }
           ],
           "Tuesday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "04:15",
+                  "AM_PM": "PM",
+                  "value": 975
+                }
+              },
+              "classes": [
+                {
+                  "name": "Func Eng",
+                  "type": "Class",
+                  "location": "C-308",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Func Eng (AI-A) 02:30-04:15 ReSch",
+                    "CourseBatch": "BS AI (2025)",
+                    "RoomName": "C-308",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-04:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -15641,7 +15749,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Func Eng (CS-B) 02:00-03:45",
+                    "Text": "Func Eng (CS-B) 02:00-03:45Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-302",
                     "TimeIntervals": [
@@ -16752,6 +16860,44 @@
                       {
                         "text": "02:30-05:15",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "09:50",
+                  "AM_PM": "AM",
+                  "value": 590
+                }
+              },
+              "classes": [
+                {
+                  "name": "AP",
+                  "type": "Class",
+                  "location": "C-405",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "AP (CS-D) ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-405",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-09:50",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -18105,7 +18251,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Func Eng (CS-G) 11:30-01:15",
+                    "Text": "Func Eng (CS-G) 11:30-01:15Cancelled",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-301",
                     "TimeIntervals": [
@@ -18753,6 +18899,44 @@
               ]
             }
           ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "AP",
+                  "type": "Class",
+                  "location": "C-405",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "AP (CS-H) ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-405",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "Subsections": {
             "H1": {
               "Wednesday": [
@@ -19282,6 +19466,42 @@
                       {
                         "text": "03:55-05:15",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "AP",
+                  "type": "Class",
+                  "location": "C-405",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "AP (CS-J) ReSch",
+                    "CourseBatch": "BS CS (2025)",
+                    "RoomName": "C-405",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -23549,6 +23769,80 @@
               ]
             },
             "B2": {
+              "Tuesday": [
+                {
+                  "time": {
+                    "start": {
+                      "text": "02:30",
+                      "AM_PM": "PM",
+                      "value": 870
+                    },
+                    "end": {
+                      "text": "03:50",
+                      "AM_PM": "PM",
+                      "value": 950
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-305",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (CY-B2) ReSch",
+                        "CourseBatch": "BS CY (2025)",
+                        "RoomName": "C-305",
+                        "TimeIntervals": [
+                          {
+                            "text": "02:30-03:50",
+                            "AM_PM": "PM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "time": {
+                    "start": {
+                      "text": "03:55",
+                      "AM_PM": "PM",
+                      "value": 955
+                    },
+                    "end": {
+                      "text": "05:15",
+                      "AM_PM": "PM",
+                      "value": 1035
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-305",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (CY-B2) ReSch",
+                        "CourseBatch": "BS CY (2025)",
+                        "RoomName": "C-305",
+                        "TimeIntervals": [
+                          {
+                            "text": "03:55-05:15",
+                            "AM_PM": "PM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
               "Wednesday": [
                 {
                   "time": {
@@ -24011,6 +24305,80 @@
               ]
             },
             "C2": {
+              "Monday": [
+                {
+                  "time": {
+                    "start": {
+                      "text": "02:30",
+                      "AM_PM": "PM",
+                      "value": 870
+                    },
+                    "end": {
+                      "text": "03:50",
+                      "AM_PM": "PM",
+                      "value": 950
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-308",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (CY-C2) ReSch",
+                        "CourseBatch": "BS CY (2025)",
+                        "RoomName": "C-308",
+                        "TimeIntervals": [
+                          {
+                            "text": "02:30-03:50",
+                            "AM_PM": "PM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "time": {
+                    "start": {
+                      "text": "03:55",
+                      "AM_PM": "PM",
+                      "value": 955
+                    },
+                    "end": {
+                      "text": "05:15",
+                      "AM_PM": "PM",
+                      "value": 1035
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-308",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (CY-C2) ReSch",
+                        "CourseBatch": "BS CY (2025)",
+                        "RoomName": "C-308",
+                        "TimeIntervals": [
+                          {
+                            "text": "03:55-05:15",
+                            "AM_PM": "PM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
               "Thursday": [
                 {
                   "time": {
@@ -44416,108 +44784,6 @@
               {
                 "time": {
                   "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-405",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-405",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-405",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-405",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-405",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-405",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
                     "text": "02:30",
                     "AM_PM": "PM",
                     "value": 870
@@ -46008,48 +46274,6 @@
                       "TimeIntervals": [
                         {
                           "text": "02:30-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved FCSS": {
-        "null": {
-          "null": {
-            "Wednesday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved FCSS",
-                    "type": "Class",
-                    "location": "C-406",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved FCSS",
-                      "CourseBatch": "",
-                      "RoomName": "C-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
                           "AM_PM": "PM"
                         }
                       ]
