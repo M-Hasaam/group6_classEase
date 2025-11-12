@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-12 12:24:27 UTC",
-    "local_time_pkt": "2025-11-12 05:24:27 PM PKT"
+    "last_updated_utc": "2025-11-12 13:27:34 UTC",
+    "local_time_pkt": "2025-11-12 06:27:34 PM PKT"
   },
   "BS": {
     "AI": {
@@ -6584,6 +6584,44 @@
                 }
               ]
             }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "09:50",
+                  "AM_PM": "AM",
+                  "value": 590
+                }
+              },
+              "classes": [
+                {
+                  "name": "SMD",
+                  "type": "Class",
+                  "location": "D-303",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "SMD (CS-A, G-3) ReSch",
+                    "CourseBatch": "BS CS (2022)",
+                    "RoomName": "D-303",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-09:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
           ]
         },
         "B": {
@@ -7278,6 +7316,44 @@
                     "Text": "SMD (CS-B, G-3)",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "C-110",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "SMD",
+                  "type": "Class",
+                  "location": "D-303",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "SMD (CS-B, G-3) ReSch",
+                    "CourseBatch": "BS CS (2022)",
+                    "RoomName": "D-303",
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
@@ -9454,6 +9530,46 @@
                       {
                         "text": "02:30-05:15",
                         "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "A&B": {
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "SMD",
+                  "type": "Class",
+                  "location": "D-303",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "SMD (CS-A&B) ReSch",
+                    "CourseBatch": "BS CS (2023)",
+                    "RoomName": "D-303",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
+                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -37858,6 +37974,42 @@
               {
                 "time": {
                   "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "OOP",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [
+                      "ReSchedule"
+                    ],
+                    "detailed": {
+                      "Text": "OOP (CS-B) ReSch",
+                      "CourseBatch": "Repeat Courses",
+                      "RoomName": "C-407",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
                     "text": "02:30",
                     "AM_PM": "PM",
                     "value": 870
@@ -45096,40 +45248,6 @@
                       "TimeIntervals": [
                         {
                           "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
                           "AM_PM": "AM"
                         }
                       ]
