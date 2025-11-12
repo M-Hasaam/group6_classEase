@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-12 03:40:23 UTC",
-    "local_time_pkt": "2025-11-12 08:40:23 AM PKT"
+    "last_updated_utc": "2025-11-12 04:16:09 UTC",
+    "local_time_pkt": "2025-11-12 09:16:09 AM PKT"
   },
   "BS": {
     "AI": {
@@ -41403,6 +41403,48 @@
                       "Text": "FAS Gala 18 Nov",
                       "CourseBatch": "",
                       "RoomName": "C-110",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "FASC": {
+        "null": {
+          "null": {
+            "Wednesday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FASC",
+                    "type": "Class",
+                    "location": "D-502",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FASC",
+                      "CourseBatch": "",
+                      "RoomName": "D-502",
                       "TimeIntervals": [
                         {
                           "text": "02:30-03:50",
