@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-13 11:11:22 UTC",
-    "local_time_pkt": "2025-11-13 04:11:22 PM PKT"
+    "last_updated_utc": "2025-11-13 12:25:14 UTC",
+    "local_time_pkt": "2025-11-13 05:25:14 PM PKT"
   },
   "BS": {
     "AI": {
@@ -7722,6 +7722,44 @@
                 }
               ]
             }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Info Sec",
+                  "type": "Class",
+                  "location": "C-307",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Info Sec (CS-D) ReSch",
+                    "CourseBatch": "BS CS (2022)",
+                    "RoomName": "C-307",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
           ]
         },
         "D, G-1": {
@@ -7928,6 +7966,44 @@
                     "Text": "PPIT (CS-E)",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-313",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Info Sec",
+                  "type": "Class",
+                  "location": "C-307",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Info Sec (CS-E) ReSch",
+                    "CourseBatch": "BS CS (2022)",
+                    "RoomName": "C-307",
                     "TimeIntervals": [
                       {
                         "text": "03:55-05:15",
@@ -8641,80 +8717,6 @@
                     "TimeIntervals": [
                       {
                         "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Info Sec",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Info Sec (CS-K) ReSch",
-                    "CourseBatch": "BS CS (2022)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Info Sec",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Info Sec (CS-K) ReSch",
-                    "CourseBatch": "BS CS (2022)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
                         "AM_PM": "PM"
                       }
                     ]
