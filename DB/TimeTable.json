@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-13 09:14:17 UTC",
-    "local_time_pkt": "2025-11-13 02:14:17 PM PKT"
+    "last_updated_utc": "2025-11-13 10:14:15 UTC",
+    "local_time_pkt": "2025-11-13 03:14:15 PM PKT"
   },
   "BS": {
     "AI": {
@@ -2905,7 +2905,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Psychology (AI-A) 11:30-01:15",
+                    "Text": "Psychology (AI-A) 11:30-01:15Cancelled",
                     "CourseBatch": "BS AI (2024)",
                     "RoomName": "C-305",
                     "TimeIntervals": [
@@ -3461,7 +3461,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Psychology (AI-B) 08:30-10:15",
+                    "Text": "Psychology (AI-B) 08:30-10:15Cancelled",
                     "CourseBatch": "BS AI (2024)",
                     "RoomName": "C-305",
                     "TimeIntervals": [
@@ -8641,6 +8641,80 @@
                     "TimeIntervals": [
                       {
                         "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Info Sec",
+                  "type": "Class",
+                  "location": "C-307",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Info Sec (CS-K) ReSch",
+                    "CourseBatch": "BS CS (2022)",
+                    "RoomName": "C-307",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Info Sec",
+                  "type": "Class",
+                  "location": "C-307",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Info Sec (CS-K) ReSch",
+                    "CourseBatch": "BS CS (2022)",
+                    "RoomName": "C-307",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
                         "AM_PM": "PM"
                       }
                     ]
@@ -26391,6 +26465,78 @@
             {
               "time": {
                 "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "DAV Lab",
+                  "type": "Lab",
+                  "location": "C-305",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "DAV Lab (DS-B) ReSch",
+                    "CourseBatch": "BS DS (2023)",
+                    "RoomName": "C-305",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "DAV Lab",
+                  "type": "Lab",
+                  "location": "C-305",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "DAV Lab (DS-B) ReSch",
+                    "CourseBatch": "BS DS (2023)",
+                    "RoomName": "C-305",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -31665,9 +31811,11 @@
                   "type": "Class",
                   "location": "C-402",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Prob & Stats (SE-A)",
+                    "Text": "Prob & Stats (SE-A)Cancelled",
                     "CourseBatch": "BS SE (2024)",
                     "RoomName": "C-402",
                     "TimeIntervals": [
@@ -32053,6 +32201,44 @@
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "10:30",
+                  "AM_PM": "AM",
+                  "value": 630
+                },
+                "end": {
+                  "text": "01:15",
+                  "AM_PM": "PM",
+                  "value": 795
+                }
+              },
+              "classes": [
+                {
+                  "name": "DLD Lab",
+                  "type": "Lab",
+                  "location": "B-Digital",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "DLD Lab (SE-A)  10:30-01:15 ReSch",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "B-Digital",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:30-01:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -32958,6 +33144,44 @@
                       {
                         "text": "08:30-11:15",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "Friday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "04:15",
+                  "AM_PM": "PM",
+                  "value": 975
+                }
+              },
+              "classes": [
+                {
+                  "name": "Psychology",
+                  "type": "Class",
+                  "location": "C-308",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Psychology (SE-C) 02:30-04:15 ReSch",
+                    "CourseBatch": "BS SE (2024)",
+                    "RoomName": "C-308",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-04:15",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -39411,6 +39635,44 @@
                   }
                 ]
               }
+            ],
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Deep Learning",
+                    "type": "Class",
+                    "location": "C-302",
+                    "sub_Section": null,
+                    "info": [
+                      "ReSchedule"
+                    ],
+                    "detailed": {
+                      "Text": "Deep Learning (DS) ReSch",
+                      "CourseBatch": "MS Electives (All Prgrms)",
+                      "RoomName": "C-302",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
             ]
           }
         }
@@ -45811,6 +46073,74 @@
                       "Text": "Reserved",
                       "CourseBatch": "",
                       "RoomName": "C-308",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "C-310",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "C-310",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved",
+                    "type": "Class",
+                    "location": "C-310",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved",
+                      "CourseBatch": "",
+                      "RoomName": "C-310",
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
