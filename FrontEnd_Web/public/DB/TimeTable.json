@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-13 08:16:41 UTC",
-    "local_time_pkt": "2025-11-13 01:16:41 PM PKT"
+    "last_updated_utc": "2025-11-13 09:14:17 UTC",
+    "local_time_pkt": "2025-11-13 02:14:17 PM PKT"
   },
   "BS": {
     "AI": {
@@ -40662,40 +40662,6 @@
               {
                 "time": {
                   "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Tutorial",
-                    "type": "Class",
-                    "location": "D-506",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Tutorial (25)",
-                      "CourseBatch": "",
-                      "RoomName": "D-506",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
                     "text": "02:30",
                     "AM_PM": "PM",
                     "value": 870
@@ -45269,6 +45235,116 @@
           }
         }
       },
+      "Functional English CY-C2 Exam": {
+        "null": {
+          "null": {
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Functional English CY-C2 Exam",
+                    "type": "Class",
+                    "location": "D-506",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Functional English CY-C2 Exam",
+                      "CourseBatch": "",
+                      "RoomName": "D-506",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Functional English CY-C2 Exam",
+                    "type": "Class",
+                    "location": "D-506",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Functional English CY-C2 Exam",
+                      "CourseBatch": "",
+                      "RoomName": "D-506",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Functional English CY-C2 Exam",
+                    "type": "Class",
+                    "location": "D-506",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Functional English CY-C2 Exam",
+                      "CourseBatch": "",
+                      "RoomName": "D-506",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "GDGoC": {
         "null": {
           "null": {
@@ -47920,6 +47996,82 @@
                       "TimeIntervals": [
                         {
                           "text": "06:45-08:05",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Welcome": {
+        "null": {
+          "null": {
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Welcome",
+                    "type": "Class",
+                    "location": "C-301",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Welcome",
+                      "CourseBatch": "",
+                      "RoomName": "C-301",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Welcome",
+                    "type": "Class",
+                    "location": "C-301",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Welcome",
+                      "CourseBatch": "",
+                      "RoomName": "C-301",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
