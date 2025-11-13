@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-13 10:14:15 UTC",
-    "local_time_pkt": "2025-11-13 03:14:15 PM PKT"
+    "last_updated_utc": "2025-11-13 11:11:22 UTC",
+    "local_time_pkt": "2025-11-13 04:11:22 PM PKT"
   },
   "BS": {
     "AI": {
@@ -22787,6 +22787,44 @@
       },
       "2025": {
         "A": {
+          "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "01:15",
+                  "AM_PM": "PM",
+                  "value": 795
+                }
+              },
+              "classes": [
+                {
+                  "name": "Ideology of Pak",
+                  "type": "Class",
+                  "location": "D-504",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Ideology of Pak (CY-A) 11:30-01:15 ReSch",
+                    "CourseBatch": "BS CY (2025)",
+                    "RoomName": "D-504",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-01:15",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "Tuesday": [
             {
               "time": {
@@ -23121,7 +23159,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Ideology of Pak (CY-A) 09:00-10:45",
+                    "Text": "Ideology of Pak (CY-A) 09:00-10:45Cancelled",
                     "CourseBatch": "BS CY (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
@@ -43850,74 +43888,6 @@
               {
                 "time": {
                   "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP Session",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP Session",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP Session",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP Session",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
                     "text": "08:30",
                     "AM_PM": "AM",
                     "value": 510
@@ -48046,286 +48016,6 @@
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Suventure": {
-        "null": {
-          "null": {
-            "Friday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Suventure",
-                    "type": "Class",
-                    "location": "D-313",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Suventure",
-                      "CourseBatch": "",
-                      "RoomName": "D-313",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Suventure",
-                    "type": "Class",
-                    "location": "D-313",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Suventure",
-                      "CourseBatch": "",
-                      "RoomName": "D-313",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "05:20",
-                    "AM_PM": "PM",
-                    "value": 1040
-                  },
-                  "end": {
-                    "text": "06:40",
-                    "AM_PM": "PM",
-                    "value": 1120
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Suventure",
-                    "type": "Class",
-                    "location": "D-313",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Suventure",
-                      "CourseBatch": "",
-                      "RoomName": "D-313",
-                      "TimeIntervals": [
-                        {
-                          "text": "05:20-06:40",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "06:45",
-                    "AM_PM": "PM",
-                    "value": 1125
-                  },
-                  "end": {
-                    "text": "08:05",
-                    "AM_PM": "PM",
-                    "value": 1205
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Suventure",
-                    "type": "Class",
-                    "location": "D-313",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Suventure",
-                      "CourseBatch": "",
-                      "RoomName": "D-313",
-                      "TimeIntervals": [
-                        {
-                          "text": "06:45-08:05",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Suventure",
-                    "type": "Class",
-                    "location": "D-314",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Suventure",
-                      "CourseBatch": "",
-                      "RoomName": "D-314",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Suventure",
-                    "type": "Class",
-                    "location": "D-314",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Suventure",
-                      "CourseBatch": "",
-                      "RoomName": "D-314",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "05:20",
-                    "AM_PM": "PM",
-                    "value": 1040
-                  },
-                  "end": {
-                    "text": "06:40",
-                    "AM_PM": "PM",
-                    "value": 1120
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Suventure",
-                    "type": "Class",
-                    "location": "D-314",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Suventure",
-                      "CourseBatch": "",
-                      "RoomName": "D-314",
-                      "TimeIntervals": [
-                        {
-                          "text": "05:20-06:40",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "06:45",
-                    "AM_PM": "PM",
-                    "value": 1125
-                  },
-                  "end": {
-                    "text": "08:05",
-                    "AM_PM": "PM",
-                    "value": 1205
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Suventure",
-                    "type": "Class",
-                    "location": "D-314",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Suventure",
-                      "CourseBatch": "",
-                      "RoomName": "D-314",
-                      "TimeIntervals": [
-                        {
-                          "text": "06:45-08:05",
                           "AM_PM": "PM"
                         }
                       ]
