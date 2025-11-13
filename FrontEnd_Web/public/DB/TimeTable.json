@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-13 07:12:29 UTC",
-    "local_time_pkt": "2025-11-13 12:12:29 PM PKT"
+    "last_updated_utc": "2025-11-13 08:16:41 UTC",
+    "local_time_pkt": "2025-11-13 01:16:41 PM PKT"
   },
   "BS": {
     "AI": {
@@ -1126,42 +1126,6 @@
             }
           ],
           "Wednesday": [
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
-                  "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "09:50",
-                  "AM_PM": "AM",
-                  "value": 590
-                }
-              },
-              "classes": [
-                {
-                  "name": "Org Behavior",
-                  "type": "Class",
-                  "location": "D-411",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Org Behavior (AI-C) ReSch",
-                    "CourseBatch": "BS AI (2022)",
-                    "RoomName": "D-411",
-                    "TimeIntervals": [
-                      {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
             {
               "time": {
                 "start": {
@@ -30617,42 +30581,6 @@
                   }
                 }
               ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "03:50",
-                  "AM_PM": "PM",
-                  "value": 950
-                }
-              },
-              "classes": [
-                {
-                  "name": "Fund of SPM",
-                  "type": "Class",
-                  "location": "C-409",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Fund of SPM (SE-F)ReSch",
-                    "CourseBatch": "BS SE (2022)",
-                    "RoomName": "C-409",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-03:50",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ],
           "Thursday": [
@@ -45740,74 +45668,6 @@
                       "TimeIntervals": [
                         {
                           "text": "06:45-08:05",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-406",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-406",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
                           "AM_PM": "PM"
                         }
                       ]
