@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-13 06:19:27 UTC",
-    "local_time_pkt": "2025-11-13 11:19:27 AM PKT"
+    "last_updated_utc": "2025-11-13 07:12:29 UTC",
+    "local_time_pkt": "2025-11-13 12:12:29 PM PKT"
   },
   "BS": {
     "AI": {
@@ -11681,21 +11681,21 @@
             {
               "time": {
                 "start": {
-                  "text": "10:00",
-                  "AM_PM": "AM",
-                  "value": 600
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
                 },
                 "end": {
-                  "text": "11:20",
-                  "AM_PM": "AM",
-                  "value": 680
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
                 }
               },
               "classes": [
                 {
                   "name": "SDA",
                   "type": "Class",
-                  "location": "C-402",
+                  "location": "C-304",
                   "sub_Section": null,
                   "info": [
                     "ReSchedule"
@@ -11703,11 +11703,11 @@
                   "detailed": {
                     "Text": "SDA (CS-G) ReSch",
                     "CourseBatch": "BS CS (2023)",
-                    "RoomName": "C-402",
+                    "RoomName": "C-304",
                     "TimeIntervals": [
                       {
-                        "text": "10:00-11:20",
-                        "AM_PM": "AM"
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -41609,6 +41609,42 @@
                   }
                 ]
               }
+            ],
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "01:00",
+                    "AM_PM": "PM",
+                    "value": 780
+                  },
+                  "end": {
+                    "text": "02:20",
+                    "AM_PM": "PM",
+                    "value": 860
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "FCS",
+                    "type": "Class",
+                    "location": "C-305",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "FCS",
+                      "CourseBatch": "",
+                      "RoomName": "C-305",
+                      "TimeIntervals": [
+                        {
+                          "text": "01:00-02:20",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
             ]
           }
         }
@@ -46127,6 +46163,82 @@
           }
         }
       },
+      "Reserved FCS": {
+        "null": {
+          "null": {
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved FCS",
+                    "type": "Class",
+                    "location": "D-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved FCS",
+                      "CourseBatch": "",
+                      "RoomName": "D-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved FCS",
+                    "type": "Class",
+                    "location": "D-403",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved FCS",
+                      "CourseBatch": "",
+                      "RoomName": "D-403",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "Reserved for AIDS": {
         "null": {
           "null": {
@@ -46302,6 +46414,82 @@
                       "TimeIntervals": [
                         {
                           "text": "06:45-08:05",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved for FSA": {
+        "null": {
+          "null": {
+            "Thursday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for FSA",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for FSA",
+                      "CourseBatch": "",
+                      "RoomName": "C-407",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for FSA",
+                    "type": "Class",
+                    "location": "C-407",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for FSA",
+                      "CourseBatch": "",
+                      "RoomName": "C-407",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
