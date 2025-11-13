@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-13 03:42:20 UTC",
-    "local_time_pkt": "2025-11-13 08:42:20 AM PKT"
+    "last_updated_utc": "2025-11-13 04:18:07 UTC",
+    "local_time_pkt": "2025-11-13 09:18:07 AM PKT"
   },
   "BS": {
     "AI": {
@@ -5841,9 +5841,11 @@
                   "type": "Class",
                   "location": "D-311",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Ethical Hack (CS-A, G-1)",
+                    "Text": "Ethical Hack (CS-A, G-1)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-311",
                     "TimeIntervals": [
@@ -22915,9 +22917,11 @@
                   "type": "Class",
                   "location": "D-305",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Data St (CY-B)",
+                    "Text": "Data St (CY-B)Cancelled",
                     "CourseBatch": "BS CY (2024)",
                     "RoomName": "D-305",
                     "TimeIntervals": [
