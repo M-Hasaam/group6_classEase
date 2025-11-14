@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-14 03:40:51 UTC",
-    "local_time_pkt": "2025-11-14 08:40:51 AM PKT"
+    "last_updated_utc": "2025-11-14 04:15:51 UTC",
+    "local_time_pkt": "2025-11-14 09:15:51 AM PKT"
   },
   "BS": {
     "AI": {
@@ -16870,44 +16870,6 @@
                       {
                         "text": "02:30-05:15",
                         "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "Friday": [
-            {
-              "time": {
-                "start": {
-                  "text": "08:30",
-                  "AM_PM": "AM",
-                  "value": 510
-                },
-                "end": {
-                  "text": "09:50",
-                  "AM_PM": "AM",
-                  "value": 590
-                }
-              },
-              "classes": [
-                {
-                  "name": "AP",
-                  "type": "Class",
-                  "location": "C-405",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "AP (CS-D) ReSch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-405",
-                    "TimeIntervals": [
-                      {
-                        "text": "08:30-09:50",
-                        "AM_PM": "AM"
                       }
                     ]
                   }
@@ -41567,6 +41529,48 @@
           }
         }
       },
+      "AI&DS Welcome": {
+        "null": {
+          "null": {
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "AI&DS Welcome",
+                    "type": "Class",
+                    "location": "D-305",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "AI&DS Welcome",
+                      "CourseBatch": "",
+                      "RoomName": "D-305",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "Auditorium": {
         "null": {
           "null": {
@@ -45008,176 +45012,6 @@
                   {
                     "name": "FYP/Thesis Evaluations",
                     "type": "Class",
-                    "location": "C-408",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-408",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-408",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-408",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-408",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-408",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-408",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-408",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
-                    "location": "C-408",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FYP/Thesis Evaluations",
-                      "CourseBatch": "",
-                      "RoomName": "C-408",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FYP/Thesis Evaluations",
-                    "type": "Class",
                     "location": "C-409",
                     "sub_Section": null,
                     "info": [],
@@ -47661,6 +47495,184 @@
                       "Text": "Reserved for LIs",
                       "CourseBatch": "",
                       "RoomName": "D-504",
+                      "TimeIntervals": [
+                        {
+                          "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved for Mr. Bilal Khalid": {
+        "null": {
+          "null": {
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "08:30",
+                    "AM_PM": "AM",
+                    "value": 510
+                  },
+                  "end": {
+                    "text": "09:50",
+                    "AM_PM": "AM",
+                    "value": 590
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Mr. Bilal Khalid",
+                    "type": "Class",
+                    "location": "C-408",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Mr. Bilal Khalid",
+                      "CourseBatch": "",
+                      "RoomName": "C-408",
+                      "TimeIntervals": [
+                        {
+                          "text": "08:30-09:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "10:00",
+                    "AM_PM": "AM",
+                    "value": 600
+                  },
+                  "end": {
+                    "text": "11:20",
+                    "AM_PM": "AM",
+                    "value": 680
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Mr. Bilal Khalid",
+                    "type": "Class",
+                    "location": "C-408",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Mr. Bilal Khalid",
+                      "CourseBatch": "",
+                      "RoomName": "C-408",
+                      "TimeIntervals": [
+                        {
+                          "text": "10:00-11:20",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "11:30",
+                    "AM_PM": "AM",
+                    "value": 690
+                  },
+                  "end": {
+                    "text": "12:50",
+                    "AM_PM": "PM",
+                    "value": 770
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Mr. Bilal Khalid",
+                    "type": "Class",
+                    "location": "C-408",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Mr. Bilal Khalid",
+                      "CourseBatch": "",
+                      "RoomName": "C-408",
+                      "TimeIntervals": [
+                        {
+                          "text": "11:30-12:50",
+                          "AM_PM": "AM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Mr. Bilal Khalid",
+                    "type": "Class",
+                    "location": "C-408",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Mr. Bilal Khalid",
+                      "CourseBatch": "",
+                      "RoomName": "C-408",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "time": {
+                  "start": {
+                    "text": "03:55",
+                    "AM_PM": "PM",
+                    "value": 955
+                  },
+                  "end": {
+                    "text": "05:15",
+                    "AM_PM": "PM",
+                    "value": 1035
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Mr. Bilal Khalid",
+                    "type": "Class",
+                    "location": "C-408",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Mr. Bilal Khalid",
+                      "CourseBatch": "",
+                      "RoomName": "C-408",
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
