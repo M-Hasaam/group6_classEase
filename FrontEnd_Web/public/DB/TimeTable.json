@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-14 04:15:51 UTC",
-    "local_time_pkt": "2025-11-14 09:15:51 AM PKT"
+    "last_updated_utc": "2025-11-14 05:12:48 UTC",
+    "local_time_pkt": "2025-11-14 10:12:48 AM PKT"
   },
   "BS": {
     "AI": {
@@ -46480,6 +46480,48 @@
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
+                          "AM_PM": "PM"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Reserved for Dr Ahmad": {
+        "null": {
+          "null": {
+            "Friday": [
+              {
+                "time": {
+                  "start": {
+                    "text": "02:30",
+                    "AM_PM": "PM",
+                    "value": 870
+                  },
+                  "end": {
+                    "text": "03:50",
+                    "AM_PM": "PM",
+                    "value": 950
+                  }
+                },
+                "classes": [
+                  {
+                    "name": "Reserved for Dr Ahmad",
+                    "type": "Class",
+                    "location": "C-309",
+                    "sub_Section": null,
+                    "info": [],
+                    "detailed": {
+                      "Text": "Reserved for Dr Ahmad",
+                      "CourseBatch": "",
+                      "RoomName": "C-309",
+                      "TimeIntervals": [
+                        {
+                          "text": "02:30-03:50",
                           "AM_PM": "PM"
                         }
                       ]
