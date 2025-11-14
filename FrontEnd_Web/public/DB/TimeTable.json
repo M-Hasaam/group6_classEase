@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-14 10:14:34 UTC",
-    "local_time_pkt": "2025-11-14 03:14:34 PM PKT"
+    "last_updated_utc": "2025-11-14 11:10:40 UTC",
+    "local_time_pkt": "2025-11-14 04:10:40 PM PKT"
   },
   "BS": {
     "AI": {
@@ -479,9 +479,11 @@
                   "type": "Class",
                   "location": "D-304",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Adv AI (AI-A)",
+                    "Text": "Adv AI (AI-A)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-304",
                     "TimeIntervals": [
@@ -513,9 +515,11 @@
                   "type": "Class",
                   "location": "D-304",
                   "sub_Section": null,
-                  "info": [],
+                  "info": [
+                    "Cancelled"
+                  ],
                   "detailed": {
-                    "Text": "Adv AI (AI-A)",
+                    "Text": "Adv AI (AI-A)Cancelled",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-304",
                     "TimeIntervals": [
@@ -2840,42 +2844,6 @@
                       {
                         "text": "08:30-11:15",
                         "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Data St Lab",
-                  "type": "Lab",
-                  "location": "A-Karakoram 3",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Data St Lab (AI-A/C)ReSch",
-                    "CourseBatch": "BS AI (2024)",
-                    "RoomName": "A-Karakoram 3",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-05:15",
-                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -5297,7 +5265,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Func Eng (AI-C) 02:30-04:15Extended till 05:15",
+                    "Text": "Func Eng (AI-C) 02:30-04:15",
                     "CourseBatch": "BS AI (2025)",
                     "RoomName": "C-308",
                     "TimeIntervals": [
@@ -5801,11 +5769,9 @@
                   "type": "Class",
                   "location": "D-311",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Ethical Hack (CS-A, G-1)Cancelled",
+                    "Text": "Ethical Hack (CS-A, G-1)",
                     "CourseBatch": "BS CS (2022)",
                     "RoomName": "D-311",
                     "TimeIntervals": [
@@ -11617,42 +11583,6 @@
             {
               "time": {
                 "start": {
-                  "text": "03:55",
-                  "AM_PM": "PM",
-                  "value": 955
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "Comp Net",
-                  "type": "Class",
-                  "location": "D-305",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "Comp Net (CS-G)ReSch",
-                    "CourseBatch": "BS CS (2023)",
-                    "RoomName": "D-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "03:55-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -13155,6 +13085,42 @@
             {
               "time": {
                 "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "C-410",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (CS-D)ReSch",
+                    "CourseBatch": "BS CS (2024)",
+                    "RoomName": "C-410",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "08:30",
                   "AM_PM": "AM",
                   "value": 510
@@ -14503,42 +14469,6 @@
                   }
                 }
               ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "11:30",
-                  "AM_PM": "AM",
-                  "value": 690
-                },
-                "end": {
-                  "text": "12:50",
-                  "AM_PM": "PM",
-                  "value": 770
-                }
-              },
-              "classes": [
-                {
-                  "name": "LA",
-                  "type": "Class",
-                  "location": "null",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "LA (CS-F) ReSch A-316",
-                    "CourseBatch": "BS CS (2024)",
-                    "RoomName": null,
-                    "TimeIntervals": [
-                      {
-                        "text": "11:30-12:50",
-                        "AM_PM": "AM"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -15331,7 +15261,7 @@
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Islamic (CS-A) 11:30-01:15Cancelled",
+                    "Text": "Islamic (CS-A) 11:30-01:15",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-302",
                     "TimeIntervals": [
@@ -17797,42 +17727,6 @@
                   }
                 }
               ]
-            },
-            {
-              "time": {
-                "start": {
-                  "text": "02:30",
-                  "AM_PM": "PM",
-                  "value": 870
-                },
-                "end": {
-                  "text": "05:15",
-                  "AM_PM": "PM",
-                  "value": 1035
-                }
-              },
-              "classes": [
-                {
-                  "name": "IICT Lab",
-                  "type": "Lab",
-                  "location": "C-Margala 4",
-                  "sub_Section": null,
-                  "info": [
-                    "ReSchedule"
-                  ],
-                  "detailed": {
-                    "Text": "IICT Lab (CS-F) ReSch",
-                    "CourseBatch": "BS CS (2025)",
-                    "RoomName": "C-Margala 4",
-                    "TimeIntervals": [
-                      {
-                        "text": "02:30-05:15",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ],
           "Subsections": {
@@ -18641,11 +18535,9 @@
                   "type": "Class",
                   "location": "C-304",
                   "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
+                  "info": [],
                   "detailed": {
-                    "Text": "Calculus (CS-H)Cancelled",
+                    "Text": "Calculus (CS-H)",
                     "CourseBatch": "BS CS (2025)",
                     "RoomName": "C-304",
                     "TimeIntervals": [
@@ -20033,13 +19925,13 @@
                 {
                   "name": "Cloud Comp",
                   "type": "Class",
-                  "location": "C-410",
+                  "location": "D-501",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Cloud Comp (CY-A)",
                     "CourseBatch": "BS CY (2022)",
-                    "RoomName": "C-410",
+                    "RoomName": "D-501",
                     "TimeIntervals": [
                       {
                         "text": "08:30-09:50",
@@ -20067,13 +19959,13 @@
                 {
                   "name": "PDC",
                   "type": "Class",
-                  "location": "D-413",
+                  "location": "D-502",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "PDC (CY-A/D)",
                     "CourseBatch": "BS CY (2022)",
-                    "RoomName": "D-413",
+                    "RoomName": "D-502",
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
@@ -20333,6 +20225,78 @@
             {
               "time": {
                 "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "Sec S/w Design Lab",
+                  "type": "Lab",
+                  "location": "C-408",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Sec S/w Design Lab (CY-B)ReSch",
+                    "CourseBatch": "BS CY (2022)",
+                    "RoomName": "C-408",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "Sec S/w Design Lab",
+                  "type": "Lab",
+                  "location": "C-408",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "Sec S/w Design Lab (CY-B)ReSch",
+                    "CourseBatch": "BS CY (2022)",
+                    "RoomName": "C-408",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
                   "text": "10:00",
                   "AM_PM": "AM",
                   "value": 600
@@ -20451,13 +20415,13 @@
                 {
                   "name": "Cloud Comp",
                   "type": "Class",
-                  "location": "C-410",
+                  "location": "D-501",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Cloud Comp (CY-B)",
                     "CourseBatch": "BS CY (2022)",
-                    "RoomName": "C-410",
+                    "RoomName": "D-501",
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
@@ -20485,13 +20449,13 @@
                 {
                   "name": "PDC",
                   "type": "Class",
-                  "location": "C-410",
+                  "location": "D-501",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "PDC (CY-B/D)",
                     "CourseBatch": "BS CY (2022)",
-                    "RoomName": "C-410",
+                    "RoomName": "D-501",
                     "TimeIntervals": [
                       {
                         "text": "01:00-02:20",
@@ -20699,13 +20663,13 @@
                 {
                   "name": "PDC",
                   "type": "Class",
-                  "location": "C-410",
+                  "location": "D-501",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "PDC (CY-C/D)",
                     "CourseBatch": "BS CY (2022)",
-                    "RoomName": "C-410",
+                    "RoomName": "D-501",
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
@@ -20733,13 +20697,13 @@
                 {
                   "name": "Sec S/w Design",
                   "type": "Class",
-                  "location": "D-316",
+                  "location": "D-503",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Sec S/w Design (CY-C)",
                     "CourseBatch": "BS CY (2022)",
-                    "RoomName": "D-316",
+                    "RoomName": "D-503",
                     "TimeIntervals": [
                       {
                         "text": "08:30-09:50",
@@ -20913,13 +20877,13 @@
                 {
                   "name": "Sec S/w Design",
                   "type": "Class",
-                  "location": "C-406",
+                  "location": "D-503",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Sec S/w Design (CY-D)",
                     "CourseBatch": "BS CY (2022)",
-                    "RoomName": "C-406",
+                    "RoomName": "D-503",
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
@@ -21367,13 +21331,13 @@
                 {
                   "name": "Algo",
                   "type": "Class",
-                  "location": "D-506",
+                  "location": "D-504",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Algo (CY-A)B-030",
+                    "Text": "Algo (CY-A)",
                     "CourseBatch": "BS CY (2023)",
-                    "RoomName": "D-506",
+                    "RoomName": "D-504",
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
@@ -22191,40 +22155,6 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Fund of SE",
-                  "type": "Class",
-                  "location": "C-307",
-                  "sub_Section": null,
-                  "info": [],
-                  "detailed": {
-                    "Text": "Fund of SE (CY-A)",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "C-307",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -22239,17 +22169,51 @@
                 {
                   "name": "Cy Sec",
                   "type": "Class",
-                  "location": "C-110",
+                  "location": "D-503",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Cy Sec (CY-A)",
                     "CourseBatch": "BS CY (2024)",
-                    "RoomName": "C-110",
+                    "RoomName": "D-503",
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "01:00",
+                  "AM_PM": "PM",
+                  "value": 780
+                },
+                "end": {
+                  "text": "02:20",
+                  "AM_PM": "PM",
+                  "value": 860
+                }
+              },
+              "classes": [
+                {
+                  "name": "Fund of SE",
+                  "type": "Class",
+                  "location": "D-503",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Fund of SE (CY-A)",
+                    "CourseBatch": "BS CY (2024)",
+                    "RoomName": "D-503",
+                    "TimeIntervals": [
+                      {
+                        "text": "01:00-02:20",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -22643,42 +22607,6 @@
             {
               "time": {
                 "start": {
-                  "text": "01:00",
-                  "AM_PM": "PM",
-                  "value": 780
-                },
-                "end": {
-                  "text": "02:20",
-                  "AM_PM": "PM",
-                  "value": 860
-                }
-              },
-              "classes": [
-                {
-                  "name": "Data St",
-                  "type": "Class",
-                  "location": "D-305",
-                  "sub_Section": null,
-                  "info": [
-                    "Cancelled"
-                  ],
-                  "detailed": {
-                    "Text": "Data St (CY-B)Cancelled",
-                    "CourseBatch": "BS CY (2024)",
-                    "RoomName": "D-305",
-                    "TimeIntervals": [
-                      {
-                        "text": "01:00-02:20",
-                        "AM_PM": "PM"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "time": {
-                "start": {
                   "text": "11:30",
                   "AM_PM": "AM",
                   "value": 690
@@ -22693,17 +22621,51 @@
                 {
                   "name": "Fund of SE",
                   "type": "Class",
-                  "location": "D-505",
+                  "location": "D-504",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
                     "Text": "Fund of SE (CY-B)",
                     "CourseBatch": "BS CY (2024)",
-                    "RoomName": "D-505",
+                    "RoomName": "D-504",
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "01:00",
+                  "AM_PM": "PM",
+                  "value": 780
+                },
+                "end": {
+                  "text": "02:20",
+                  "AM_PM": "PM",
+                  "value": 860
+                }
+              },
+              "classes": [
+                {
+                  "name": "Data St",
+                  "type": "Class",
+                  "location": "D-504",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Data St (CY-B)",
+                    "CourseBatch": "BS CY (2024)",
+                    "RoomName": "D-504",
+                    "TimeIntervals": [
+                      {
+                        "text": "01:00-02:20",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -22779,6 +22741,42 @@
                     "TimeIntervals": [
                       {
                         "text": "11:30-01:15",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "11:15",
+                  "AM_PM": "AM",
+                  "value": 675
+                }
+              },
+              "classes": [
+                {
+                  "name": "IICT Lab",
+                  "type": "Lab",
+                  "location": "A-Mehran 1",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "IICT Lab (CY-A)ReSch",
+                    "CourseBatch": "BS CY (2025)",
+                    "RoomName": "A-Mehran 1",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-11:15",
                         "AM_PM": "AM"
                       }
                     ]
@@ -27351,13 +27349,13 @@
               },
               "classes": [
                 {
-                  "name": "Psychology",
+                  "name": "Start From 08:30Psychology",
                   "type": "Class",
                   "location": "D-413",
                   "sub_Section": null,
                   "info": [],
                   "detailed": {
-                    "Text": "Psychology (DS-A) 09:30-11:15",
+                    "Text": "Start From 08:30Psychology (DS-A) 09:30-11:15",
                     "CourseBatch": "BS DS (2024)",
                     "RoomName": "D-413",
                     "TimeIntervals": [
@@ -27813,6 +27811,42 @@
                     "TimeIntervals": [
                       {
                         "text": "10:00-11:20",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "11:30",
+                  "AM_PM": "AM",
+                  "value": 690
+                },
+                "end": {
+                  "text": "12:50",
+                  "AM_PM": "PM",
+                  "value": 770
+                }
+              },
+              "classes": [
+                {
+                  "name": "LA",
+                  "type": "Class",
+                  "location": "D-414",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "LA (DS-B)ReSch",
+                    "CourseBatch": "BS DS (2024)",
+                    "RoomName": "D-414",
+                    "TimeIntervals": [
+                      {
+                        "text": "11:30-12:50",
                         "AM_PM": "AM"
                       }
                     ]
@@ -28951,6 +28985,80 @@
           ],
           "Subsections": {
             "B1": {
+              "Monday": [
+                {
+                  "time": {
+                    "start": {
+                      "text": "02:30",
+                      "AM_PM": "PM",
+                      "value": 870
+                    },
+                    "end": {
+                      "text": "03:50",
+                      "AM_PM": "PM",
+                      "value": 950
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-310",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (DS-B1)ReSch",
+                        "CourseBatch": "BS DS (2025)",
+                        "RoomName": "C-310",
+                        "TimeIntervals": [
+                          {
+                            "text": "02:30-03:50",
+                            "AM_PM": "PM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "time": {
+                    "start": {
+                      "text": "03:55",
+                      "AM_PM": "PM",
+                      "value": 955
+                    },
+                    "end": {
+                      "text": "05:15",
+                      "AM_PM": "PM",
+                      "value": 1035
+                    }
+                  },
+                  "classes": [
+                    {
+                      "name": "Func Eng Lab",
+                      "type": "Lab",
+                      "location": "C-310",
+                      "sub_Section": null,
+                      "info": [
+                        "ReSchedule"
+                      ],
+                      "detailed": {
+                        "Text": "Func Eng Lab (DS-B1)ReSch",
+                        "CourseBatch": "BS DS (2025)",
+                        "RoomName": "C-310",
+                        "TimeIntervals": [
+                          {
+                            "text": "03:55-05:15",
+                            "AM_PM": "PM"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
               "Thursday": [
                 {
                   "time": {
@@ -33297,6 +33405,44 @@
       },
       "2025": {
         "A": {
+          "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "01:00",
+                  "AM_PM": "PM",
+                  "value": 780
+                },
+                "end": {
+                  "text": "02:20",
+                  "AM_PM": "PM",
+                  "value": 860
+                }
+              },
+              "classes": [
+                {
+                  "name": "PF",
+                  "type": "Class",
+                  "location": "D-304",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "PF (SE-A)ReSch",
+                    "CourseBatch": "BS SE (2025)",
+                    "RoomName": "D-304",
+                    "TimeIntervals": [
+                      {
+                        "text": "01:00-02:20",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "Tuesday": [
             {
               "time": {
@@ -33759,6 +33905,44 @@
           }
         },
         "B": {
+          "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "02:30",
+                  "AM_PM": "PM",
+                  "value": 870
+                },
+                "end": {
+                  "text": "03:50",
+                  "AM_PM": "PM",
+                  "value": 950
+                }
+              },
+              "classes": [
+                {
+                  "name": "PF",
+                  "type": "Class",
+                  "location": "C-309",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "PF (SE-B)ReSch",
+                    "CourseBatch": "BS SE (2025)",
+                    "RoomName": "C-309",
+                    "TimeIntervals": [
+                      {
+                        "text": "02:30-03:50",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "Tuesday": [
             {
               "time": {
@@ -34143,80 +34327,6 @@
           ],
           "Subsections": {
             "B1": {
-              "Thursday": [
-                {
-                  "time": {
-                    "start": {
-                      "text": "02:30",
-                      "AM_PM": "PM",
-                      "value": 870
-                    },
-                    "end": {
-                      "text": "03:50",
-                      "AM_PM": "PM",
-                      "value": 950
-                    }
-                  },
-                  "classes": [
-                    {
-                      "name": "Func Eng Lab",
-                      "type": "Lab",
-                      "location": "C-402",
-                      "sub_Section": null,
-                      "info": [
-                        "ReSchedule"
-                      ],
-                      "detailed": {
-                        "Text": "Func Eng Lab (SE-B1)ReSch",
-                        "CourseBatch": "BS SE (2025)",
-                        "RoomName": "C-402",
-                        "TimeIntervals": [
-                          {
-                            "text": "02:30-03:50",
-                            "AM_PM": "PM"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                {
-                  "time": {
-                    "start": {
-                      "text": "03:55",
-                      "AM_PM": "PM",
-                      "value": 955
-                    },
-                    "end": {
-                      "text": "05:15",
-                      "AM_PM": "PM",
-                      "value": 1035
-                    }
-                  },
-                  "classes": [
-                    {
-                      "name": "Func Eng Lab",
-                      "type": "Lab",
-                      "location": "C-402",
-                      "sub_Section": null,
-                      "info": [
-                        "ReSchedule"
-                      ],
-                      "detailed": {
-                        "Text": "Func Eng Lab (SE-B1)ReSch",
-                        "CourseBatch": "BS SE (2025)",
-                        "RoomName": "C-402",
-                        "TimeIntervals": [
-                          {
-                            "text": "03:55-05:15",
-                            "AM_PM": "PM"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
-              ],
               "Friday": [
                 {
                   "time": {
@@ -34296,6 +34406,42 @@
         },
         "C": {
           "Monday": [
+            {
+              "time": {
+                "start": {
+                  "text": "03:55",
+                  "AM_PM": "PM",
+                  "value": 955
+                },
+                "end": {
+                  "text": "05:15",
+                  "AM_PM": "PM",
+                  "value": 1035
+                }
+              },
+              "classes": [
+                {
+                  "name": "PF",
+                  "type": "Class",
+                  "location": "C-309",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "PF (SE-C)ReSch",
+                    "CourseBatch": "BS SE (2025)",
+                    "RoomName": "C-309",
+                    "TimeIntervals": [
+                      {
+                        "text": "03:55-05:15",
+                        "AM_PM": "PM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "time": {
                 "start": {
@@ -34958,6 +35104,42 @@
                       {
                         "text": "11:00-12:45",
                         "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "01:00",
+                  "AM_PM": "PM",
+                  "value": 780
+                },
+                "end": {
+                  "text": "02:20",
+                  "AM_PM": "PM",
+                  "value": 860
+                }
+              },
+              "classes": [
+                {
+                  "name": "PF",
+                  "type": "Class",
+                  "location": "C-406",
+                  "sub_Section": null,
+                  "info": [
+                    "ReSchedule"
+                  ],
+                  "detailed": {
+                    "Text": "PF (SE-D)ReSch",
+                    "CourseBatch": "BS SE (2025)",
+                    "RoomName": "C-406",
+                    "TimeIntervals": [
+                      {
+                        "text": "01:00-02:20",
+                        "AM_PM": "PM"
                       }
                     ]
                   }
@@ -38570,13 +38752,13 @@
                   {
                     "name": "DB",
                     "type": "Class",
-                    "location": "D-314",
+                    "location": "D-502",
                     "sub_Section": null,
                     "info": [],
                     "detailed": {
                       "Text": "DB (CY, 22)",
                       "CourseBatch": "Repeat Courses",
-                      "RoomName": "D-314",
+                      "RoomName": "D-502",
                       "TimeIntervals": [
                         {
                           "text": "01:00-02:20",
@@ -42040,42 +42222,6 @@
                       "TimeIntervals": [
                         {
                           "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ],
-            "Thursday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "FCS",
-                    "type": "Class",
-                    "location": "C-305",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "FCS",
-                      "CourseBatch": "",
-                      "RoomName": "C-305",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
                           "AM_PM": "PM"
                         }
                       ]
@@ -48499,116 +48645,6 @@
           }
         }
       },
-      "Functional English CY-C2 Exam": {
-        "null": {
-          "null": {
-            "Thursday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Functional English CY-C2 Exam",
-                    "type": "Class",
-                    "location": "D-506",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Functional English CY-C2 Exam",
-                      "CourseBatch": "",
-                      "RoomName": "D-506",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Functional English CY-C2 Exam",
-                    "type": "Class",
-                    "location": "D-506",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Functional English CY-C2 Exam",
-                      "CourseBatch": "",
-                      "RoomName": "D-506",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Functional English CY-C2 Exam",
-                    "type": "Class",
-                    "location": "D-506",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Functional English CY-C2 Exam",
-                      "CourseBatch": "",
-                      "RoomName": "D-506",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
       "GDGoC": {
         "null": {
           "null": {
@@ -49016,212 +49052,6 @@
                 ]
               }
             ],
-            "Thursday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-302",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-302",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-308",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-308",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-310",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-310",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-310",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-310",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-403",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-403",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved",
-                    "type": "Class",
-                    "location": "C-110",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved",
-                      "CourseBatch": "",
-                      "RoomName": "C-110",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ],
             "Friday": [
               {
                 "time": {
@@ -49431,226 +49261,6 @@
           }
         }
       },
-      "Reserved FCS": {
-        "null": {
-          "null": {
-            "Thursday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved FCS",
-                    "type": "Class",
-                    "location": "D-403",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved FCS",
-                      "CourseBatch": "",
-                      "RoomName": "D-403",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved FCS",
-                    "type": "Class",
-                    "location": "D-403",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved FCS",
-                      "CourseBatch": "",
-                      "RoomName": "D-403",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved for AIDS": {
-        "null": {
-          "null": {
-            "Thursday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for AIDS",
-                    "type": "Class",
-                    "location": "C-404",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for AIDS",
-                      "CourseBatch": "",
-                      "RoomName": "C-404",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for AIDS",
-                    "type": "Class",
-                    "location": "C-404",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for AIDS",
-                      "CourseBatch": "",
-                      "RoomName": "C-404",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for AIDS",
-                    "type": "Class",
-                    "location": "C-405",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for AIDS",
-                      "CourseBatch": "",
-                      "RoomName": "C-405",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for AIDS",
-                    "type": "Class",
-                    "location": "C-405",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for AIDS",
-                      "CourseBatch": "",
-                      "RoomName": "C-405",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
       "Reserved for Dr Ahmad": {
         "null": {
           "null": {
@@ -49735,82 +49345,6 @@
           }
         }
       },
-      "Reserved for FSA": {
-        "null": {
-          "null": {
-            "Thursday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for FSA",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for FSA",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for FSA",
-                    "type": "Class",
-                    "location": "C-407",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for FSA",
-                      "CourseBatch": "",
-                      "RoomName": "C-407",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
       "Reserved for FSM": {
         "null": {
           "null": {
@@ -49877,830 +49411,6 @@
                         {
                           "text": "10:00-11:20",
                           "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Reserved for LIs": {
-        "null": {
-          "null": {
-            "Thursday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-501",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-501",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-501",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-501",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-501",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-501",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-501",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-501",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-501",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-501",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-501",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-501",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-502",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-502",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-502",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-502",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-502",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-502",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-502",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-502",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-502",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-502",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-502",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-502",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-503",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-503",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-503",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-503",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-503",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-503",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-503",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-503",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-503",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-503",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-503",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-503",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "08:30",
-                    "AM_PM": "AM",
-                    "value": 510
-                  },
-                  "end": {
-                    "text": "09:50",
-                    "AM_PM": "AM",
-                    "value": 590
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "08:30-09:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "10:00",
-                    "AM_PM": "AM",
-                    "value": 600
-                  },
-                  "end": {
-                    "text": "11:20",
-                    "AM_PM": "AM",
-                    "value": 680
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "10:00-11:20",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "11:30",
-                    "AM_PM": "AM",
-                    "value": 690
-                  },
-                  "end": {
-                    "text": "12:50",
-                    "AM_PM": "PM",
-                    "value": 770
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "11:30-12:50",
-                          "AM_PM": "AM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "01:00",
-                    "AM_PM": "PM",
-                    "value": 780
-                  },
-                  "end": {
-                    "text": "02:20",
-                    "AM_PM": "PM",
-                    "value": 860
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "01:00-02:20",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Reserved for LIs",
-                    "type": "Class",
-                    "location": "D-504",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Reserved for LIs",
-                      "CourseBatch": "",
-                      "RoomName": "D-504",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
-                          "AM_PM": "PM"
                         }
                       ]
                     }
@@ -52364,82 +51074,6 @@
                       "TimeIntervals": [
                         {
                           "text": "06:45-08:05",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "Welcome": {
-        "null": {
-          "null": {
-            "Thursday": [
-              {
-                "time": {
-                  "start": {
-                    "text": "02:30",
-                    "AM_PM": "PM",
-                    "value": 870
-                  },
-                  "end": {
-                    "text": "03:50",
-                    "AM_PM": "PM",
-                    "value": 950
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Welcome",
-                    "type": "Class",
-                    "location": "C-301",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Welcome",
-                      "CourseBatch": "",
-                      "RoomName": "C-301",
-                      "TimeIntervals": [
-                        {
-                          "text": "02:30-03:50",
-                          "AM_PM": "PM"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "time": {
-                  "start": {
-                    "text": "03:55",
-                    "AM_PM": "PM",
-                    "value": 955
-                  },
-                  "end": {
-                    "text": "05:15",
-                    "AM_PM": "PM",
-                    "value": 1035
-                  }
-                },
-                "classes": [
-                  {
-                    "name": "Welcome",
-                    "type": "Class",
-                    "location": "C-301",
-                    "sub_Section": null,
-                    "info": [],
-                    "detailed": {
-                      "Text": "Welcome",
-                      "CourseBatch": "",
-                      "RoomName": "C-301",
-                      "TimeIntervals": [
-                        {
-                          "text": "03:55-05:15",
                           "AM_PM": "PM"
                         }
                       ]
