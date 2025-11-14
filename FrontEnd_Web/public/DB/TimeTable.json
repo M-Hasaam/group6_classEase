@@ -2,8 +2,8 @@
   "Update": {
     "status": "success",
     "message": "Timetable extraction completed successfully.",
-    "last_updated_utc": "2025-11-14 08:16:48 UTC",
-    "local_time_pkt": "2025-11-14 01:16:48 PM PKT"
+    "last_updated_utc": "2025-11-14 09:13:37 UTC",
+    "local_time_pkt": "2025-11-14 02:13:37 PM PKT"
   },
   "BS": {
     "AI": {
@@ -27053,6 +27053,74 @@
                     "TimeIntervals": [
                       {
                         "text": "11:30-12:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "08:30",
+                  "AM_PM": "AM",
+                  "value": 510
+                },
+                "end": {
+                  "text": "09:50",
+                  "AM_PM": "AM",
+                  "value": 590
+                }
+              },
+              "classes": [
+                {
+                  "name": "Reserved for Intro to DS Lab",
+                  "type": "Lab",
+                  "location": "D-415",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Reserved for Intro to DS Lab (DS-A)",
+                    "CourseBatch": "BS DS (2024)",
+                    "RoomName": "D-415",
+                    "TimeIntervals": [
+                      {
+                        "text": "08:30-09:50",
+                        "AM_PM": "AM"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "time": {
+                "start": {
+                  "text": "10:00",
+                  "AM_PM": "AM",
+                  "value": 600
+                },
+                "end": {
+                  "text": "11:20",
+                  "AM_PM": "AM",
+                  "value": 680
+                }
+              },
+              "classes": [
+                {
+                  "name": "Reserved for Intro to DS Lab",
+                  "type": "Lab",
+                  "location": "D-415",
+                  "sub_Section": null,
+                  "info": [],
+                  "detailed": {
+                    "Text": "Reserved for Intro to DS Lab (DS-A)",
+                    "CourseBatch": "BS DS (2024)",
+                    "RoomName": "D-415",
+                    "TimeIntervals": [
+                      {
+                        "text": "10:00-11:20",
                         "AM_PM": "AM"
                       }
                     ]
